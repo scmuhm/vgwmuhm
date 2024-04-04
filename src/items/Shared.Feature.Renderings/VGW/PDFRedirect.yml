@@ -7,6 +7,9 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: PDFRedirect
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: WordProcessing/32x32/imp_exp_pdf.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/VGW/Components/PDFRedirect
@@ -34,11 +37,11 @@ Languages:
         sitecore\JqXVeZpDYv
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a952a796-1252-47ab-bccb-92d21e127187"
+      Value: "2d45318d-3f8a-4f27-95b0-1bd369b9a891"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\iPRIsmIwmb
+        sitecore\JqXVeZpDYv
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240318T130833Z
+      Value: 20240402T235432Z

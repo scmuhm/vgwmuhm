@@ -1,11 +1,13 @@
+import GPLogo from 'assets/images/white-logo.svg';
+import locationUnavailableImage from 'assets/images/location-unavailable.jpeg';
+
 const Geolocation = (): JSX.Element => {
   return (
-    <div className="location-unavailable--container">
-      <img
-        src="/gpa/white-logo.svg"
-        alt="Global Poker Logo"
-        className="location-unavailable--logo"
-      />
+    <div
+      className="location-unavailable--container"
+      style={{ backgroundImage: `url(${locationUnavailableImage})` }}
+    >
+      <img src={GPLogo} alt="Global Poker Logo" className="location-unavailable--logo" />
 
       <div className="location-unavailable--text-area">
         <div className="location-unavailable--unavailable-text">UNAVAILABLE IN YOUR LOCATION</div>

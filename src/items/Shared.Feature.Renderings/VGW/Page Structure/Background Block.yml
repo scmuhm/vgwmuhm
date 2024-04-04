@@ -24,7 +24,7 @@ SharedFields:
   Value: 
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
+  Value: IsRenderingsWithDynamicPlaceholders=true
 Languages:
 - Language: en
   Versions:
@@ -43,11 +43,11 @@ Languages:
         sitecore\iPRIsmIwmb
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b2b9fc0d-b38c-4b74-a879-7c4f6c7978f1"
+      Value: "b61064ca-258d-46d3-a85a-6059bb0e9015"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\iPRIsmIwmb
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240320T104644Z
+      Value: 20240402T202531Z

@@ -1,0 +1,31 @@
+﻿---
+ID: "539bfc94-87ad-45f2-9c5f-a7936985f2dc"
+Parent: "e625e20a-491c-4b89-970f-91c96f96e495"
+Template: "e625e20a-491c-4b89-970f-91c96f96e495"
+Path: /sitecore/templates/Project/VGW/ChumbaCasino/Components/Content Featured/Rendering Parameters/Winners Circle Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240325T121635Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b369adf-28fa-4d24-b2f4-de7157f26a73"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240325T124949Z

@@ -24,7 +24,9 @@ export const FullWidthBannerImageLeftComponent = (props: BannerFullProps) => {
         styles.FullWidthBanner
       )}
       style={{
-        backgroundColor: props.params.backgroundColour ?? undefined,
+        backgroundColor: props?.params?.backgroundColor
+          ? `#${props.params.backgroundColor}`
+          : undefined,
       }}
     >
       <div className={styles.contentWrapper}>

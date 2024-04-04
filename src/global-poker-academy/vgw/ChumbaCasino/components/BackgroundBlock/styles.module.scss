@@ -71,4 +71,13 @@
   img {
     width:100%;
   }
+
+ div {
+    background-color: transparent !important;
+
+    img {
+      border-radius: $theme-border-radius-small !important;
+    }
+  }
+
 }

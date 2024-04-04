@@ -24,7 +24,9 @@ export const CentralBannerImageLeftComponent = (props: BannerFullProps): JSX.Ele
         props.reverse && styles.reverse
       )}
       style={{
-        backgroundColor: props.params.backgroundColour ?? undefined,
+        backgroundColor: props?.params?.backgroundColor
+          ? `#${props.params.backgroundColor}`
+          : undefined,
       }}
     >
       <div className={styles.contentWrapper}>

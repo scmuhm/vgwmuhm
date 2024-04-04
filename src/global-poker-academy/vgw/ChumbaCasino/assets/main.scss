@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Nexa;
-  src: url('/fonts/nexa.woff2') format('woff2');
+  src: url('/fonts/Nexa.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -14,10 +14,18 @@
 
 @font-face {
   font-family: Nexa-Heavy;
-  src: url('/fonts/nexa-heavy.woff2') format('woff2');
+  src: url('/fonts/Nexa-Heavy.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
+
+.prod-mode {
+  .CategoryBanner {
+    .gradient-overlay {
+      z-index: 999;
+    }
+  }
 }
 
 body {

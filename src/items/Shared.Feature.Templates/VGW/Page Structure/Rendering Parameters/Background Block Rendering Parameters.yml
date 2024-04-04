@@ -11,11 +11,14 @@ SharedFields:
   Hint: __Base template
   Value: |
     {A074A882-C758-4D31-9E89-EB734BC1F531}
-    {5C74E985-E055-43FF-B28C-DB6C6A6450A2}
     {53BD4D24-3F18-422F-A0D6-F9E15FD30D8C}
+    {5C74E985-E055-43FF-B28C-DB6C6A6450A2}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A1638229-6F21-43DE-A707-D2B7E4A32760}"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +41,11 @@ Languages:
         sitecore\iPRIsmIwmb
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4c6b14d1-9d5d-43bb-9491-688f13393585"
+      Value: "d0d9a207-8294-45cf-a23a-bb5186fc9277"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\iPRIsmIwmb
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240402T150532Z
+      Value: 20240403T130854Z

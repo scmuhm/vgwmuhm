@@ -19,7 +19,8 @@ export const CategoryPageBannerComponent = (props: BannerFullProps) => {
         'component',
         styles.CategoryPageBanner,
         styles.wrapper,
-        params?.Styles?.trimEnd()
+        params?.Styles?.trimEnd(),
+        'CategoryBanner'
       )}
       style={
         {
@@ -35,7 +36,7 @@ export const CategoryPageBannerComponent = (props: BannerFullProps) => {
         } as React.CSSProperties
       }
     >
-      <div className={styles.contentWrapper}>
+      <div className={CN(styles.contentWrapper, 'gradient-overlay')}>
         <div className={CN(styles.text, 'rich-text')}>
           <RichText field={fields.text} />
           <ButtonCTA

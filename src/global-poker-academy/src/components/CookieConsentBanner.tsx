@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { CookieConsentContext, CookieConsentStatus } from '../utils/cookie-consent-context';
 
 // eslint-disable-next-line
-declare const OneTrust: any
+declare const OneTrust: any;
 
 export default function CookieConsent({ siteName }: { siteName?: string }) {
   const { setStatus, popupVisible, setPopupVisible } = useContext(CookieConsentContext);
@@ -45,6 +45,14 @@ export default function CookieConsent({ siteName }: { siteName?: string }) {
                 </>
               }
             </p>
+            <div className="cookie-buttons">
+              <button onClick={() => accept()} className="button primary square medium">
+                Accept All
+              </button>
+              <button onClick={() => reject()} className="button secondary square medium">
+                Block All
+              </button>
+            </div>
           </div>
         ) : (
           <>
@@ -60,17 +68,16 @@ export default function CookieConsent({ siteName }: { siteName?: string }) {
                 </a>
               )}
             </p>
+            <div className="cookie-buttons">
+              <button onClick={() => reject()} className="button secondary square medium">
+                Reject All
+              </button>
+              <button onClick={() => accept()} className="button primary square medium">
+                Accept All
+              </button>
+            </div>
           </>
         )}
-
-        <div className="cookie-buttons">
-          <button onClick={() => reject()} className="button secondary square medium">
-            Reject All
-          </button>
-          <button onClick={() => accept()} className="button primary square medium">
-            Accept All
-          </button>
-        </div>
       </div>
       {siteName === 'ChumbaCasino' && (
         <button className="close-button" onClick={close}>

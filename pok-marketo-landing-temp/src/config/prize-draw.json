@@ -26,6 +26,15 @@
       "winnersNotifiedByDate": "Mon, Apr 15, 2024",
       "feedbackMessage": "You have successfully opted in and automatically entered into the draw to win 1 of 10 gift vouchers - valued at $1000 each!",
       "promotionRulesSrc": "/crm/prize-draw/docs/promotion-rules/2024/03/am-prize-draw-march-2024-promotion-rules.pdf"
+    },
+    "AprilPrizeDraw": {
+      "imageSrc": "/crm/prize-draw/images/template-example/pok_prize_draw_banner_wide.jpeg",
+      "h1": "April Prize Draw",
+      "intro": "The April Global Poker prize draw is here, offering our most valued players an amazing opportunity to win 1 of 5 extremely exclusive Scuderia Ferrari x Miami special edition caps!",
+      "finalDrawEnterDate": "Thu, April 25, 2024",
+      "winnersNotifiedByDate": "Wed, May 15, 2024",
+      "feedbackMessage": "You have successfully opted in and automatically entered into the draw to win 1 of 5 extremely exclusive Scuderia Ferrari x Miami special edition caps!",
+      "promotionRulesSrc": "/crm/prize-draw/docs/promotion-rules/2024/04/am-prize-draw-april-2024-promotion-rules.pdf"
     }
   }
 }

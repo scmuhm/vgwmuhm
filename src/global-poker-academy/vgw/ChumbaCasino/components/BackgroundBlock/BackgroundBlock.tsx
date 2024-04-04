@@ -31,6 +31,7 @@ export const Default = (props: BackgroundBlockProps): JSX.Element => {
       style={{
         backgroundImage: backgroundImageUrl ? `url(${backgroundImageUrl})` : undefined,
         backgroundColor: !backgroundImageUrl ? `#${props.params.backgroundColor}` : undefined,
+        color: props.params.textColor ? `#${props.params.textColor}` : undefined,
       }}
     >
       <Placeholder name={phKey} rendering={props.rendering} />

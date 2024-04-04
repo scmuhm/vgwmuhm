@@ -24,11 +24,15 @@
   word-break: break-word;
   padding-left: spacing(20);
 
+  @include until('sm') {
+   padding-left: 0;
+  }
+
 
   &.reverse {
     padding-left: 0;
 
-    @include from ('tablet') {
+    @include from ('sm') {
       padding-right: spacing(20);
     }
   }
@@ -36,13 +40,13 @@
 
 .image {
   &.reverse {
-    @include from('tablet') {
+    @include from('sm') {
       order: -1;
     }
 }
 
 .image {
-  @include until('tablet') {
+  @include until('sm') {
     order:1;
   }
 }
@@ -75,8 +79,10 @@
   margin-top: spacing(10);
   margin-bottom: spacing(10);
   border-radius: $theme-border-radius-large;
+  height: unset;
 
   @include from('sm') {
+    height: 500px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -99,7 +105,7 @@
 }
 
 .mobile-media-order-2 {
-  @include until('tablet') {
+  @include until('sm') {
     order:2 !important;
   }
 }
@@ -107,7 +113,7 @@
 
 .MediaRight {
   .image {
-    @include until('tablet') {
+    @include until('sm') {
       order:-1;
     }
   }
@@ -121,4 +127,48 @@
 
 .btnWrapper {
   margin: spacing(15) 0;
+}
+
+.twoColumnContainerCta {
+  @include content-container;
+
+  display: grid;
+  gap: spacing(10);
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .image {
+      img {
+        border-radius: $theme-border-radius-small;
+
+        @include until('sm') {
+          max-height: 206px;
+        }
+      }
+  }
+}
+
+.LargeTwoColumn {
+  max-height: 556px;
+
+  @include until('sm'){
+    max-height: unset;
+  }
+
+  .image {
+    max-height: 566px;
+
+      img {
+        max-height: 495px;
+
+      }
+  }
 }

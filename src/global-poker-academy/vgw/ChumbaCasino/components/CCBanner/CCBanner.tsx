@@ -40,11 +40,13 @@ export const Default = (props: BannerFullProps): JSX.Element => {
         'component',
         styles.GeneralCentralBanner,
         styles.wrapper,
-        props.params?.Styles?.trimEnd(),
+        props?.params?.Styles?.trimEnd(),
         props.reverse && styles.reverse
       )}
       style={{
-        backgroundColor: props.params.backgroundColour ?? undefined,
+        backgroundColor: props?.params?.backgroundColor
+          ? `#${props.params.backgroundColor}`
+          : undefined,
       }}
     >
       <div className={styles.contentWrapper}>

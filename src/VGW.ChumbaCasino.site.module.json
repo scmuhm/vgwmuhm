@@ -24,7 +24,7 @@
           {
             "path": "/System",
             "scope": "SingleItem"
-          }, 
+          },
           {
             "path": "*",
             "scope": "Ignored"

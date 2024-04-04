@@ -2,7 +2,7 @@
 ID: "e6d4e9c5-1ade-43ea-bec3-622f4b9e979c"
 Parent: "f57ac6a9-9c85-4475-9789-3059cb91ea0e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/VGW/Presentation/Rendering Parameters/Text Color/Styling/TextColor
+Path: /sitecore/templates/Foundation/VGW/Presentation/Rendering Parameters/Text Color/Styling/textColor
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
@@ -12,6 +12,10 @@ SharedFields:
   Value: 100
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Text Color
   Versions:
   - Version: 1
     Fields:
@@ -28,11 +32,11 @@ Languages:
         sitecore\iPRIsmIwmb
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0eeee5c-fd62-4a94-b13e-16103f6d17b6"
+      Value: "a2e3922f-9b33-4bec-823b-41108d343c1d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\iPRIsmIwmb
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240327T230728Z
+      Value: 20240403T130911Z

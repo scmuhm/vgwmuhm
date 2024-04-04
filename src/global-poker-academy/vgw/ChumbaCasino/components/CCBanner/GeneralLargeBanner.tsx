@@ -23,7 +23,9 @@ export const GeneralLargeBannerComponent = (props: BannerFullProps) => {
         props.reverse && styles.reverse
       )}
       style={{
-        backgroundColor: props.params.backgroundColour ?? undefined,
+        backgroundColor: props?.params?.backgroundColor
+          ? `#${props.params.backgroundColor}`
+          : undefined,
       }}
     >
       <div className={styles.contentWrapper}>

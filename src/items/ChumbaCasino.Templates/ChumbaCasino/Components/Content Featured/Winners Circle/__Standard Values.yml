@@ -1,0 +1,34 @@
+﻿---
+ID: "b29e0fa9-b285-439f-ae76-dba43e20c1ca"
+Parent: "0a8322bd-4467-4f33-b305-d42400177e09"
+Template: "0a8322bd-4467-4f33-b305-d42400177e09"
+Path: /sitecore/templates/Project/VGW/ChumbaCasino/Components/Content Featured/Winners Circle/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dec65de-d9d8-4b83-9cfa-be3f1bd2ec61"
+      Hint: Title
+      Value: Winners Circle
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240325T124212Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "955a223e-81fa-429d-9698-73ac232e8868"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240325T124220Z

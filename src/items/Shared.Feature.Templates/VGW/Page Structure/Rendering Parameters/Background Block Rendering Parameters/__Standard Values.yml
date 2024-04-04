@@ -1,0 +1,31 @@
+﻿---
+ID: "a1638229-6f21-43de-a707-d2b7e4a32760"
+Parent: "055f0680-045a-4370-9572-a79ac6f8a070"
+Template: "055f0680-045a-4370-9572-a79ac6f8a070"
+Path: /sitecore/templates/Feature/VGW/Page Structure/Rendering Parameters/Background Block Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T200137Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "664cddfa-5ae6-434f-9c6e-3b043c48cb3f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240402T200137Z

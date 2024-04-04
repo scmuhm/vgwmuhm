@@ -7,7 +7,7 @@ SITE_NAME=ChumbaCasino JSS_APP_NAME=ChumbaCasino GRAPH_QL_ENDPOINT=https://edge.
 rm -rf ./out/shareholders
 rm -rf ./out/gpa
 rm -rf ./out/banners
-rm -rf ./out/location-unavailable.html
+rm ./out/location-unavailable.html
 
 # Run dev
 echo "<------- Running dev environment ------->"
