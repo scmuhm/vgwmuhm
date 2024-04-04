@@ -1,0 +1,31 @@
+{
+  "campaigns": {
+    "JanuaryPrizeDraw": {
+      "imageSrc": "/crm/prize-draw/images/template-example/pok_prize_draw_banner_wide.jpeg",
+      "h1": "January Prize Draw",
+      "intro": "The Global Poker prize draw is back and we wanted to give our most valued players the chance to be part of the 1 of 10 lucky winners to get a gift voucher - valued at $1000 each!",
+      "finalDrawEnterDate": "Wed, Jan 31, 2024",
+      "winnersNotifiedByDate": "Thu, Feb 15, 2024",
+      "feedbackMessage": "You have successfully opted in and automatically entered into the draw to win 1 of 10 gift vouchers - valued at $1000 each!",
+      "promotionRulesSrc": "/crm/prize-draw/docs/promotion-rules/2024/01/am-prize-draw-january-2024-promotion-rules.pdf"
+    },
+    "FebruaryPrizeDraw": {
+      "imageSrc": "/crm/prize-draw/images/template-example/pok_prize_draw_banner_wide.jpeg",
+      "h1": "February Prize Draw",
+      "intro": "The February Global Poker prize draw is here, giving our most valued players another chance to be part of the 1 of 10 lucky winners to get a gift voucher - valued at $1000 each!",
+      "finalDrawEnterDate": "Sun, Feb 25, 2024",
+      "winnersNotifiedByDate": "Fri, Mar 15, 2024",
+      "feedbackMessage": "You have successfully opted in and automatically entered into the draw to win 1 of 10 gift vouchers - valued at $1000 each!",
+      "promotionRulesSrc": "/crm/prize-draw/docs/promotion-rules/2024/02/am-prize-draw-february-2024-promotion-rules.pdf"
+    },
+    "MarchPrizeDraw": {
+      "imageSrc": "/crm/prize-draw/images/template-example/pok_prize_draw_banner_wide.jpeg",
+      "h1": "March Prize Draw",
+      "intro": "The March Global Poker prize draw is here, giving our most valued players another chance to be part of the 1 of 10 lucky winners to get a gift voucher - valued at $1000 each!",
+      "finalDrawEnterDate": "Mon, Mar 25, 2024",
+      "winnersNotifiedByDate": "Mon, Apr 15, 2024",
+      "feedbackMessage": "You have successfully opted in and automatically entered into the draw to win 1 of 10 gift vouchers - valued at $1000 each!",
+      "promotionRulesSrc": "/crm/prize-draw/docs/promotion-rules/2024/03/am-prize-draw-march-2024-promotion-rules.pdf"
+    }
+  }
+}

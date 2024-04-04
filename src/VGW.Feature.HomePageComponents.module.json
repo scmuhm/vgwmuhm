@@ -1,0 +1,19 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Feature.HomePageComponents",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "HomePageComponents.Module",
+        "path": "/sitecore/system/Settings/Feature/VGW/HomePageComponents"
+      },
+      {
+        "name": "HomePageComponents.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/VGW/HomePageComponents"
+      }
+    ]
+  }
+}

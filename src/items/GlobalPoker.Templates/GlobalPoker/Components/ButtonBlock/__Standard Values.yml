@@ -1,0 +1,35 @@
+﻿---
+ID: "aa8bd5d4-ad17-43ce-832f-a330707ca6c2"
+Parent: "12204142-dc01-496a-bd39-9e5b9d9b791d"
+Template: "12204142-dc01-496a-bd39-9e5b9d9b791d"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/ButtonBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d198647-eb70-4bcc-9087-060a542a050d"
+      Hint: CTA
+      Value: |
+        <link text="Enter CTA value" linktype="external" url="/" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T031851Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "410dd31e-81b3-4a7d-a4dc-fd2700e2079a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T132631Z

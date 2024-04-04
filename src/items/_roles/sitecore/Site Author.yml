@@ -1,0 +1,10 @@
+﻿---
+Role: |
+  sitecore\Site Author
+MemberOf:
+  Role: |
+    SXA\Author
+  Role: |
+    sitecore\Site Member
+  Role: |
+    sitecore\Site Collection Member

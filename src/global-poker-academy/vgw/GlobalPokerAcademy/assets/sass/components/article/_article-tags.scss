@@ -1,0 +1,16 @@
+.article-tag-container {
+  display: flex;
+  gap:20px;
+  padding:0 0 30px 30px;
+  color: var(--black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  @include respond-to(mobile) {
+    padding-left:20px;
+    padding-bottom: 30px;
+  }
+}

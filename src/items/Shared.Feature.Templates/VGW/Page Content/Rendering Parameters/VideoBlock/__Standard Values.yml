@@ -1,0 +1,37 @@
+﻿---
+ID: "01d901ff-60e7-40cc-89a4-1d0a8ed40a10"
+Parent: "ec999958-15f8-431f-b786-313ac5041d1f"
+Template: "ec999958-15f8-431f-b786-313ac5041d1f"
+Path: /sitecore/templates/Feature/VGW/Page Content/Rendering Parameters/VideoBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cbdc46f-cbce-4c63-8b01-ad73f5ac9801"
+      Hint: AspectRatio
+      Value: 1.78
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240211T233717Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "7e717a84-92d4-474a-b5ae-9a712c18ce64"
+      Hint: VideoURL
+      Value: "https://www.youtube.com/embed/dPaAzm1tzYM"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0119fde-6e6d-4838-8264-6cf91244ac47"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240211T235050Z

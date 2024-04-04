@@ -1,0 +1,33 @@
+﻿---
+ID: "6b2681c3-9984-41e9-88c7-c39c4805b430"
+Parent: "47ab25e7-b5d2-4f04-9bc6-0850b00f6d70"
+Template: "47ab25e7-b5d2-4f04-9bc6-0850b00f6d70"
+Path: /sitecore/templates/Feature/VGW/HomePageComponents/Brand Banner Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {CAECEF3C-6634-46D2-AA20-E34828EE6D02}
+    {47AB25E7-B5D2-4F04-9BC6-0850B00F6D70}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d6ef57a-3558-41c3-b274-ea98429eef9a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231109T100450Z

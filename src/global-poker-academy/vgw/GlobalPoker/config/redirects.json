@@ -1,0 +1,872 @@
+[
+    {
+        "source_uri_pattern": "^/rakeback-deals/coin-poker-download$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/replaypoker$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/posts/42876-speed-card-game-online$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/games/texas-holdem$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/news/how-to-play-card-games-online-digital-poker-patience-and-more$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/de$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/tags/poker$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat/gold-coins$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/what-is-coinpoker$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/gpc$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/is-online-poker-rigged-the-facts-revealed$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/soft/hand-converters/advanced-poker-tools-coinpoker-hud$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/games/zynga-poker$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/questions/2701/do-i-have-to-show-my-hand-in-an-all-in-situation$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/pokernews-cup-sweeps-coins-schedule.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/tags/deals/replay-poker$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/poker-news/27751-a-look-at-the-online-poker-industry-in-new-zealand$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/mystic-slots-app$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/poker-hands-rankings$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/terms-of-use$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/Shuffle-and-Deal-Texas-Holdem$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/promotions/grizzly-games-v-afterparty$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/bounty-series-SC-schedule.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/gp-privacy-policy-2.3.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/turbo-series-prizes/online-poker-tournaments$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/turbo-series-prizes/online-poker-tournaments$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/bounty-series-GC-schedule.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat/sweeps-coins$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/tournament-schedule$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/online-world-challenge$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/eagle-cup$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-21/src/pages/online-poker-promotions/grizzly-games-21$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/src/pages/promotions$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/gp-sweeps-rules-2.8.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/utm_source=cardplayer&utm_medium=logo&utm_campaign=logo$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/gp-privacy-policy-2.4.1.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/rapido$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/gold-rush$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/faq$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/pokernews-cup-gold-coins-schedule.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/bonanza$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-vi$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/rattlesnake-open-2021-sweeps-coins-sched-v1.1.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/rattlesnake-open?section=page&id=rattlesnake-open&utm_source=180Vita&utm_medium=pokertube&utm_campaign=series&utm_content=460x460&$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/cardplayer/undefined/register$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/terms-conditions-hometown-heroes-v12.3.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/gplive$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/us-poker-open/@$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/card-room-rules.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/support$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/merchandise$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/src/pages$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/pandora/undefined/register$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/us-poker-open/@$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/casino-games/slots/duskmoon-faire-jackpot/play-for-free$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/sign-up-offer/play-for-free$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/gp-responsible-gaming-2.1.1.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/undefined/register$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/madness$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/card-room-rules$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/page/jackpot-sng$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/.Global$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/docs/gp-responsible-gaming-2.2.pdf$",
+        "destination_uri": "/410",
+        "redirect_status_code": "410"
+    },
+    {
+        "source_uri_pattern": "^/blackjack-online$",
+        "destination_uri": "/casino-games/table-games/blackjack-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/goat-poker-championships$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-iv$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-iv/gold-coins$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-iv/rules$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-iv/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-poker-championships$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat/rules$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/the-goat-21$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/the-goat-21/goat-promotion-rules$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/the-goat/gold-coins/$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/the-goat/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/goat-promotion-rules/$",
+        "destination_uri": "/online-poker-promotions/the-goat/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-after-party/terms/$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-v/gold-coins$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-v/rules$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-v/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-vi/gold-coins/$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-vi/sweeps-coins/$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/grizzly-games-vi/terms/$",
+        "destination_uri": "/online-poker-promotions/grizzly-games/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/blackjack$",
+        "destination_uri": "/casino-games/table-games/blackjack-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/casino-games/blackjack-online$",
+        "destination_uri": "/casino-games/table-games/blackjack-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games-online/poker-game-card$",
+        "destination_uri": "/poker-games-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/blackjack-online$",
+        "destination_uri": "/casino-games/table-games/blackjack-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/blackjack-online$",
+        "destination_uri": "/casino-games/table-games/blackjack-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/bounty-tournaments$",
+        "destination_uri": "/poker-games-online/bounty-tournaments",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/bounty-tournaments$",
+        "destination_uri": "/poker-games-online/bounty-tournaments",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/crazy-pineapple$",
+        "destination_uri": "/poker-games-online/crazy-pineapple",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/fast-fold-surge$",
+        "destination_uri": "/poker-games-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games$",
+        "destination_uri": "/poker-games-online",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/summer-series$",
+        "destination_uri": "/online-poker-promotions/summer-series",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/summer-series$",
+        "destination_uri": "/online-poker-promotions/summer-series",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/monster-stack-series$",
+        "destination_uri": "/online-poker-promotions/monsterstack",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/redirect$",
+        "destination_uri": "/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/purchase$",
+        "destination_uri": "https://play.${HOST}/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/indians-knockout$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/skrill$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/indians$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/gonascar$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/grand-slam-baseball$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/nascar$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/grand-slam-baseball-terms-conditions$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/ship-it$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/ship-it$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/jackpot-sng$",
+        "destination_uri": "/poker-games/jackpot-sitngo",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/gw7!$",
+        "destination_uri": "/bonanza",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/daily-hundo$",
+        "destination_uri": "/online-poker-promotions/daily-hundo",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/sunday-scrimmage$",
+        "destination_uri": "/promotions/sunday-scrimmage",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/how-to-play$",
+        "destination_uri": "/poker-games",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/terms-of-use$",
+        "destination_uri": "/terms-conditions",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/goat-poker-championships$",
+        "destination_uri": "/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/live-events-terms-conditions$",
+        "destination_uri": "/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/login$",
+        "destination_uri": "https://play.${HOST}/login",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/register$",
+        "destination_uri": "https://play.${HOST}/register",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/play$",
+        "destination_uri": "https://play.${HOST}/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/poker-school(/|$)",
+        "destination_uri": "/",
+        "redirect_status_code": "302"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/omaha$",
+        "destination_uri": "/poker-games-online/omaha",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/texas-holdem$",
+        "destination_uri": "/poker-games-online/texas-holdem",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/omaha-high-low$",
+        "destination_uri": "/poker-games-online/omaha-high-low",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/bounty-tournaments$",
+        "destination_uri": "/poker-games-online/bounty-tournaments",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/jackpot-sitngo$",
+        "destination_uri": "/poker-games-online/jackpot-sitngo",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/crazy-pineapple$",
+        "destination_uri": "/poker-games-online/crazy-pineapple",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games/fast-fold-surge$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-games-online/fast-fold-surge$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/ad-1$",
+        "destination_uri": "/sign-up-offer",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/ad-2$",
+        "destination_uri": "/sign-up-offer",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/grizzly-after-party$",
+        "destination_uri": "/online-poker-promotions/grizzly-after-party",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/spring-carnival-2022$",
+        "destination_uri": "/online-poker-promotions/spring-carnival",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/poker-news-cup$",
+        "destination_uri": "/online-poker-promotions/pokernews-cup",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/pokerafterdark$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/turbo-series$",
+        "destination_uri": "/online-poker-promotions/turbo-series",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/goat-iv$",
+        "destination_uri": "/online-poker-promotions/the-goat",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/us-poker-open$",
+        "destination_uri": "/online-poker-promotions/us-poker-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/source-of-wealth$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/promotions/eagle-after-party$",
+        "destination_uri": "/online-poker-promotions/eagle-after-party",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/faq$",
+        "destination_uri": "https://globalpoker.zendesk.com/hc/en-us",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/faqs$",
+        "destination_uri": "https://globalpoker.zendesk.com/hc/en-us",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/support$",
+        "destination_uri": "https://globalpoker.zendesk.com/hc/en-us",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/25-days-christmas$",
+        "destination_uri": "/online-poker-promotions/25-days-poker",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/25-days-christmas/terms$",
+        "destination_uri": "/online-poker-promotions/25-days-poker/terms",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-after-party/terms$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open-21/gold-coins$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open-21/rules$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open-21/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open-after-party$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open-after-party-terms$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open/gold-coins$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/rattlesnake-open/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/poker-championships-rattlesnake-open$",
+        "destination_uri": "/online-poker-promotions/rattlesnake-open",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/am-prize-draw-august-2023$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/am-prize-draw-november-2023$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/am-prize-draw-september-2023$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/austin$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/cardplayer-promo$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/gpc-gold-coin-schedule$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/homeseries$",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/page/sweeps-rules$",
+        "destination_uri": "/sweeps-rules",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/faqs/source-of-funds-check$",
+        "destination_uri": "https://globalpoker.zendesk.com/hc/en-us",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/eagle-cup-poker-championships$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/gold-coins-eagle$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/gp-live$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-after-party/terms$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup-22$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup-22/gold-coins$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup-22/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup-22/terms$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup/gold-coins$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup/rules$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup/sweeps-coins$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/online-poker-promotions/eagle-cup/terms$",
+        "destination_uri": "/online-poker-promotions/eagle-cup/",
+        "redirect_status_code": "301"
+    },
+    {
+        "source_uri_pattern": "^/test-redirect",
+        "destination_uri": "/",
+        "redirect_status_code": "301"
+    }
+]

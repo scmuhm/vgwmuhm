@@ -1,0 +1,24 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+}
+
+.select {
+  border: 1px solid rgba(black, 0.2);
+  color: rgba(black, 0.4);
+  padding: spacing(5);
+  width: 300px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: spacing(10);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23CCCCCC'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+  background-size: 12px;
+  background-position: calc(100% - 10px) 12px;
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  appearance: none;
+}

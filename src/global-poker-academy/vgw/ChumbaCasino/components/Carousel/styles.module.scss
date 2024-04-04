@@ -1,0 +1,191 @@
+@import "@vgw/_shared/sass/utils";
+@import "@current-site/assets/theme";
+
+$carousel-slide-mr: 16px;
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselColumnReverse {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: map-get($breakpoints, 'desktop');
+
+}
+
+.items {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  object-fit: cover;
+  gap: 16px;
+  border-radius: $theme-border-radius-large;
+}
+
+
+.items::-webkit-scrollbar {
+  display: none;
+}
+
+.items>* {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  width: var(--item-width) !important;
+  height: 320px;
+  display: inline-block !important;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+
+  div {
+    display: block !important
+  }
+
+  img, iframe {
+    height: 320px !important;
+    object-fit: cover;
+    border-radius: $theme-border-radius-large;
+    width: 100%;
+   }
+
+  @include until('tablet') {
+    width: 100%;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+   @include until('tablet') {
+    img, iframe {
+      height: 400px !important;
+    }
+  }
+
+  @include until('mobile') {
+    img, iframe {
+      height: 232px !important;
+    }
+  }
+}
+
+.icon-wrapper {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicatorsWrapper {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / 3;
+}
+
+.arrowIndicators {
+  display: grid;
+  grid-template-areas: "previous next";
+  grid-template-columns: repeat(2, 32px);
+  gap: 8px;
+  margin-right: 16px;
+  justify-self: right;
+  grid-column: 3 / 4;
+}
+
+.chevron {
+  border: none;
+  background-color: #9D9D9D;
+  border-radius: 100%;
+}
+
+.chevron:hover {
+  background-color: #777777;
+}
+
+.previousChevron {
+  grid-area: previous;
+  padding: 8px;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.nextChevron {
+  grid-area: next;
+  padding: 8px;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.indicators .indicator {
+  height: 5.5px;
+  width: 5.5px;
+  padding: 0;
+  margin: 4px;
+  border-radius: 100%;
+  border: none;
+  background-color: #fff;
+  transition: background-color 0.5s;
+}
+
+.indicators .indicator:hover,
+.indicators .indicator.active {
+  background-color: #9d9d9d;
+}
+
+.itemFullWidth {
+  width: 100%;
+}
+
+.items .itemFullWidth {
+  margin-right: 0;
+}
+
+.playButton,
+.pauseButton {
+  grid-column: 3 / 4;
+  display: grid;
+  justify-self: right;
+  margin-right: 16px;
+  border: none;
+  background: none;
+}
+
+@include until('tablet') {
+  .playButton,
+  .pauseButton {
+    position: static;
+  }
+}
+
+.customNavigation {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  width: 32px;
+  height: 41px;
+
+  @include until('mobile') {
+    top: 35%;
+  }
+}
+
+.customPrevBtn {
+  left: 0;
+}
+
+.customNextBtn {
+  right: 0;
+}

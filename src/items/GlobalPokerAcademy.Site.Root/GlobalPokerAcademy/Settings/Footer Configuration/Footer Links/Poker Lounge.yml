@@ -1,0 +1,39 @@
+﻿---
+ID: "2462fa91-0303-4117-be16-e7717e86b0db"
+Parent: "946ea07f-1d8d-4d78-bc30-f139f0b7cfd9"
+Template: "ec536bbf-fd3e-476a-846d-672105644212"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Footer Configuration/Footer Links/Poker Lounge
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T105158Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8774a365-bd99-4c8d-853a-7ed1ebb9161e"
+      Hint: Link
+      Value: |
+        <link class="" id="{45A01457-3C6E-41EE-BC97-5825ECDC4919}" querystring="" anchor="" target="" title="" linktype="internal" text="Poker Lounge" url="/VGW/GlobalPokerAcademy/Home/players lounge" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a714b86-e343-4fd0-950a-ce39a84813cf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231204T131317Z

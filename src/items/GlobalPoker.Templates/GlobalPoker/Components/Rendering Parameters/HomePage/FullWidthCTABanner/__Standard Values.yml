@@ -1,0 +1,44 @@
+﻿---
+ID: "56b1c57c-da31-4b52-a262-0112fdccb965"
+Parent: "c6799744-2bc8-49f8-bea7-5c00b8af0e89"
+Template: "c6799744-2bc8-49f8-bea7-5c00b8af0e89"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/Rendering Parameters/HomePage/FullWidthCTABanner/__Standard Values
+SharedFields:
+- ID: "1a3469f4-6f22-4255-b263-17ea77380e1b"
+  Hint: BackgroundImageTablet
+  Value: |
+    <image mediaid="{5A8E101A-1510-41A2-B440-F79634F3E328}" alt="Global Poker Merchandise" height="" width="" hspace="" vspace="" />
+- ID: "408a0360-e6fa-4633-b139-9c085ee29ab0"
+  Hint: BackgroundImageDesktop
+  Value: |
+    <image mediaid="{5A8E101A-1510-41A2-B440-F79634F3E328}" alt="Global Poker Merchandise" height="" width="" hspace="" vspace="" />
+- ID: "c7971d61-57f6-40e0-8fea-847f3542e596"
+  Hint: BackgroundImageMobile
+  Value: |
+    <image mediaid="{E23AE9C2-ECC0-4E17-A852-B48F32A4C9A6}" alt="Global Poker Merchandise" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240227T072548Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "590673f5-429a-4b48-8caa-3ac8c1c06f15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240401T234449Z

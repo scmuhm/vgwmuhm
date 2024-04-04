@@ -1,0 +1,40 @@
+﻿---
+ID: "b276fd5f-6597-43e4-a3ca-cc05193cd0c2"
+Parent: "865aa4b1-aa1f-4e67-899e-e357475b4143"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/ChumbaCasino/Presentation/Available Renderings/VGW Page Content
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {74D1958A-3CAE-406C-A96C-0BBF653D8CBC}
+    {11FD1212-08CE-4FED-8864-7678CAE02D57}
+    {2DBEB672-DF57-40C6-97FC-1DBC4F60E16A}
+    {D241443C-0B7D-4E7B-A4BE-C33974C61FF5}
+    {48B5B9A5-E81B-46A7-985E-F87B5727372C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240317T123316Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "787c84e8-fa06-433e-bd6a-2d71647c39a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T132547Z

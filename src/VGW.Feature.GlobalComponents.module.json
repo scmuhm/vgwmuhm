@@ -1,0 +1,19 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Feature.GlobalComponents",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "GlobalComponents.Module",
+        "path": "/sitecore/system/Settings/Feature/VGW/GlobalComponents"
+      },
+      {
+        "name": "GlobalComponents.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/VGW/GlobalComponents"
+      }
+    ]
+  }
+}

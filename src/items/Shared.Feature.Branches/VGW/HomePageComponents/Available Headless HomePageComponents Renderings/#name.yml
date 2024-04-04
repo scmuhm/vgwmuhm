@@ -1,0 +1,36 @@
+﻿---
+ID: "151bd324-a202-4fba-8872-72c39c4bf9be"
+Parent: "1065e225-f9f8-473a-b3bf-e4a76b5ab63c"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/VGW/HomePageComponents/Available Headless HomePageComponents Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {93A0741D-5B3D-4E15-A97C-F857A375E7D7}
+    {B80184FE-F800-4D22-B5DF-6452439F0C62}
+    {33F92AE0-7AE3-4472-840B-255D191443B3}
+    {480E3521-4EE5-4320-8957-8715303C9D1E}
+    {8080C5FA-8440-4016-8A80-7DDED6ACFE58}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3ed23b32-a60d-4ed3-8c32-0381537c112a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231115T112212Z

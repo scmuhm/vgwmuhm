@@ -1,0 +1,15 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include content-container;
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius:$theme-border-radius-large;
+  }
+}

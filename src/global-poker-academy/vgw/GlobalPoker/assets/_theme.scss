@@ -1,0 +1,9 @@
+@use "sass:map";
+@import "@vgw/_shared/sass/theme";
+
+$colors: map.deep-merge($colors, (
+  'brand': (
+    'brand-1': #FF0000,
+    'brand-2': #008CFF,
+  ),
+));

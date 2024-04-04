@@ -1,0 +1,36 @@
+﻿---
+ID: "3e28d78c-90c9-4a3a-a170-1fc7e555d4b8"
+Parent: "34d1d697-2b36-4ce5-8b72-16a90360d236"
+Template: "f78cc312-e980-4da3-ad15-5ea3bae329cb"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/Data/Dual Articles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231115T112628Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "6700eb83-fe5f-4dbd-b423-f0e4bdf184b6"
+      Hint: Articles
+      Value: |
+        {3747CD01-85F5-483A-A9CA-5EC9BA460E6A}
+        {4E2B782D-03B2-4806-B649-A96284787A5A}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a56379c-e418-4cce-9dbb-9fc20a1ef2a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231115T112718Z

@@ -1,0 +1,33 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+}
+
+.wrapper {
+  --columns: 1;
+  --gap: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: var(--gap);
+  column-gap: var(--gap);
+
+  > * {
+    flex: 0 0 calc((100% / var(--columns)) - (var(--gap) - var(--gap) / var(--columns)));
+  }
+
+  @include from ('sm') {
+    --columns: 3;
+  }
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  margin-top: spacing(20);
+}

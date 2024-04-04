@@ -1,0 +1,30 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+
+  margin-top: spacing(20);
+  margin-bottom: spacing(20);
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: table;
+  table-layout: fixed;
+}
+
+.wrapper .caption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
+.caption p {
+  margin-top: 0%;
+}

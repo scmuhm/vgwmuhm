@@ -1,0 +1,34 @@
+﻿---
+ID: "fa7a1044-36e6-471f-aee5-8055a2b98831"
+Parent: "a4b5a9a6-d903-4898-aa2c-c6b7d3ddc818"
+Template: "a4b5a9a6-d903-4898-aa2c-c6b7d3ddc818"
+Path: "/sitecore/templates/Project/VGW/GlobalPoker/GP - Full-Banner Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {40D334AE-AA4C-49AF-86FC-041ACDC4316F}
+    {6E9D7E88-378E-48E6-A0C5-4CB926DB37D0}
+    {A2D6C913-BA18-459D-998F-9F52DB31EA9D}
+    {836803BB-AC7B-4C15-A387-FB5226566E8E}
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T100845Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2c90e0f-8ec1-4b67-9d10-07a830d52b56"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T074055Z

@@ -1,0 +1,38 @@
+﻿---
+ID: "9744a4f5-7c0d-4863-bb28-c7a57f9666ee"
+Parent: "6d1a558c-2a75-4738-97c7-8db9932b2640"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/players lounge/twitch-poker/Data/Text 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231113T094054Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>Read those last two sentences:&nbsp;<em>Consider making content, of any type. 40 years from now you’ll be happy you did.</em>&nbsp;Andrew has been pushing this since the beginning. Make your first vlog. Publish your first poem. Put a video on YouTube of you playing guitar. Andrew has said over and over again that the hardest part is doing the first one. But once you’ve done it, the next one will be better, and you’ll be glad you did.</p><p>So it is with streaming. I streamed on Twitch for a couple of years. It was never a big deal – when I had a hundred simultaneous viewers (which is nothing) it was exciting. But I was making that content and putting myself out there. And I’m glad I did. Every once in a while, somebody will ping me and say, “Hey – I enjoyed your Twitch streams.” Even if it’s just one or two people, you gave those people some enjoyment, and created a permanent record of what you were doing at that moment in time.</p><p>Will you be the next Jason Somerville or Andrew Neeme? Probably not. But be sure not to make that your standard of success. Define success as making the first stream. As getting 10, or 50 viewers. As having one person contact you and say, “Man, that was cool – thank you.”</p><p>In fact, one extremely good definition of success would be: “I was nervous, bordering on scared. But I figured out OBS, fired it up, and let the world watch me play online poker.” That right there would be a huge step for most of us (it was for me), and I agree with Andrew – you’ll be happy you did it.</p><p>I hope to see you out in the Twitch streets one of these days.</p><p>Lee Jones has been in the poker industry for over 30 years. He writes at the&nbsp;<em>Global Poker</em>&nbsp;blog, plays poker every chance he gets, and coaches poker. Has never been a professional poker player. You can contact him at&nbsp;<a href="https://leejones.com/" rel="noopener noreferrer">www.leejones.com</a></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79c4dddf-bd7d-4a61-b543-385e96fa0e8a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240109T222618Z

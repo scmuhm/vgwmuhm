@@ -1,0 +1,31 @@
+﻿---
+ID: "2708d1c3-e9bd-44bb-b48f-54639969685d"
+Parent: "6b410a08-3f75-40b7-93ba-ef78cb7fb71a"
+Template: "dd77a69b-2623-4e58-ab5a-ffab9bb0d947"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Settings/Category Heading Colors/steel-blue"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231106T075749Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2471fc9-1872-4cc1-8883-0274ca9b6189"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T112535Z

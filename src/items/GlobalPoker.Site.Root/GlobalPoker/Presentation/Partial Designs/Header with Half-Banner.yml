@@ -1,0 +1,65 @@
+﻿---
+ID: "874e9cd7-f4cc-4a52-8765-039a505900fa"
+Parent: "f0958e0b-9a96-4407-9f5b-717c43a90e8e"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/VGW/GlobalPoker/Presentation/Partial Designs/Header with Half-Banner"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "header-with-half-banner"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7857ADC7-63D0-4619-A51A-12F1CD6BF8AD}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F9502FC0-5015-4BEF-87E4-8FEE7DC266F6}"
+              p:before="*"
+              s:ds=""
+              s:id="{64593FD8-37DE-42E9-A0F7-44CD42068E2F}"
+              s:par="CSSStyles"
+              s:ph="headless-header"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{04C49C6E-ACA3-48C5-9026-0D309584B242}"
+              p:after="*[1=2]"
+              s:id="{FA9CC495-C5AD-40E5-98E6-E73113362A81}"
+              s:par="DynamicPlaceholderId=1"
+              s:ph="headless-header" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T055756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f6223af-d268-4423-b166-0e7ca0c82fa5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240301T041827Z

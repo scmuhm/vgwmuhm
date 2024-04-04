@@ -1,0 +1,27 @@
+﻿---
+ID: "4637d1d5-f859-49ca-8a0b-bf85c3d84a32"
+Parent: "2d3e5550-1bce-4886-901a-23e93cf86b78"
+Template: "2d3e5550-1bce-4886-901a-23e93cf86b78"
+Path: /sitecore/templates/Feature/VGW/Category/Rendering Parameters/SubCategoryNavigation/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71fb258a-eb3d-40fc-b833-1250422c0104"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231106T103631Z

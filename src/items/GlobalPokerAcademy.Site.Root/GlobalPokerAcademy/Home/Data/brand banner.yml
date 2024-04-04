@@ -1,0 +1,33 @@
+﻿---
+ID: "b9e4ce71-c67c-45bf-88ee-d805328ea737"
+Parent: "34d1d697-2b36-4ce5-8b72-16a90360d236"
+Template: "caecef3c-6634-46d2-aa20-e34828ee6d02"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/Data/brand banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231109T101431Z
+    - ID: "44dcea46-7959-4600-a45d-a31b8ed048ff"
+      Hint: SubTitle
+      Value: |
+        <p>Register now and play free social poker at <a rel="noopener noreferrer" href="https://globalpoker.com/?utm_source=globalpokeracademy&amp;utm_medium=navcta&amp;utm_content=ctabutton " target="_blank">GlobalPoker.com</a></p>
+    - ID: "57217ba8-e494-4d78-9aeb-e2cdda58abea"
+      Hint: SocialLinks
+      Value: |
+        {4786B142-7F1B-4FF2-B3B3-3A28459835D8}
+        {8F61D765-7D6B-4154-88D6-AA5F6BCF040C}
+        {F1752BC2-EB8F-4964-825A-58048BB73CCC}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8343f42b-c0d0-4775-9075-53d296b58e13"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\N6V0cqLKtf
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240125T012117Z

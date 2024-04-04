@@ -1,0 +1,90 @@
+﻿---
+ID: "1140a19b-2534-4ae4-ac2e-2af97d56322f"
+Parent: "6714b82e-67d6-46bf-94e4-eb087a0904a0"
+Template: "6714b82e-67d6-46bf-94e4-eb087a0904a0"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/HomePage/GameFeatureTiles/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b8bb9ab-f095-4be7-8211-9a353ed3752c"
+      Hint: GameTile1Callout
+      Value: "Optional callout - delete if not required"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240311T071713Z
+    - ID: "2aceb8cb-f830-4c08-979b-db4acd7b32a4"
+      Hint: GameTile3Url
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72308E41-42A1-45AB-9DAB-7D1473BE049A}" />
+    - ID: "2e1e6304-99f3-4538-8ea4-c02a393e2788"
+      Hint: GameTile3Text
+      Value: |
+        <h3>Tile 3 heading</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum ipsum ut ornare molestie.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "60a45cb2-e8a9-40bb-8d1e-88aa5ca611a0"
+      Hint: GameTile1Url
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72308E41-42A1-45AB-9DAB-7D1473BE049A}" />
+    - ID: "72d9cfa9-f44b-4c7b-a339-971e1d194f32"
+      Hint: GameTile3Callout
+      Value: "Optional callout - delete if not required"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfd69d3c-59c4-4dab-aec0-60706a1e8c4c"
+    - ID: "96aca7a6-0594-4741-9f64-edd55d6673b6"
+      Hint: GameTile2Image
+      Value: |
+        <image mediaid="{04DEA222-01FE-43F4-88F5-92F4D6FB3178}" />
+    - ID: "99749e1e-f1f7-46c7-b158-0a9f6da7605f"
+      Hint: GameTile3Image
+      Value: |
+        <image mediaid="{BDB98182-1930-4322-B57D-CB93263D0C9D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "bd813ec0-4107-49a7-86b4-0bdfd70d596e"
+      Hint: GameTile2Callout
+      Value: "Optional callout - delete if not required"
+    - ID: "bd8b113c-633b-40dc-b678-02d760633336"
+      Hint: GameTile2Url
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{4EF1679C-6652-424D-8EFB-02E7233B1056}" />
+    - ID: "c1e14ba4-a019-43eb-b937-a40a80ab28e3"
+      Hint: GameTile1Image
+      Value: |
+        <image mediaid="{F7602D84-8F26-471F-A233-3A392AC56769}" />
+    - ID: "ca010f07-2533-4633-ac88-934076da0ace"
+      Hint: GameTile2Icon1
+      Value: |
+        <image mediaid="{27DC87A1-CDE2-462E-AFBA-02FA9A50B0A9}" />
+    - ID: "cf0834c9-b2d4-4bbf-95c0-9221eda33949"
+      Hint: GameTile1Text
+      Value: |
+        <h3>Tile 1 heading</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum ipsum ut ornare molestie.
+    - ID: "d7106c37-4653-4737-b624-63f36c6c2651"
+      Hint: heading
+      Value: Section heading
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T073222Z
+    - ID: "da5842b5-7349-41ef-b908-af2a8dfb5dc5"
+      Hint: GameTile2Text
+      Value: |
+        <h3>Tile 2 heading</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum ipsum ut ornare molestie.
+    - ID: "fb0dca03-3d18-41af-9f09-ecfb2f12dcdf"
+      Hint: GameTile1Icon1
+      Value: |
+        <image mediaid="{BB36CD1E-37A7-4759-997F-B2995462B2F3}" />

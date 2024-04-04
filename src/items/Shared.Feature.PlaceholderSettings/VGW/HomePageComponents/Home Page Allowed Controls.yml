@@ -1,0 +1,43 @@
+﻿---
+ID: "3160b357-0491-4249-965b-a847a6bae8c6"
+Parent: "12586195-5bf2-4a5a-ab2f-689bb1151f62"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/VGW/HomePageComponents/Home Page Allowed Controls
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Home Page Allowed Controls
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {93A0741D-5B3D-4E15-A97C-F857A375E7D7}
+    {B80184FE-F800-4D22-B5DF-6452439F0C62}
+    {33F92AE0-7AE3-4472-840B-255D191443B3}
+    {480E3521-4EE5-4320-8957-8715303C9D1E}
+    {8080C5FA-8440-4016-8A80-7DDED6ACFE58}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231113T091138Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22d0260b-6d85-4554-99ef-1fcb06b05c24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231115T112539Z

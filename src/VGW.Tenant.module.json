@@ -1,0 +1,87 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Tenant",
+  "items": {
+    "includes": [
+      {
+        "name": "Tenant.Templates",
+        "path": "/sitecore/Templates/Project/VGW",
+        "rules": [
+          {
+            "path": "/GlobalPoker",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/ChumbaCasino",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "Tenant.Media",
+        "path": "/sitecore/media library/Project/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Media.Shared",
+        "path": "/sitecore/media library/Project/VGW/shared",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Renderings",
+        "path": "/sitecore/layout/Renderings/Project/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Root",
+        "path": "/sitecore/content/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Modules",
+        "path": "/sitecore/system/Settings/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Foundation.Templates",
+        "path": "/sitecore/templates/Foundation/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Templates",
+        "path": "/sitecore/templates/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Media",
+        "path": "/sitecore/media library/Feature/VGW",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Tenant.Feature.Branches",
+        "path": "/sitecore/templates/Branches/Feature/VGW",
+        "scope": "SingleItem"
+      }
+    ]
+  }
+}

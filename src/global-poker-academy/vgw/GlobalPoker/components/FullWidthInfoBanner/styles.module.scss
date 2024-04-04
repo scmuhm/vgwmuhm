@@ -1,0 +1,57 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  background-size: cover;
+  background-position: center;
+  padding-top: map-get($spacing, 'spacing-60');
+  padding-bottom: map-get($spacing, 'spacing-270');
+  color: get-color('greyscale', 'lightest');
+  box-sizing: border-box;
+  background-image: var(--BackgroundImageMobileUrl);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @include from('sm') {
+    background-image: var(--BackgroundImageTabletUrl);
+    padding-bottom: map-get($spacing, 'spacing-250');
+  }
+
+  @include from('md') {
+    background-image: var(--BackgroundImageDesktopUrl);
+    padding-bottom: map-get($spacing, 'spacing-60');
+  }
+}
+
+.container {
+  @include container();
+  margin: 0;
+  margin-left: map-get($spacing, 'spacing-10');
+  margin-right: map-get($spacing, 'spacing-10');
+  max-width: unset;
+
+  @include from('sm') {
+    margin-left: map-get($spacing, 'spacing-20');
+    margin-right: map-get($spacing, 'spacing-20');
+  }
+
+  @include from('md') {
+    max-width: 50%;
+    margin-right: 0;
+  }
+
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+.subheading {
+  margin-bottom: 0;
+  padding-bottom: map-get($spacing, 'spacing-20');
+}
+
+.noSubHeading {
+  padding-bottom: spacing(25);
+}

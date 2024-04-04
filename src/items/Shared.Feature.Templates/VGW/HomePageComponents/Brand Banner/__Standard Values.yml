@@ -1,0 +1,56 @@
+﻿---
+ID: "729fe535-166e-4c39-a6fe-aa6d734c534a"
+Parent: "caecef3c-6634-46d2-aa20-e34828ee6d02"
+Template: "caecef3c-6634-46d2-aa20-e34828ee6d02"
+Path: /sitecore/templates/Feature/VGW/HomePageComponents/Brand Banner/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231109T101200Z
+    - ID: "406a25d0-3cc9-40ab-ae60-5a4b1eb7fa0d"
+      Hint: Social
+      Value: Join the community on
+    - ID: "44dcea46-7959-4600-a45d-a31b8ed048ff"
+      Hint: SubTitle
+      Value: |
+        <p>Register now and play free social poker at <a rel="noopener noreferrer" href="https://globalpoker.com" target="_blank">GlobalPoker.com</a></p>
+    - ID: "47524fb5-e4da-45cf-bc37-19aed470e08a"
+      Hint: Title
+      Value: |
+        Be the best.  
+        PLAY Global Poker.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "57217ba8-e494-4d78-9aeb-e2cdda58abea"
+      Hint: SocialLinks
+      Value: |
+        {8F61D765-7D6B-4154-88D6-AA5F6BCF040C}
+        {F1752BC2-EB8F-4964-825A-58048BB73CCC}
+        {4786B142-7F1B-4FF2-B3B3-3A28459835D8}
+    - ID: "58795068-43b1-4081-8277-f4cda195ba98"
+      Hint: Text
+      Value: Global Poker. For natural born players.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5dc37a1-45f5-49e3-becf-bc21179d12fa"
+    - ID: "b7f12fd0-8e8b-4545-bbbd-0d5084054c75"
+      Hint: Logo
+      Value: |
+        <image mediaid="{162E6BCD-A2D1-4229-BBE6-34AF7FA171FB}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231109T101350Z

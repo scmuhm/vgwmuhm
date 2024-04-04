@@ -1,0 +1,8 @@
+﻿---
+Role: |
+  sitecore\Site Admin
+MemberOf:
+  Role: |
+    sitecore\Site Designer
+  Role: |
+    SXA\Admin

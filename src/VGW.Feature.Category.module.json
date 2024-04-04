@@ -1,0 +1,19 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Feature.Category",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Category.Module",
+        "path": "/sitecore/system/Settings/Feature/VGW/Category"
+      },
+      {
+        "name": "Category.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/VGW/Category"
+      }
+    ]
+  }
+}

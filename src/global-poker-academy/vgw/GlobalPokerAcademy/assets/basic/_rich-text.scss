@@ -1,0 +1,64 @@
+@import "@sass/abstracts/vars";
+@import "variables";
+
+.article-page-body {
+  .rich-text, .promo-text {
+    p {
+      font-size: $text-size-14;
+      font-weight: 400;
+      line-height: 22px;
+    }
+
+    h3 {
+      font-size: $text-size-24;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px
+    }
+
+    h4 {
+      font-size: $text-size-24;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+
+          @include respond-to(mobile) {
+            font-weight: 600;
+      }
+    }
+  }
+}
+
+
+@mixin text-size($sizeValue:$text-size-14) {
+  font-size: $sizeValue !important;
+
+  p,span {
+    font-size: $sizeValue !important
+  }
+}
+
+.text-size-12 {
+  @include text-size($text-size-12);
+}
+
+.text-size-14 {
+  @include text-size($text-size-14);
+}
+
+.text-size-16 {
+  @include text-size($text-size-16);
+
+}
+
+.text-size-18 {
+  @include text-size($text-size-18);
+}
+
+.text-size-24 {
+  @include text-size($text-size-24);
+}
+
+.text-size-30 {
+  @include text-size($text-size-30);
+}

@@ -1,0 +1,17 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  background-size: cover;
+  background-position: center;
+  color: get-color('greyscale', 'lightest');
+  margin-top: spacing(20);
+  margin-bottom: spacing(20);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container {
+  @include container();
+  text-align: center;
+}

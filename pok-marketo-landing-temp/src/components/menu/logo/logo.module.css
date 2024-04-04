@@ -1,0 +1,12 @@
+.img-container {
+    transition: height 0.5s, margin-top 0.5s;
+    height: 84px;
+    width: 115px;
+    align-self: start;
+}
+.logo-link {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

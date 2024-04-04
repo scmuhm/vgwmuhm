@@ -1,0 +1,39 @@
+﻿---
+ID: "0c88e5c1-83d1-475b-95ff-f630b82c1cbf"
+Parent: "131fe955-26ff-4257-b6ab-822ec1f66752"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Page Designs/Article Page Design
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{503E0259-18B5-4077-A2DA-2DFBB992416B}|{5C3DD956-7456-4677-BDBC-DA4631CAF40B}|{31D84C3E-E27D-4664-9439-4FE9A97816EF}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0F7847E8-37C5-4F9B-B65F-AA6EAF21C832}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231027T091826Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1d67c85-9be1-4840-947b-e1fc7cd734a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231027T091840Z

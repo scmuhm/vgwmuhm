@@ -1,0 +1,39 @@
+﻿---
+ID: "36a5d490-fa61-477a-b1e2-a630287443b4"
+Parent: "34d1d697-2b36-4ce5-8b72-16a90360d236"
+Template: "f0852924-0545-463d-875d-15767f07310c"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/Data/Article Top Picks
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231109T082630Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83a9a34c-5c41-4037-b126-86652c79ddde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "be189b48-4563-4d01-9028-9c8f387f4e13"
+      Hint: Articles
+      Value: |
+        {77368BC3-E71A-408B-9090-6C0C8CCFB93C}
+        {7C243E36-9AAB-4367-9189-E5934C6C4B51}
+        {DDABB63A-01B5-4D29-975F-425F71E4F258}
+        {3747CD01-85F5-483A-A9CA-5EC9BA460E6A}
+        {1816BC36-FA52-47C4-9EE0-5C8EBE11C831}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231122T083442Z

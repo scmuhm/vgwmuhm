@@ -1,0 +1,120 @@
+@import '@sass/abstracts/mixins';
+
+$size-padding: 8px;
+
+.container-wrapper {
+  width: 100%;
+}
+
+.component {
+  position: relative;
+
+  @include respond-to(desktop) {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include respond-to(all-mobile) {
+    padding: 0;
+  }
+}
+
+.container {
+  padding: 0;
+
+  &.fullwidth-container {
+    max-width: unset;
+  }
+
+  .component-content {
+    @include clearfix;
+  }
+
+}
+
+.category-field-wrapper {
+  padding: 0;
+  margin: 0 12px;
+  display: flex;
+
+  p {
+    background: #4F8080;
+    padding: 0 3px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+  }
+}
+
+.container-default.me-xxl-auto {
+  .component {
+    @include respond-to(desktop) {
+      display: block;
+    }
+  }
+
+  @include respond-to(mobile) {
+    padding: 0 12px;
+  }
+
+  @include respond-to(tablet) {
+    padding: 0 12px;
+  }
+}
+
+
+.rich-text.me-xxl-auto {
+  margin-bottom: 64px;
+
+  @include respond-to(mobile) {
+    margin-bottom: 24px;
+  }
+
+  @include respond-to(tablet) {
+    margin-bottom: 24px;
+  }
+}
+
+.rte-align-right {
+  text-align: right;
+}
+
+.rte-align-center {
+  text-align: center;
+}
+
+.rte-align-left {
+  text-align: left;
+}
+
+.rte-align-justify {
+  text-align: justify;
+}
+
+.mobile-only {
+  display: none;
+
+  @include respond-to(mobile) {
+    display: block;
+  }
+}
+
+.tablet-only {
+  display: none;
+
+  @include respond-to(mobile-large) {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: block;
+
+  @include respond-to(mobile) {
+    display: none;
+  }
+}

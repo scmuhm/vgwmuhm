@@ -1,0 +1,37 @@
+﻿---
+ID: "4f08e7b6-14f4-4123-9bc3-dd97313bef40"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T120809Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>1. Plan Everything</h2><p>Be prepared and make a plan. As they say if you fail to plan, you plan to fail. OK, so that’s a bit extreme for a fun poker night, but you get the point. Start by making a checklist of everything you’ll need – players, a table, snacks, poker chips, cards, a venue, drinks and every and anything else you can think of. If you write everything down and mark it off, you’re less likely to forget something important. Take a few days to think about it if possible.</p><p>Your list should include relevant information, such as:</p><p><strong>Venue -</strong>&nbsp;Where is the game going to be? Does the venue have a table and chairs? Is it outside? Will there be a smoking area?</p><p><strong>Players -</strong>&nbsp;Who’s invited?</p><p><strong>Catering -</strong>&nbsp;What food/snacks are you going to provide? Are any of the players allergic to anything? Will it be bring your own (BYO) drinks (alcoholic or otherwise) or will you provide some? If you’re providing the drinks, what will they be?</p><p><strong>What -</strong>&nbsp;style of game will be played? Will it be a cash game or tournament? Texas Holdem’ or Five Card Draw or something else? What will the buy in be? Are there going to be rebuys? Will the blinds up base on a time limit, or when players are eliminated?</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4822b68d-7a33-4284-8b45-6347451e92fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011407Z

@@ -1,0 +1,38 @@
+﻿---
+ID: "ba4598a5-45a2-431c-ae9b-f79d411fccfa"
+Parent: "6d1a558c-2a75-4738-97c7-8db9932b2640"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/players lounge/twitch-poker/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231113T094051Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>In a previous&nbsp;<a href="https://globalpokeracademy.com/players-lounge/poker-behavior-talk-to-your-monitor" rel="noopener noreferrer">blog post</a>, I said that talking to your computer monitor while playing online poker could improve your results by forcing you to verbally articulate your plan. I further suggested that if you found that too weird, you could pretend that you were streaming poker on Twitch, where talking about your strategy and tactics is&nbsp;<em>necessary</em>.</p><p>That’s when the lightbulb went on. Have you ever thought about actually getting on Twitch and streaming your online poker play?</p><p>[If you know what Twitch is, skip this paragraph]. Twitch is a platform on which people play games on their computer, but broadcast to the Internet themselves and the game they’re playing. The creator and dean of poker on Twitch is the legendary Jason “JCarver” Somerville, but there are now dozens (hundreds?) of people playing online poker and letting the world watch as they do it.</p><p>[Okay, Twitch wizards, c’mon back in the room.]</p><p>And here’s the catch: it’s “free” to stream on Twitch. The software that almost everybody uses (“OBS”) is open source, and thus free to all. Twitch doesn’t charge you to be a content-maker on its platform. The only dollar cost is that you need a strong enough computer and a strong enough Internet connection to make everything work. I won’t go into the details here, but suffice it to say that every month, the necessary computing and Internet power becomes cheaper and more accessible.</p><p>The OBS software isn’t “trivial” to use, but watch the right few hours of YouTube how-to videos and you will probably be able to push the button to broadcast you and your online poker game across the planet.</p><p>Of course, once you start streaming (if you say “Twitching,” it gives you away as a newbie) then your time is the big investment. If you want to attract a meaningful following, frequency and consistency are the keys. Jason Somerville would occasionally stream every day for weeks, 6-8 hours each day. It was mildly insane and he no longer does those sorts of things. But people want to be able to reliably tune into your (“appointment Twitch”) and see your smiling face on their laptops and phones. Keep that in mind when you push the “Broadcast” button on OBS.</p><p>Now, the other half of the equation: why might you choose to stream poker on Twitch? Well, that’s interesting. My original epiphany was that it might be good for your poker playing to pretend you were on Twitch, so you’d have to verbally justify your decisions. So actually streaming might enhance that effect.<br />But honestly, I don’t think that’s the big value. The big value is that it puts you out there. Let me borrow a statement from a guy who knows a thing or two about putting himself out there: Andrew Neeme. Andrew is the Jason Somerville of poker vlogging and has over 100,000 YouTube subscribers. Andrew recently wrote on Twitter:</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "41383f60-1841-4c20-87a7-d168c976696a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240109T222549Z

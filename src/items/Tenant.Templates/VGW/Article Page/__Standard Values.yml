@@ -1,0 +1,36 @@
+﻿---
+ID: "ecb86881-38ee-4b35-a03b-1ab437c11b31"
+Parent: "0ae7cc45-1fcb-43fe-803b-aec6e9c9d062"
+Template: "0ae7cc45-1fcb-43fe-803b-aec6e9c9d062"
+Path: /sitecore/templates/Project/VGW/Article Page/__Standard Values
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Value: 1
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T102345Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57bf6746-d667-4e5d-9a3f-40eabe66b70b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240202T030937Z
+    - ID: "f8a66cf6-3dba-42ce-9b36-a04f93312b5a"
+      Hint: ArticleCategory
+      Value: $parentid

@@ -1,0 +1,37 @@
+﻿---
+ID: "e7abff00-3930-418d-891c-308c9fdf4fe9"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T121148Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>7. Music and Entertainment</h2><p>You can't expect everyone to enjoy the night with only glowing social conversation alone. Music and maybe even a TV on in the background will keep anyone waiting for a seat, or not in the hand, entertained. Pick a long playlist of music with a wide variety of songs and genres. If you get twelve people in a room, odds are they will all have different musical tastes, and there is no way to please everyone. If you use a music-streaming service like Spotify, you could make a playlist and make it public for people to add to. Invite the players to add to the playlist and on the night you simply hook it up to your sound system (whatever your preferred system is – there are so many these days!) and let the tunes roll.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5477fc15-8263-469b-a0ea-390b1538e025"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011442Z

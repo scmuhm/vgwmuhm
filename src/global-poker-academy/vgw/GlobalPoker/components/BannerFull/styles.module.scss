@@ -1,0 +1,27 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  background-color: get-color('greyscale', 'darker');
+  background-size: cover;
+  background-position: center;
+  color: get-color('greyscale', 'lightest');
+  padding-top: map-get($spacing, 'spacing-80');
+  padding-bottom: map-get($spacing, 'spacing-80');
+  min-height: 450px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container {
+  @include container();
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+.noSubHeading {
+  padding-bottom: spacing(25);
+}

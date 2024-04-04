@@ -1,0 +1,41 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.GlobalPokerAcademy",
+  "references": [
+    "VGW.Tenant",
+    "VGW.Feature.GlobalComponents",
+    "VGW.Feature.Article",
+    "VGW.Feature.Category",
+    "VGW.Feature.HomePageComponents"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "GlobalPokerAcademy.Media",
+        "path": "/sitecore/media library/Project/VGW/GlobalPokerAcademy",
+        "rules": [
+          {
+            "path": "/System",
+            "scope": "SingleItem"
+          },
+          {
+            "path": "*",
+            "scope": "ItemAndDescendants"
+          }
+        ]
+      },
+      {
+        "name": "GlobalPokerAcademy.Renderings",
+        "path": "/sitecore/layout/Renderings/Project/VGW/GlobalPokerAcademy"
+      },
+      {
+        "name": "GlobalPokerAcademy.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/VGW/GlobalPokerAcademy"
+      },
+      {
+        "name": "GlobalPokerAcademy.Site.Root",
+        "path": "/sitecore/content/VGW/GlobalPokerAcademy"
+      }
+    ]
+  }
+}

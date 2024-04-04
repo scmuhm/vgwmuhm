@@ -1,0 +1,45 @@
+﻿---
+ID: "9c2b308d-cd93-41e4-bd3e-51425e10a98c"
+Parent: "c8525fab-c4c3-4492-908d-3cf6bc113f75"
+Template: "c8525fab-c4c3-4492-908d-3cf6bc113f75"
+Path: "/sitecore/templates/Project/VGW/GlobalPokerAcademy/GPA - Home Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C68F4037-6F3D-4DDA-9B84-A566C0E21FE7}
+    {5E3052AF-1FCB-4568-9B08-D597255A5206}
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+        <p
+          uid="{2C88422E-0098-4E97-B603-D2B73BEB4EEB}"
+          key="headless-main"
+          md="{3160B357-0491-4249-965B-A847A6BAE8C6}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T100954Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dfd14ac5-6a02-4a70-b350-5554cda54ac1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231115T102706Z

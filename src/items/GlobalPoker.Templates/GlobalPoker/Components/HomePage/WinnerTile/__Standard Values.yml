@@ -1,0 +1,48 @@
+﻿---
+ID: "06788f2f-87e5-46eb-971c-f68c4e18c92d"
+Parent: "2a89dcdb-eab7-458f-bfa4-b7589d103d7d"
+Template: "2a89dcdb-eab7-458f-bfa4-b7589d103d7d"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/HomePage/WinnerTile/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "166f2133-f619-46c2-ae9f-aff6c3d25a5d"
+      Hint: image2
+      Value: |
+        <image mediaid="{D7C0E170-778C-4894-A86F-050CDDCC7F13}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240311T030759Z
+    - ID: "446dc4e7-ea52-4926-9ee3-aab3c9851593"
+      Hint: text2
+      Value: GC Winner
+    - ID: "46ea79f3-35eb-4e65-ae69-cc4338ffe246"
+      Hint: text
+      Value: Username
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dff6e384-a9f4-42d6-bdf8-30214510134f"
+    - ID: "abe9dfc1-2a6f-46ce-b78b-835f321ba374"
+      Hint: image1
+      Value: |
+        <image mediaid="{E87EA38B-CF20-4DBB-8723-34C00946622D}" />
+    - ID: "b7bdabf1-2b72-479f-9b73-85c9e1ac27ea"
+      Hint: text1
+      Value: GC 100,000
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T031009Z

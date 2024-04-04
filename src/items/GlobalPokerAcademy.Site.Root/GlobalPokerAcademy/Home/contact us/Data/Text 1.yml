@@ -1,0 +1,42 @@
+﻿---
+ID: "10a4d799-7a74-4973-9c4f-ecffbf066648"
+Parent: "77ec9fcd-0858-42a1-adcc-151f12c38521"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/contact us/Data/Text 1
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AECECC9D-0485-43D1-8C86-0F7EA979C92B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T091151Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>You’ve Got Questions, We’ve Got Answers. Let’s Chat</h2><p>Questions? Don’t sweat it. We love chatting to our fellow poker fans. If you want to get in touch, you can contact us anytime at the email address below.</p><p>We’re always open to feedback, so if you’ve got any suggestions or improvements regarding the content we produce—is there something you’d like to see more of? Or, perhaps you’d even like to pitch us a story—we’d love to hear from you.</p><p>Just drop us a DM at the email address below and one of our team will get back to you.</p><p><br /></p><p><a href="mailto:contact@globalpokeracademy.com" rel="noopener noreferrer">contact@globalpokeracademy.com</a></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "198119ce-8c17-49b1-b31b-e2f2f23cef3b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240117T031954Z

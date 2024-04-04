@@ -1,0 +1,132 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.section {
+  background-color: get-color('greyscale','even-lighter');
+}
+
+.container {
+  @include container();
+  padding-top: spacing(60);
+  padding-bottom: spacing(80);
+}
+
+.mainText > div > *:first-child {
+  margin-top: 0;
+}
+
+.wrapper {
+  --columns: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: spacing(40);
+  column-gap: spacing(20);
+
+  div + & {
+    margin-top: spacing(20);
+  }
+
+  @include from('sm') {
+    flex-direction: row;
+  }
+
+  @include between('md', 'lg') {
+    column-gap: spacing(10);
+  }
+}
+
+.column {
+  word-break: break-word;
+  box-sizing: border-box;
+  max-width: 375px;
+  padding-right: spacing(25);
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  @include until('sm') {
+    margin: auto;
+  }
+
+  @include between('sm', 'md') {
+    max-width: 340px;
+  }
+
+  @include between('md', 'xl') {
+    max-width: 33%;
+  }
+
+  &:last-child {
+    @include between('sm', 'md') {
+      display: none;
+    }
+  }
+}
+
+.card {
+  background-color: white;
+  transform-style: preserve-3d;
+  border-radius: 1.5rem;
+  padding: spacing(10);
+  box-shadow: 0.25rem 0.25rem 3rem 0rem rgba(black, 0.15);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    border-radius: 1.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 0.25rem solid #ED1B25;
+    top: 2rem;
+    left: 2rem;
+    transform: translateZ(-1px);
+    z-index: -1;
+  }
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: spacing(5);
+  height: 100%;
+  background-color: white;
+
+  &::before, &::after {
+    content: "";
+    background-image: var(--spade-icon);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    flex-shrink: 0;
+  }
+
+  &::after {
+    transform: rotate(180deg);
+    margin-left: auto;
+    margin-top: auto;
+  }
+}
+
+.text, .author {
+  padding-left: spacing(10);
+  padding-right: spacing(10);
+  line-height: 1.4;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  column-gap: spacing(5);
+  color: get-color('greyscale', 'gray');
+
+  img {
+    width: 4.5rem;
+    height: auto;
+  }
+}

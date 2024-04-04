@@ -1,0 +1,89 @@
+﻿---
+ID: "503e0259-18b5-4077-a2da-2dfbb992416b"
+Parent: "531637c7-7976-46fc-8a1b-68af02d34961"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Presentation/Partial Designs/Article/Article-Body"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "article-body"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4D159634-C235-47A7-8C7A-9EE9A46047EC}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4A8CBA52-7407-4CAF-B6E4-8A5C344887F9}"
+              p:before="*"
+              s:id="{1B90B780-9092-412D-92BD-3C418CE1E3B5}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/article-page-bottom-0-1" />
+            <r
+              uid="{0950A8F3-F3D1-4358-AA28-7AD1A72E51F1}"
+              p:after="r[@uid='{4A8CBA52-7407-4CAF-B6E4-8A5C344887F9}']"
+              s:id="{E2458334-B372-44EF-B2F8-A7FBC71736B3}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/article-page-side-0-1" />
+            <r
+              uid="{42938DCA-FFCB-43F1-8325-C2B3F1121264}"
+              p:after="r[@uid='{0950A8F3-F3D1-4358-AA28-7AD1A72E51F1}']"
+              s:id="{1EB269B2-BE6E-4E24-9DB0-3598AAADF7A7}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/article-page-side-0-1" />
+            <r
+              uid="{6E2B6F92-5252-47A4-B341-48D7F1CE7F5A}"
+              p:after="r[@uid='{42938DCA-FFCB-43F1-8325-C2B3F1121264}']"
+              s:ds=""
+              s:id="{A90CD5CF-3BF2-4794-82BF-096F8449DDBC}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;ShowContextItem=1&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/article-page-header-0-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{7C2492D0-81AF-4F39-98C4-7DE8DE44E2B8}"
+              p:after="r[@uid='{6E2B6F92-5252-47A4-B341-48D7F1CE7F5A}']"
+              s:id="{11B28B5B-38F0-4520-AEB0-2E21CA856F26}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/article-page-header-0-1" />
+            <r
+              uid="{BE0134E2-4C3E-4F99-88FB-B0CEF9492885}"
+              p:after="*[1=2]"
+              s:id="{79D157E8-0E7E-42AD-81C8-9BFEAD114A7F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231027T090913Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6278740c-8873-4143-9141-03f947bad9ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231204T131523Z

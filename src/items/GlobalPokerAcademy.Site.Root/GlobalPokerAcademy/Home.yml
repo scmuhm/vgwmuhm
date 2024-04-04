@@ -1,0 +1,121 @@
+﻿---
+ID: "504d55f1-8a10-4d39-a421-20542826f1ff"
+Parent: "73c5acda-4b4b-49d3-8fc6-303be7496401"
+Template: "c8525fab-c4c3-4492-908d-3cf6bc113f75"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{C68F4037-6F3D-4DDA-9B84-A566C0E21FE7}"
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{241E5840-72C8-41BA-A213-C1B83D4EE227}" />
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Site Author|pd|+item:delete|+item:write|+item:read|+item:rename|+item:create|pe|+item:delete|+item:write|+item:read|+item:rename|+item:create|
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1A348469-0995-49E3-9196-9C4036698110}"
+              p:after="p[@uid='{2C88422E-0098-4E97-B603-D2B73BEB4EEB}']"
+              s:ds="local:/Data/Article Top Picks"
+              s:id="{93A0741D-5B3D-4E15-A97C-F857A375E7D7}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{CADA0B20-CBB8-4C7E-AA09-07349315C87A}"
+              p:after="r[@uid='{1A348469-0995-49E3-9196-9C4036698110}']"
+              s:ds="b9e4ce71-c67c-45bf-88ee-d805328ea737"
+              s:id="{B80184FE-F800-4D22-B5DF-6452439F0C62}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="headless-main" />
+            <r
+              uid="{3CCC4FA8-0EF2-4C83-A35C-C93DFF71250B}"
+              p:after="r[@uid='{CADA0B20-CBB8-4C7E-AA09-07349315C87A}']"
+              s:id="{33F92AE0-7AE3-4472-840B-255D191443B3}"
+              s:par="Category=%7B74EECDD3-91CD-41DE-8713-6719C9908508%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="headless-main" />
+            <r
+              uid="{D0D95AD3-4B26-4EE3-B332-02543296409B}"
+              p:after="r[@uid='{3CCC4FA8-0EF2-4C83-A35C-C93DFF71250B}']"
+              s:ds="local:/Data/Dual Articles"
+              s:id="{8080C5FA-8440-4016-8A80-7DDED6ACFE58}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="headless-main" />
+            <r
+              uid="{11E39D98-8785-4C3A-ADDE-3749569953FE}"
+              p:after="r[@uid='{D0D95AD3-4B26-4EE3-B332-02543296409B}']"
+              s:id="{33F92AE0-7AE3-4472-840B-255D191443B3}"
+              s:par="Category=%7B14856A7D-4F84-4300-AD00-1582EA4B9424%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=15"
+              s:ph="headless-main" />
+            <r
+              uid="{4D2502BC-97ED-4025-AD27-C1E8E6130281}"
+              p:after="*[1=2]"
+              s:id="{480E3521-4EE5-4320-8957-8715303C9D1E}"
+              s:par="Category=%7B45A01457-3C6E-41EE-BC97-5825ECDC4919%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "1f2b8d3d-0c63-4400-a1ea-032ed4889035"
+      Hint: MetaTitle
+      Value: testing meta title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T075146Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DB054B44-F140-44FD-849B-79A66A493F87}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "4e501184-ebe0-479e-8952-9645332c1cb6"
+      Hint: MetaDescription
+      Value: meta description
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "6de4d9b7-bb49-4670-892c-4107d0345183"
+      Hint: Title
+      Value: GlobalPokerAcademy
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c1e4fc9-3375-40f3-b811-06ee9c498339"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240215T053611Z

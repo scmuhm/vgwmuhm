@@ -1,0 +1,16 @@
+.article-page-bottom {
+  background-color: var(--grey-900);
+  color: var(--white);
+  z-index: 9999;
+  padding: 30px 0;
+
+  .component {
+    display: block;
+  }
+
+  .articles-by-category-container {
+    @include respond-to(mobile) {
+      gap:0;
+    }
+  }
+}

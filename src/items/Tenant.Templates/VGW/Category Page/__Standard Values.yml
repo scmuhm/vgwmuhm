@@ -1,0 +1,32 @@
+﻿---
+ID: "2aa63ac9-136a-47e0-bd67-cd1b1246d1f0"
+Parent: "c68f4037-6f3d-4dda-9b84-a566c0e21fe7"
+Template: "c68f4037-6f3d-4dda-9b84-a566c0e21fe7"
+Path: /sitecore/templates/Project/VGW/Category Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {0AE7CC45-1FCB-43FE-803B-AEC6E9C9D062}
+    {33D948F4-7686-4EC0-A3B5-78AD3087DAE7}
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T100845Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5abf307f-d2b4-450d-82d1-97a894b03a26"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly.arvai@vgw.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T090746Z

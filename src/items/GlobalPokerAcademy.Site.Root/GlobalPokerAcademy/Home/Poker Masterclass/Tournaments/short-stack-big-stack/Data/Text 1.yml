@@ -1,0 +1,37 @@
+﻿---
+ID: "6adb5a43-7860-44e0-9585-cfa9b1cd9351"
+Parent: "2e7d652f-ced2-41bf-9d05-0cceaccc8522"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/poker masterclass/tournaments/short-stack-big-stack/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231107T111727Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>Big Stack</h2><h3>What’s a Big Stack?</h3><p>A big stack usually refers to the player with the most chips. While the term is generally reserved for the chip leader, it can also apply to other players with stacks significantly larger than the average on the table.</p><h3>How to Play as the Big Stack—Five Tips for Success</h3><h4>1. Don’t Be Overconfident</h4><p>Becoming the big stack is a coveted position in any poker game, but it comes with a power that can make players dangerously overconfident. The most common way people lose once they become the big stack is by playing every hand in the vain belief that they are too big to fail. In reality, a few significant losses will make it all disappear very quickly.</p><p>Every chip lost makes your opponent’s stronger, avoid playing every round, and bluff in moderation, lots of chips won't change your pair of 2's into a winning hand against pocket aces. It shouldn’t matter if you have one chip, or ten thousand, play smart, as the big stack, the game is yours to lose.</p><h4>2. Be Patient</h4><p>One of the worst things you can do as the big stack is race for the finish. Unless it's a timed game, there is no need to take unnecessary risks. The pressure isn't on you to do anything; the shorter stacks need to double up or risk being knocked out of the game, so a take a breath, sit back, and wait for the decent cards and don’t be afraid to fold.</p><h4>3. Bully Smaller Stacks</h4><p>Patience is vital, but so is throwing your weight around when you're in a hand. Bully the smaller stacks and pressure them into making bad decisions. Whenever you are last to act, play; if you are dealt pocket jacks or higher, raise pre-flop. As the big stack, you will have the power to knock most other players out of the game in one hand, use this advantage and make everyone think twice about going up against you.</p><h4>4. Avoid Other Big Stacks</h4><p>The chip leader on the table is always one person, but there can be multiple big stacks. If you find yourself on a table with a few other big stacks, avoid them. By no means back down if you have a winning hand, but your primary goal should be going up against players who have a limited number of options and are under pressure to chip up or risk being kicked out of the game. Focus on taking out smaller stacks first, take their chips, and deal with other big stacks later when you have the advantage of more chips.</p><h4>5. Protect Your Stack, and Don’t Be Bullied</h4><p>Being the big stack can be a daunting task, especially when you're worried about holding onto your accumulated wealth. Don't be bullied out of hands, if there is an overly aggressive short stack, don't be afraid to risk your chips. If you opt-out of too many pots, eventually the smaller stacks will grow and potentially have enough chips to threaten your position. Don't be reckless, but don't be afraid to risk your stack.</p><p><br /></p><h2>Small Stack</h2><h3>What’s a Short Stack?</h3><p>A short stack is usually the player with a significantly smaller amount of chips compared to the rest of the table. Generally, it is the worst position to be in because losing one hand is enough to be knocked out of the game. Everyone will be short stack at some point, and while it is a much harder spot to be in, there are ways to improve your chances of surviving.</p><h3>How to Play as the Short Stack—Four Tips for Success</h3><h4>1. Play Tight and Aggressive</h4><p>When you're playing as the short stack, you can't afford to bleed any chips. Avoid calling, unnecessary plays and limping into a hand. While you can’t knock out the bigger stacks at the table, keeping enough chips to remain a slight threat will keep your options open until you can double up.</p><h4>2. Don't Wait for a Premium Pair</h4><p>Waiting for that perfect hand will often result in your stack getting decimated by the blinds. The longer you drag out the game, the less of a threat your dying stack will be. Whether it be a straight draw, or flush, eventually you will have to risk your stack and hope for the best.</p><h4>3. Go All In, Or Fold</h4><p>There is no point in holding onto a small number of chips. As a short stack, you have limited options; you need either to go all in or fold. There is no point in delaying the inevitable, doubling up should be the goal; anything else isn't going to cut it.</p><h4>4. Stay Calm</h4><p>Staying calm is easier said than done, especially when there is a lot on the line, but it is essential. No matter what happens, play smart, and remember the basic fundamentals of poker—don't play every hand, play when you're last to act and avoid bluffing.</p><p><br /></p><h2>Big Stack vs Short Stack—Which is Better to Play?</h2><p>Being the big stack is ideal for most players, but some people thrive off the adrenaline rush of knowing each hand is ‘do or die’. From a strategic point of view, playing as the big stack is better because it allows more room for error. Being short stack leaves no room for error, and the pressure alone can make seasoned players make silly decisions that haunt them long after the game is over.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7946416-ef66-4786-bdb6-6ff9f966d461"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240110T023946Z

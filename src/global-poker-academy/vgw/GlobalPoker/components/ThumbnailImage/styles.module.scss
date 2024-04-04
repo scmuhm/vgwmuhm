@@ -1,0 +1,17 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  width: 210px;
+  height: 210px;
+  padding: 0.25rem;
+
+  &:not(:last-child) {
+    margin-right: spacing(5);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

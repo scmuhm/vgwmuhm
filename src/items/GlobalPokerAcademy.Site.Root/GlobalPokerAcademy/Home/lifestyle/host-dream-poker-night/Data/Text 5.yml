@@ -1,0 +1,37 @@
+﻿---
+ID: "3ac4e47e-a78b-4497-a7e1-df6b7e0570a7"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T121009Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h2>4. Make a Waiting List</h2><p>If you’ve been lucky and didn’t just get a heap of maybes and other nonsense when you posted the event on social media, there might be too many players to fit in the venue or on the available table. In these cases, it is best to have a waiting list. Waiting players can sit and watch, or they can leave, and you can update in the event page when there is an opening after someone busts out. A waiting list will ensure that the game runs smoothly when you have too many people.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4df60cf-ccf5-4f7b-bb7a-31e31f0f28aa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011426Z

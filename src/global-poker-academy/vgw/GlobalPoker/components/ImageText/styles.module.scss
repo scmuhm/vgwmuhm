@@ -1,0 +1,40 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  @include container();
+
+  align-items: flex-start;
+  gap: spacing(10);
+  display: grid;
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+
+  &.reverse {
+    .image {
+      order: 2;
+    }
+  }
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.text {
+  word-break: break-word;
+}
+
+.image:empty {
+  @include until('sm') {
+    display: none;
+  }
+}
+
+.image, 
+.text { 
+  img {
+    max-width: 100%;
+    height: auto !important;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.ChumbaCasino",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "ChumbaCasino.Site.Root",
+        "path": "/sitecore/content/VGW/ChumbaCasino",
+        "scope": "ItemAndDescendants",
+        "rules": [
+          {
+            "path": "/home",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "ChumbaCasino.Media",
+        "path": "/sitecore/media library/Project/VGW/ChumbaCasino",
+        "rules": [
+          {
+            "path": "/System",
+            "scope": "SingleItem"
+          }, 
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "ChumbaCasino.Templates",
+        "path": "/sitecore/Templates/Project/VGW/ChumbaCasino"
+      },
+      {
+        "name": "ChumbaCasino.Branches",
+        "path": "/sitecore/templates/Branches/Project/VGW/ChumbaCasino"
+      },
+      {
+        "name": "ChumbaCasino.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/VGW/ChumbaCasino"
+      },
+      {
+        "name": "ChumbaCasino.Renderings",
+        "path": "/sitecore/layout/Renderings/Project/VGW/ChumbaCasino"
+      }
+    ]
+  }
+}

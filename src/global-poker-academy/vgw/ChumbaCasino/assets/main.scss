@@ -1,0 +1,60 @@
+@import "@vgw/_shared/sass/utils";
+@import "@vgw/_shared/sass/fonts";
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap';
+@import "@current-site/assets/theme";
+@import "cookie-consent-banner.scss";
+
+@font-face {
+  font-family: Nexa;
+  src: url('/fonts/nexa.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nexa-Heavy;
+  src: url('/fonts/nexa-heavy.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-size: map-get($font-sizes, body-3);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: $theme-bg-color;
+  margin: 0;
+  padding: 0;
+}
+
+.component {
+  word-break: break-word;
+}
+
+#content {
+  @include sitecore-styles;
+  @include authored-text;
+
+  overflow: hidden;
+}
+
+#content>.rich-text {
+  @include content-container;
+
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+}
+
+
+//Sitecore classes
+@include cta-button;
+
+
+.mobile-media-order-2:first-child {
+  order: 2 !important;
+}

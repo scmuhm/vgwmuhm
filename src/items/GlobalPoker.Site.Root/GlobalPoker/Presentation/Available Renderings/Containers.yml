@@ -1,0 +1,39 @@
+﻿---
+ID: "b0a0b303-df32-4ffb-94b4-9aae3d1cbbbf"
+Parent: "259f4337-a54f-4c41-bb61-84c4ceba0604"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/GlobalPoker/Presentation/Available Renderings/Containers
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {FA9CC495-C5AD-40E5-98E6-E73113362A81}
+    {2BD01FBA-C002-4864-8A73-069909A84DE8}
+    {CA1AD3FD-1C4F-4163-93F3-5D28C0CEE150}
+    {E9BB969D-81FF-47E4-B7B0-A6CAA261A8FD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240305T052006Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e25bba5-eac9-43f4-8c07-06c7907e9583"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240305T052024Z

@@ -1,0 +1,10 @@
+﻿---
+Role: |
+  sitecore\Global Poker Academy Author
+MemberOf:
+  Role: |
+    sitecore\Site Designer
+  Role: |
+    sitecore\Site Member
+  Role: |
+    sitecore\Site Author

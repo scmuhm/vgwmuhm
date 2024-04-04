@@ -1,0 +1,55 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+.imageWrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+
+.textContent {
+  padding: spacing(15);
+  background: #CCCCCC;
+}
+
+.CTA {
+  display: inline-block;
+  border: solid black 1px;
+  padding: spacing(5);
+  text-decoration: none;
+  color: black;
+  margin-top: spacing(5);
+}
+
+.image {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.textContent>div>*:first-child {
+  margin-top: 0;
+}
+
+.centeredCTA {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  align-items: flex-start;
+  display: grid;
+  box-sizing: border-box;
+
+  &.reverse {
+    .content {
+      order: 2;
+    }
+  }
+
+  @include from('md') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.buttonBox {
+  width: 100%;
+}
+
+.text {
+  word-break: break-word;
+  margin-bottom: spacing(15);
+}
+
+.CTA {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  margin-bottom: spacing(10);
+  padding-top: spacing(10);
+  padding-bottom: spacing(10);
+  padding-left: spacing(15);
+  padding-right: spacing(15);
+}
+
+.content {
+  padding-top: spacing(20);
+  padding-bottom: spacing(20);
+  padding-left: spacing(20);
+  padding-right: spacing(0);
+
+  @include until('md') {
+    padding: spacing(20);
+  }
+}

@@ -1,0 +1,230 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.background {
+  background-color: get-color('greyscale', 'darker');
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../assets/images/subscription-preferences-banner.webp');
+
+  margin-top: 0;
+  height: 314px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+  @include from('sm') {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+  };
+
+  @include from('md') {
+    height: 800px;
+  }
+
+  &:after {
+    content: "";
+    background-image: url('../../assets/images/gp_chip_stack_@2x.png');
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+
+    @include from('sm') {
+      height: 50%;
+      width: 50%;
+      right: 0;
+      z-index: 10;
+      background-size: contain;
+    }
+
+    @include from('md') {
+      height: 60%;
+      width: 60%;
+    }
+
+    @include from('xl') {
+      background-position: bottom right;
+    }
+  }
+}
+
+.wrapper {
+  position: relative;
+}
+
+.contentWrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include from('sm') {
+    height: 700px;
+    justify-content: center;
+  }
+
+  @include from('md') {
+    height: 800px;
+    align-items: flex-start;
+  }
+
+}
+
+.container {
+  background: #e4e4e4;
+  flex-direction: column;
+  margin: 0 15px;
+  max-width: 500px;
+  padding: 0 30px;
+  position: relative;
+  top: -30px;
+  display: flex;
+  color: black;
+
+  @include from('sm') {
+    top: unset;
+  }
+
+  @include from('md') {
+    max-width: 700px;
+    margin: 0 40px;
+  }
+
+  @include from('xl') {
+    max-width: 880px;
+    margin: 0 130px;
+  }
+}
+
+.heading {
+  font-weight: 900;
+  margin: spacing(15) 0;
+  word-wrap: break-word;
+  line-height: map-get($font-sizes, 'heading-1');
+}
+
+.content {
+  font-size: map-get($font-sizes, 'body-4');
+}
+
+.bold {
+  font-size: map-get($font-sizes, 'body-3');
+  font-weight: 800;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.emailLabel {
+  font-size: map-get($font-sizes, 'body-2');
+
+  @include from('md'){
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.emailInput {
+  border: 1px solid #008cff;
+  margin-top: spacing(5);
+  margin-bottom: spacing(10);
+  padding: 5px;
+  width: 95%;
+  font-size: map-get($font-sizes, 'body-2');
+  font-family: inherit;
+
+  @include from('md') {
+    max-width: 360px;
+  }
+
+}
+
+.checkboxInput {
+  font-size: map-get($font-sizes, 'body-1');
+}
+
+.checkboxLabel {
+  font-size: map-get($font-sizes, 'body-1');
+  display: flex;
+  align-items: center;
+  column-gap: spacing(5);
+}
+
+.checkboxLabel input[type='checkbox']:checked {
+  border: 3px solid #008cff;
+}
+
+.checkboxLabel input[type='checkbox']:checked:after {
+  content: '';
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url('../../assets/images/tick-mark.png') center/cover no-repeat;
+}
+
+.checkboxLabel input[type='checkbox'] {
+  appearance: none;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border: 3px solid black;
+  margin: 2px;
+}
+
+.updateButton {
+  font-size: map-get($font-sizes, 'body-3');
+  appearance: none;
+  width: 120px;
+  background: #FF0000;
+  color: #fff;
+  border: 1px solid #FF0000;
+  padding: 10px 0px;
+  margin: 30px 0px;
+}
+
+.updateButton:hover {
+  background: #fff;
+  color: #e50247;
+  cursor: pointer;
+}
+
+.closeButton {
+  font-size: 32px;
+  padding: 0px 16px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+  cursor: pointer;
+}
+
+.successMessage,
+.failMessage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: spacing(20);
+  color: white;
+}
+
+.successMessage {
+  background: #59912a;
+}
+
+.failMessage {
+  background: #e50247;
+}
+
+.feedbackMessage {
+  padding: 0px 16px;
+}

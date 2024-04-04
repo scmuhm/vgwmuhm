@@ -1,0 +1,34 @@
+﻿---
+ID: "1593ffe3-770b-4924-9f6f-f7e0b6ec14de"
+Parent: "bea87964-a684-4b75-bc3a-8084900bc6f8"
+Template: "80d45fbd-bc47-43b6-9fc0-e17b3d27d098"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Article Tags/author guide
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1485ee83-d225-444d-92b7-4a802712f5c5"
+      Hint: Title
+      Value: Title to be displayed in the author view
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231116T121747Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c12fdee-7c70-4b2e-8aef-c25dee9baee4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231116T122004Z

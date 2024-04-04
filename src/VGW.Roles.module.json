@@ -1,0 +1,21 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Roles",
+  "items": {
+    
+  },
+  "roles": [
+      {
+        "domain": "sitecore",
+        "pattern": "Site Collection*"
+      },
+      {
+        "domain": "sitecore",
+        "pattern": "Site Admin|Site Author|Site Desinger|Site Member"
+      },
+     {
+        "domain": "sitecore",
+        "pattern": "Global Poker*"
+      }
+    ]
+}

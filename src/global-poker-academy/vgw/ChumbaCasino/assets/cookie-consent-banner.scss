@@ -1,0 +1,96 @@
+.cookie-container {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 24.5rem;
+  padding: 1rem;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  display: none;
+}
+
+.cookie-container.visible {
+  display: block;
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: Nexa, sans-serif;
+
+  p {
+    margin: 0 2rem 1rem 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  a {
+    color: lightblue;
+    text-decoration: none;
+  }
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  flex-grow: 1;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: Nexa-heavy, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+  white-space: nowrap;
+  color: #fff;
+  padding: 0.6em 2em;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+
+  &:hover,
+  &:focus {
+    color: #000;
+    background: #fff;
+  }
+
+  &.primary {
+    background: #00ad25;
+    box-shadow: none;
+  }
+
+  &.primary:hover,
+  &.primary:focus {
+    color: #000;
+    background: #fff;
+  }
+
+  &.secondary {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset;
+  }
+
+  &.secondary:hover,
+  &.secondary:focus {
+    color: #000;
+    background: #fff;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}

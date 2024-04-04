@@ -1,0 +1,60 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+
+  -webkit-text-size-adjust: 100%;
+  color: get-color('greyscale', 'darkest');
+
+  & + & {
+    margin-top: 1px;
+  }
+}
+
+.title {
+  background-color: get-color('greyscale', 'even-lighter');
+  padding: 0.75rem spacing(10);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.heading {
+  margin: 0;
+
+  &::before {
+    content: '';
+    background-image: url('/icons/expand.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: spacing(10);
+  }
+
+  .open & {
+    &::before {
+      background-image: url('/icons/close-minus.png');
+    }
+  }
+}
+
+.content {
+  display: none;
+  background-color: #FCFCFC;
+  padding: spacing(10) spacing(10);
+
+  .open & {
+    display: block;
+  }
+
+  p {
+    font-size: map-get($font-sizes, 'body-2');
+  }
+
+  @include from('sm') {
+    padding: spacing(10) spacing(30);
+  }
+}

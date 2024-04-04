@@ -1,0 +1,30 @@
+.image-wrap {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    height: 250px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+@media (min-width: 28rem) {
+    .image-right {
+        object-position: 88% 50%;
+    }
+
+    .image-left {
+        object-position: 9% 50%;
+    }
+}
+
+@media (min-width: 36rem) {
+    .image-right {
+        object-position: 70% 50%;
+    }
+
+    .image-left {
+        object-position: 40% 50%;
+    }
+}

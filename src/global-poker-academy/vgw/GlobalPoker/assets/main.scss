@@ -1,0 +1,249 @@
+@import "@vgw/_shared/sass/utils";
+@import "@vgw/_shared/sass/fonts";
+
+@import "@vgw/GlobalPokerAcademy/assets/sass/components/not-found";
+@import "@vgw/GlobalPokerAcademy/assets/sass/components/geolocation";
+
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.component {
+  word-break: break-word;
+}
+
+// @TODO - move styles to appropriate corresponding component file
+.cookie-container {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1000;
+  padding: 32px 24px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: none;
+  width: 100%;
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 1024px;
+  margin: auto;
+
+  h3 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+  }
+
+  a {
+    color: #428bca;
+    text-decoration: none;
+  }
+}
+
+.cookie-container.visible {
+  display: block;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.image-text .component-content {
+  display: flex;
+  gap: 1rem;
+}
+
+#content>.rich-text {
+  @include container();
+
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+}
+
+#content {
+  @include sitecore-styles();
+}
+
+.rich-text {
+  @include authored-text();
+}
+
+// Cookie Consent button
+.button {
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  border-radius: 6px;
+
+  &.square {
+    border-radius: 6px;
+  }
+
+  &.round {
+    border-radius: 50px;
+  }
+
+  &.small {
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &.medium {
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &.primary {
+    background-color: #FF0000;
+  }
+
+  &.secondary {
+    background-color: #808080;
+  }
+}
+
+//styles for GP component BrandBannerGP originally built in GPA(component:Brand Banner)
+.brand-banner {
+  background-color: black;
+  color: white;
+  padding: 55px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+
+  @include until('sm') {
+    margin-top: 0;
+    padding: 40px 30px;
+    margin-bottom: 25px;
+  }
+
+  h1,
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 76px;
+    margin: 0%;
+
+    @include until('sm') {
+      font-size: 60px;
+      line-height: 54px;
+    }
+  }
+
+  a {
+    color: white;
+    display: inline;
+    text-decoration: none;
+
+    &:hover {
+      color: #808080;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 609px;
+    font-weight: 400;
+    margin: 0%;
+
+    p {
+      font-size: 30px;
+      line-height: 34px;
+      margin: 0%;
+
+      @include until('sm') {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0%;
+
+    @include until('sm') {
+      padding-bottom: 0;
+    }
+  }
+
+  .join-us-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+
+    @include until('sm') {
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0;
+      padding-bottom: 0;
+      gap: 50px;
+    }
+
+    .social-media-container {
+      background-color: black;
+      display: flex;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px;
+      gap: 24px;
+      align-items: flex-end;
+      justify-content: flex-start;
+
+      .social_media_links {
+        display: flex;
+
+      }
+
+      @include until('sm') {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 0
+      }
+
+      .icon-link {
+        filter: none;
+      }
+    }
+
+    img {
+      order: 1
+    }
+
+    .social-link {
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+}

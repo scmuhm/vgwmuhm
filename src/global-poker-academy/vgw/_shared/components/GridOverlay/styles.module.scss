@@ -1,0 +1,41 @@
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  height: 100%;
+
+  @include until('md') {
+    grid-template-columns: repeat(6, 1fr);
+
+    >div:nth-child(n + 7) {
+      display: none;
+    }
+  }
+
+  @include until('sm') {
+    grid-template-columns: repeat(4, 1fr);
+
+    >div:nth-child(n + 5) {
+      display: none;
+    }
+  }
+
+  .visible & {
+    > div {
+      background-color: rgba(red, 0.15);
+      width: 100%;
+    }
+  }
+}

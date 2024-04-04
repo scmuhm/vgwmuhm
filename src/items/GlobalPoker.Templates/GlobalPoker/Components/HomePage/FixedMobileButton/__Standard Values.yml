@@ -1,0 +1,35 @@
+﻿---
+ID: "264eb3aa-6eca-4395-a325-2c185942089c"
+Parent: "23a39ef7-a3d8-4921-98d1-d00d88a70def"
+Template: "23a39ef7-a3d8-4921-98d1-d00d88a70def"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/HomePage/FixedMobileButton/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240311T071109Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "56185380-2768-4a46-8d3f-6af22d20ed8e"
+      Hint: CTA
+      Value: |
+        <link text="PLAY NOW" linktype="external" url="https://globalpoker.com/register?utm_source=gphomepage&amp;amp;utm_medium=globalpokerhomepage&amp;amp;utm_content=ctabutton" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4604a93e-a304-4e4c-ba46-b759a6cb98a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T072152Z

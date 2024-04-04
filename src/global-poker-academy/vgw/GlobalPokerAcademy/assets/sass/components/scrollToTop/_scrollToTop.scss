@@ -1,0 +1,15 @@
+.scrollToTop {
+  position: fixed;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: var(--grey-400);
+  right: 8px;
+  bottom: 10px;
+  padding: 12px;
+
+  @include respond-to(desktop) {
+    z-index: 9999;
+  }
+}

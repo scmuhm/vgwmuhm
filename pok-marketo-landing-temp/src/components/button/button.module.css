@@ -1,0 +1,50 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    padding: 12px 24px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.button.red-button {
+    background: red;
+    color: white;
+    display: block;
+}
+
+.button.black-button {
+    background: black;
+    color:white;
+    border: 1px solid #ffffff;
+}
+
+.button.white-button {
+    background: white;
+    color: #000000;
+}
+
+.button.orange-button {
+    background: #EC9040;
+    color: #8D1C24;
+}
+
+.button:focus-visible {
+    outline: 4px solid #008cff;
+    z-index: 1;
+}
+
+@media (max-width: 960px) {
+    .button {
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
+}

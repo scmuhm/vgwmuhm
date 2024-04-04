@@ -1,0 +1,31 @@
+.cookie-container {
+  position: fixed;
+  z-index: 1000;
+  padding: 32px 24px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  bottom: 64px;
+  display: none;
+
+  @media (min-width: 432px) {
+    bottom: 0;
+  }
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.cookie-container.visible {
+  display: block;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 12px;
+}

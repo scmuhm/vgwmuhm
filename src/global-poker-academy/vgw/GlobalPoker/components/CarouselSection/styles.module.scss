@@ -1,0 +1,53 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  background-color: get-color('greyscale', 'darkest');
+  color: get-color('greyscale', 'lightest');
+  display: flex;
+  flex-direction: column;
+  row-gap: spacing(20);
+  padding: spacing(20);
+  padding-right: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 32px;
+  position: absolute;
+}
+
+.arrowIndicators {
+  display: flex;
+  padding: 8px 18px;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  border: 1px solid #9D9D9D;
+  border-radius: 8px;
+
+  &:hover {
+    background: #333333;
+  }
+
+  &:active {
+    border-color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    position: relative;
+  }
+
+  .carouselSetHeight {
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text {
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,51 @@
+﻿---
+ID: "2fb183d1-082c-4fa4-ac53-c5b5e2c80b98"
+Parent: "946ea07f-1d8d-4d78-bc30-f139f0b7cfd9"
+Template: "ec536bbf-fd3e-476a-846d-672105644212"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Footer Configuration/Footer Links/Privacy Policy
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 775
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "01c54637-1daf-400d-b02a-bac8282fce11"
+      Hint: Custom Text
+      Value: Privacy Policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240118T032823Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DB054B44-F140-44FD-849B-79A66A493F87}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8774a365-bd99-4c8d-853a-7ed1ebb9161e"
+      Hint: Link
+      Value: |
+        <link linktype="media" target="_blank" id="{2D085834-D272-4A2C-867C-CE0C19498A29}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9269f584-c7ac-4651-911a-ad481e77281f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\N6V0cqLKtf
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240124T234628Z

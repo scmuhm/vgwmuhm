@@ -1,0 +1,12 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Workflows",
+  "items": {
+    "includes": [
+      {
+        "name": "Workflow.GlobalPokerAcademy",
+        "path": "/sitecore/system/Workflows/Global Poker Academy Approval Workflow"
+      }
+    ]
+  }
+}

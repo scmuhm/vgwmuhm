@@ -1,0 +1,31 @@
+﻿---
+ID: "52ff9dc9-996c-4f12-98aa-f2d53dcbddc3"
+Parent: "b8ffec60-f8eb-467f-b477-a90f19dc23f4"
+Template: "b8ffec60-f8eb-467f-b477-a90f19dc23f4"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/Rendering Parameters/Card/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240324T230932Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "623211e5-59e3-4f37-ba4b-671157cd5d1e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240324T230932Z

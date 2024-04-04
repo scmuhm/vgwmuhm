@@ -1,0 +1,57 @@
+﻿---
+ID: "a0513e72-360f-4600-ae91-38fc083fc656"
+Parent: "a2cdb154-ce38-448d-95af-4fb3b54deba0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/VGW/GlobalPokerAcademy/Social Links/Instagram
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/A0513E72360F4600AE9138FC083FC656.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 22
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a0513e72-360f-4600-ae91-38fc083fc656"
+  Value: iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF/SURBVHgBtVSLTcNADHUqBsgGvQ3oBs0GZYN0g4wQNok6QWACsgFlgpYJ0g2MnTwTk94BoeJJT5bOvhd/4svIgZm3YvbCAkeBvsdFeBYehU9Zlj3TTDAXvvDtaFTLCzdw9MJaGL4EJICENsJSeIJGa84dDtSxpoXQO/hAQGI8tNRlW9JCqIBLKke1Q0vuxL9B3FvisrakdHGdUgb1LtbaFWAPwkfS4bv084ho5fxz1IgphYUlYRWQRUVEayfSCvdg486ryL1RLyaMQXCq98iSUU2+RNguNpQAqrjK2vRWiXsFbEdp2JZtYs4V/RNSwkfYPaWxhe2i3kSPc55+s9jkSzfcdVQvJoyAyl1uIFa6oSlqSiXK0+MRW5Ca4+gTldiC9JkK07iSAWs6D1af9rPAkfb/ILGXSKz+Ia9DDE+bdFXWUrD//3l6oXr+w7PpRINr684ObSAnfPWef//QrzGL/jPbWUDDt6O1hLJZBg9itAwdggaEH5I+w3Y0DrQzxwdeiOyaxbb9hwAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 490
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 22 x 22
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 22
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T104649Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe47d3eb-4105-472c-b14f-a9e1bff4fe9d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231026T104649Z

@@ -1,0 +1,76 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.button {
+  display: inline-block;
+  font-size: map-get($font-sizes, 'body-2');
+  padding: 0.5em 1.25em;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 200;
+  border: none;
+  font-family: inherit;
+  text-transform: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  > a {
+    color: inherit;
+  }
+}
+
+.small {
+  padding: 0.4em 0.75em;
+}
+
+.body-1 {
+  font-size: map-get($font-sizes, 'body-1');
+}
+
+.body-3 {
+  font-size: map-get($font-sizes, 'body-3');
+}
+
+.body-4 {
+  font-size: fluid-font-size(
+    (map-get($font-sizes, 'heading-4')),
+    breakpoint('xs'),
+    breakpoint('sm')
+  );
+}
+
+.body-xl {
+  font-size: map-get($font-sizes, 'body-xl');
+}
+
+@each $color, $value in map-get($colors, 'brand') {
+  .#{$color} {
+    background-color: $value;
+  }
+}
+
+.ghost {
+  border: 1px solid;
+  background-color: transparent !important;
+}
+
+.white {
+  background-color: white;
+  color: black;
+
+  &.ghost {
+    border-color: currentColor;
+    color: white;
+  }
+}
+
+.black {
+  background-color: black;
+  border: 1px solid white;
+
+  &.ghost {
+    border-color: currentColor;
+    color: black;
+  }
+}

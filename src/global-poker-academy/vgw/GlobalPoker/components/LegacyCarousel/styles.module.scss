@@ -1,0 +1,148 @@
+.carousel {
+  overflow: hidden;
+}
+
+.carouselColumnReverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.items {
+  display: block;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.items {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.items::-webkit-scrollbar {
+  display: none;
+}
+
+.items>* {
+  display: inline-block;
+  scroll-snap-align: center;
+  white-space: normal;
+}
+
+.icon-wrapper {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicatorsWrapper {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / 3;
+}
+
+.arrowIndicators {
+  display: grid;
+  grid-template-areas: "previous next";
+  grid-template-columns: repeat(2, 32px);
+  gap: 8px;
+  margin-right: 16px;
+  justify-self: right;
+  grid-column: 3 / 4;
+}
+
+.chevron {
+  border: none;
+  background-color: #9D9D9D;
+  border-radius: 100%;
+}
+
+.chevron:hover {
+  background-color: #777777;
+}
+
+.previousChevron {
+  grid-area: previous;
+  padding: 8px;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.nextChevron {
+  grid-area: next;
+  padding: 8px;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.indicators .indicator {
+  height: 12px;
+  width: 12px;
+  padding: 0;
+  margin: 4px;
+  border-radius: 100%;
+  border: none;
+  background-color: #9D9D9D;
+  transition: background-color 0.5s;
+}
+
+.indicators .indicator:hover,
+.indicators .indicator.active {
+  background-color: #333;
+}
+
+.itemFullWidth {
+  width: 100%;
+}
+
+.items .itemFullWidth {
+  margin-right: 0;
+}
+
+.playButton,
+.pauseButton {
+  grid-column: 3 / 4;
+  display: grid;
+  justify-self: right;
+  margin-right: 16px;
+  border: none;
+  background: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .items>*:first-child {
+    margin-left: 0;
+  }
+
+  .items>*:last-child {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .playButton,
+  .pauseButton {
+    position: static;
+  }
+
+  .indicators {
+    justify-content: right;
+  }
+
+  .indicatorsWrapper {
+    display: none;
+  }
+}

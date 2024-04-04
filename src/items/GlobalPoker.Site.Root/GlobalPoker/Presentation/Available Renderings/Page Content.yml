@@ -1,0 +1,63 @@
+﻿---
+ID: "56908871-0130-43b7-8dc3-6b3c426ba2bc"
+Parent: "259f4337-a54f-4c41-bb61-84c4ceba0604"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/GlobalPoker/Presentation/Available Renderings/Page Content
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {29AF7CF7-FDA8-4888-AFF5-7145A39BC95D}
+    {A5E9D136-F62F-465A-9511-1D4836A155D8}
+    {C7E4BB2E-A704-4881-A72A-3581283DCCE5}
+    {D787A5D1-2752-4AD8-85C0-F43DE8EE320F}
+    {48B5B9A5-E81B-46A7-985E-F87B5727372C}
+    {D241443C-0B7D-4E7B-A4BE-C33974C61FF5}
+    {711082C8-5E27-4518-A342-9D99E23338A9}
+    {54BB5666-87DE-4BEC-AD7D-C3342BD59181}
+    {C9C6EACF-6D83-4688-8C01-67E52143F79F}
+    {6B50A71C-AA15-4454-ACCC-3D675FE95587}
+    {ADE28EDB-C6C1-4B4F-90A0-96829DD067EF}
+    {FDC7E700-F18D-4F8E-9184-C01691A9FD6F}
+    {113799F6-7D89-4220-AD1E-4F6AEADD0BA0}
+    {6B4EB83C-4772-4A3D-BD3E-C5AE45E1FA85}
+    {F7AC3645-C2D9-4DAF-836D-9472E7B8EFA8}
+    {F791E6C3-FB93-4CF1-AEC6-20AF59019763}
+    {0751C7D5-27F0-4EB5-8DD0-5EC2D7264540}
+    {31AD54C6-B74D-4D45-9ACB-40D031E496EE}
+    {0AAAD054-F8FA-4C9D-A858-1B7156455CF7}
+    {038FBE8A-FAE2-460D-8D60-AA3AF8C14C85}
+    {9D85D857-4700-458E-A67D-CB6C6981AC15}
+    {BDA1B9A7-3FC8-4602-8BAA-F05A988A9718}
+    {9F24CD03-A95A-4EAA-9AC0-57FD06C61161}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240116T224419Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8b9d062-7cb0-4eac-9afc-e41c7f63f4a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240320T004838Z

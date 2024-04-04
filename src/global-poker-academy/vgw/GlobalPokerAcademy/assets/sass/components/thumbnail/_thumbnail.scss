@@ -1,0 +1,48 @@
+.green {
+  background-color:var(--green) ;
+}
+
+.purpure {
+  background-color: var(--purpure);
+}
+
+.steel-blue {
+  background-color: var(--steel-blue);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+.gold {
+  background-color: #FCB52B;
+}
+
+.basic {
+  background-color:var(--steel-blue) ;
+
+}
+
+.thumbnail-container {
+  h1,h2,h3,h4, p {
+    padding-top: 35px;
+  }
+
+  .thumbnail {
+    position: absolute;
+    width: auto;
+    display: inline;
+    padding: 0 5px;
+    color: var(--white);
+    font-size: 15.7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 99;
+
+    @include respond-to(mobile) {
+      font-size: 12.8px;
+      line-height: 23px;
+    }
+  }
+
+}

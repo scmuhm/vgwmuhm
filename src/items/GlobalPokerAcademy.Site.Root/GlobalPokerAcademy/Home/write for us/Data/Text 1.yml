@@ -1,0 +1,42 @@
+﻿---
+ID: "c789a024-463e-4c68-ae30-6d5c4a8f5418"
+Parent: "7df11154-533e-4ccc-a1d2-ca3685b59d0f"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/write for us/Data/Text 1
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AECECC9D-0485-43D1-8C86-0F7EA979C92B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T091141Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p><br /></p><p>Yes, it could be you! We’re always looking for new authors at Global Poker Academy. If you’ve got an idea that will enlighten our readers, we want to hear about it. You don’t need to wait for an idea that will redefine the poker industry; just aim to bring readers a fresh perspective on a topic around poker.</p><p>We’ll be honest, though: writing for Global Poker Academy takes work. We want your article to be at its best, and we’ll push you to get there. Once accepted, you’ll get extensive feedback from our team, and you’ll work closely with an editor on revisions.</p><p>Articles published on our Global Poker Academy will also be shared with our active Global Poker community across our social channels, meaning there could well be over 100,000 eyeballs looking at what you wrote. Ooh daddy!</p><h2>What we're looking for</h2><p>You may submit a rough draft, a partial draft, or a short pitch (a paragraph or two summarizing your argument and why it matters to our readers, but remember that “Jaws in space” was the pitch for Alien…) paired with an outline. The more complete your submission is, the better feedback we can give you.</p><p>Keep in mind we only accept original content—we do not publish anything that’s been published elsewhere (including on your blog).</p><p>Please don’t send us press releases or sales pitches. They make us feel sad inside.</p><p>Before you submit your masterpiece, take a look at some of our recent&nbsp;<a href="https://globalpokeracademy.com/" rel="noopener noreferrer">articles</a>&nbsp;for insight into structuring and formatting your piece. Here are a few more pointers to help nail your editorial.</p><p>Make sure your submission:</p><ul><li>Has a voice. Be bold, interesting, and sound like a person.</li><li>Is written for an audience of poker players, poker enthusiasts or similar.</li><li>Is supported with convincing arguments, not just opinions. Fact-check, and cite sources where appropriate.</li><li>Ideally written with one of our main categories in mind.</li></ul><h2>What we publish</h2><p>We publish articles of anywhere between 600–2,500 words, depending on subject complexity. 1,000 words is a decent average. Articles can be casual in tone and content, but what we’re really looking for is value to our readers! If it doesn’t set your world on fire, chances are, our readers won’t like it either, so make sure the content you send in is something worth shouting about.</p><h2>How to submit (and what happens next)</h2><p><a href="mailto:contact@globalpokeracademy.com" rel="noopener noreferrer">Email us your submission.</a>&nbsp;We prefer submissions as Google documents so our editors can easily provide feedback and guidance directly within your draft. You may also send us a plaintext file (Word document).</p><p>Here’s what happens after you hit send:</p><ul><li>An editor will review your submission and determine whether it’s a potential fit. If so, the whole team will review and discuss it. This happens once a week.</li><li>The editor will collect the team’s feedback and get back to you with notes. (We rarely accept an article in its first version, but we’ll tell you if we’re interested.)</li><li>Once you’ve addressed our comments, send us your revised draft. The team will discuss it again and let you know if we’ll proceed.</li><li>If we accept your article, an editor will work closely with you on things like organization, argumentation, and style.</li><li>We’ll schedule you for publication as soon as revisions are complete. We can’t give you a specific publication date until the article is almost ready to go live.</li></ul><p><br /></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "726fc293-3770-470a-a2d6-c7b91bd0c3f3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240117T025742Z

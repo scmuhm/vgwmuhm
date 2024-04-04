@@ -1,0 +1,45 @@
+﻿---
+ID: "d564f8c9-2d61-4863-857a-d8944c46f835"
+Parent: "259f4337-a54f-4c41-bb61-84c4ceba0604"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/GlobalPoker/Presentation/Available Renderings/Homepage
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {0783F306-4810-47BA-AE4E-E881B18FE2A2}
+    {D9B53680-FD33-4C6F-93B8-A5BA9E465E3C}
+    {00A6C3A0-8544-440E-B649-BB042A0DB624}
+    {D3329B9C-AB93-41E3-997C-57A5AEDC6DD4}
+    {D8D3CADF-DF50-4309-BEF7-DE70DA0B8187}
+    {50DAC450-EEED-4DD3-996D-4B820CEBF11D}
+    {3B75AB54-2338-4C0A-91BE-C4244DD14D56}
+    {945DF7F6-0AF9-47E5-8CD0-0898A0C5F550}
+    {727EEB30-A843-4CB8-B2F7-62EF52585C80}
+    {13396175-3BDF-43E4-83F1-92EA7E837D17}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240304T011910Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0acaeaa5-abb2-4254-a0f5-051028558c05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T073511Z

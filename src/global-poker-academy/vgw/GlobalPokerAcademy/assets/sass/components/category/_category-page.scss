@@ -1,0 +1,124 @@
+
+
+.category-page-heading {
+  background-color: var(--extra, #4F8090);
+
+  .component-content {
+    width: 100%;
+    max-width: unset;
+  }
+
+  h1.extra-large {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    text-transform: uppercase;
+
+    @include respond-to(mobile) {
+      font-size: 28px;
+      font-style: normal;
+      line-height: 32px;
+  }
+}
+
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .category-heading-container {
+    display: flex;
+    gap:0;
+    flex-direction: column;
+
+    @include respond-to(desktop-medium) {
+      flex-direction: row;
+      gap:40px;;
+    }
+
+    .category-image-container {
+      position:relative;
+      min-height:297px;
+      width:100%;
+
+      @include respond-to(desktop-medium) {
+        width: 50%;
+      }
+
+      .category-image {
+        height: 100%;
+        width: 100%;
+        position:absolute
+      }
+    }
+
+    .category-info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 670px;
+      padding: 28px 20px 55px;
+      height: max-content;
+
+      @include respond-to(desktop-medium) {
+        justify-content: center;
+        padding: 36px 30px;
+        min-height: 297px;
+        width: 50%;
+      }
+
+    }
+  }
+}
+
+.inverted-colors {
+  background-color:var(--black) !important;
+
+  h1.extra-large, p {
+    color: var(--extra, #4F8090) !important;
+  }
+}
+
+.steel-blue {
+  background-color: var(--extra, #4F8090);
+  color: var(--black);
+}
+
+.steel-blue-inverted {
+  background-color:var(--black);
+  color: var(--extra, #4F8090);
+}
+
+.orange {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+.orange-inverted {
+  background-color:var(--black);
+  color: var(--orange);
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--black);
+}
+
+.green-inverted {
+  background-color:var(--black);
+  color: var(--green);
+}
+
+.purpure {
+  background-color: var(--purpure);
+  color: var(--black);
+}
+
+.purpure-inverted {
+  background-color:var(--black);
+  color: var(--purpure);
+}

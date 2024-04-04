@@ -1,0 +1,46 @@
+﻿---
+ID: "4786b142-7f1b-4ff2-b3b3-3a28459835d8"
+Parent: "3ce9f29f-59e0-4f0b-a1ba-2897eb1f97b7"
+Template: "ff909bba-4a08-46e5-9f12-c349c7cdf0e1"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Footer Configuration/Social Links/Twitter
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T104546Z
+    - ID: "4d29b6bc-6a5d-4f20-9be2-4128942d21b6"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://twitter.com/vgwco" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5967d0a0-1843-45da-839d-007b51a477c0"
+      Hint: Title
+      Value: Twitter
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f227fe5-c052-4be2-8917-1a9f64dee06f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231204T082722Z
+    - ID: "f49922d0-ccbc-498e-908a-2697dcb99423"
+      Hint: Icon
+      Value: |
+        <image mediaid="{26B71CFB-0E46-4A4E-8066-281B1EEEF278}" />

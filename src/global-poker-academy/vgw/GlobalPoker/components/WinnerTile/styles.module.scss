@@ -1,0 +1,109 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  vertical-align: top;
+
+  &:not(:last-child) {
+    margin-right: spacing(10);
+  }
+}
+
+.wrapper {
+  padding: 8px 12px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  border-radius: spacing(5);
+  position: relative;
+  justify-content: space-between;
+  border: 1px solid #2D2D2D;
+  width: 250px;
+  box-sizing: border-box;
+  margin-top: 10px;
+
+  @include until('md') {
+    flex-direction: column-reverse;
+    width: 116px;
+    min-height: 165px;
+    gap: 12px;
+  }
+
+  @include until('sm') {
+    flex-direction: column-reverse;
+    width: 113px;
+    min-height: 162px;
+    gap: 12px;
+  }
+
+  &.showTrophy {
+    border: solid 1px #ED1B25;
+  }
+}
+
+.textcontent {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  gap: 4px;
+  word-break: break-word;
+
+  @include until('md') {
+    flex: 1 0 auto;
+  }
+}
+
+.championBadge {
+  position: absolute;
+  top: -6px;
+  right: 9px;
+  z-index: 99;
+  width: spacing(5);
+  visibility: hidden;
+
+  img {
+    width: 14px;
+    height: 19px;
+  }
+
+  .showTrophy & {
+    visibility: visible;
+  }
+
+}
+
+.tournamentImage {
+  height: 70px;
+  width: 56px;
+}
+
+.coins {
+  font-weight: 600;
+  margin: 0%;
+
+  @include until('md') {
+    font-size: 13px;
+  }
+
+}
+
+.gcWinner,
+.scWinner,
+.username {
+  font-size: 14px;
+  margin: 0%;
+  line-height: 100%;
+
+  @include until('md') {
+    font-size: 12px;
+  }
+}
+
+.scWinner {
+  color: #33FF33;
+}
+
+.gcWinner {
+  color: #FFFF00;
+}

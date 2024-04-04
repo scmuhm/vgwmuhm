@@ -1,0 +1,39 @@
+﻿---
+ID: "85b0e898-67f8-40b0-91ff-af8b05a394b3"
+Parent: "946ea07f-1d8d-4d78-bc30-f139f0b7cfd9"
+Template: "ec536bbf-fd3e-476a-846d-672105644212"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Footer Configuration/Footer Links/Lifestyle
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T105220Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8774a365-bd99-4c8d-853a-7ed1ebb9161e"
+      Hint: Link
+      Value: |
+        <link class="" id="{332BF421-C27A-431F-82CC-BCB4879EAF19}" querystring="" anchor="" target="" title="" linktype="internal" text="Lifestyle" url="/VGW/GlobalPokerAcademy/Home/lifestyle" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5679ef19-2503-4f24-aafe-1bdc4135cf4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231106T080233Z

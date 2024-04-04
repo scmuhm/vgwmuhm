@@ -1,0 +1,44 @@
+﻿---
+ID: "34a5b85f-07d9-4977-a48b-d143ee1295f6"
+Parent: "a46691fd-bd5d-44eb-a5dd-54fda2d8381d"
+Template: "a46691fd-bd5d-44eb-a5dd-54fda2d8381d"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/Rendering Parameters/HomePage/FullWidthInfoBanner/__Standard Values
+SharedFields:
+- ID: "6c705652-e045-4879-9aae-49e80dceda42"
+  Hint: BackgroundImageMobile
+  Value: |
+    <image mediaid="{76BC196A-FCA3-4368-A086-38C725E4DDDE}" alt="poker table" height="" width="" hspace="" vspace="" />
+- ID: "77a59752-d198-4fad-ab7e-cc7805b6a881"
+  Hint: BackgroundImageTablet
+  Value: |
+    <image mediaid="{83E0C177-B98B-4478-85BD-4E599E79501C}" alt="poker table" height="" width="" hspace="" vspace="" />
+- ID: "a0ba99f1-58fd-4ba1-961a-503d9d581296"
+  Hint: BackgroundImageDesktop
+  Value: |
+    <image mediaid="{83E0C177-B98B-4478-85BD-4E599E79501C}" alt="poker table" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240227T072548Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a375fcab-e43d-4178-ab29-03a40781f2bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240401T235023Z

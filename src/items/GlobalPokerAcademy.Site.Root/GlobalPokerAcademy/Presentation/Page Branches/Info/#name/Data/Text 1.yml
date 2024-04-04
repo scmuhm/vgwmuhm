@@ -1,0 +1,37 @@
+﻿---
+ID: "aececc9d-0485-43d1-8c86-0f7ea979c92b"
+Parent: "61af204e-5d04-4458-9d56-d8cd22f03a15"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Page Branches/Info/$name/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T090111Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>Global Poker Academy - For Poker Champions in the making</h2><p>Operated and owned by Global Poker, one of North America’s biggest, brightest and boldest online social poker sites, the Global Poker Academy is its younger—but no less discerning—sibling.&nbsp;&nbsp;</p><p><br /></p><p>Although we’re cut from the same cloth—much like our big brother, we live and breathe poker—Global Poker Academy is a little different.&nbsp;</p><p><br /></p><p>We know that poker isn’t an easy game to master, so at Global Poker Academy, we’ve worked hard to bring our dedicated players the resources they need to improve their poker game, and of course have a load of fun in the process.&nbsp;</p><p><br /></p><p>Here, you’ll find everything from videos and quizzes, to strategy discussions to game insights, to take your poker skills to the next level. We’ve got all the tools you need to bone up on all the bare essentials, along with some fun stuff too.&nbsp;</p><p><br /></p><p>As well as exclusive interviews with some of the biggest players on the circuit, we’ll keep you up-to-date with all the latest news from Global Poker—you’ll be the first to know about Global Poker’s upcoming tournaments and offers—and we’ve even got some fascinating lifestyle stories, tips and thought-provoking features to get stuck into during your downtime. In fact, we’ve got so much great stuff on here, you might not ever want to leave.&nbsp;</p><p><br /></p><p>So kick back, relax and enjoy. At Global Poker Academy we’ll do our best to help you level-up at the poker table.&nbsp;</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87615265-11f0-4829-b1d7-67ae0eb342e8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231127T090253Z

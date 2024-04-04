@@ -1,0 +1,56 @@
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+
+  .icon-link {
+    @include respond-to(mobile) {
+      filter: brightness(0);
+    }
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .social-media-links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include respond-to(mobile) {
+    padding: 30px 20px;
+    gap:10px;
+    background-color: var(--bg-grey);
+  }
+}
+
+
+.article-page-heading  {
+  .social-media-container {
+    display: none;
+
+    @include respond-to(mobile) {
+      display: flex;
+    }
+  }
+}
+
+.article-page-side  {
+  .component {
+    @include respond-to(desktop) {
+      display: block
+    }
+  }
+
+  .social-media-container {
+    display: flex;
+
+    @include respond-to(mobile) {
+      display: none;
+    }
+  }
+}

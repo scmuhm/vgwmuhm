@@ -1,0 +1,33 @@
+﻿---
+ID: "f84b6df3-7c69-454b-98e5-6050e3ea107c"
+Parent: "43326003-509d-4a65-87b0-76c8479a0b6e"
+Template: "43326003-509d-4a65-87b0-76c8479a0b6e"
+Path: /sitecore/templates/Feature/VGW/HomePageComponents/Article Top Picks Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F0852924-0545-463D-875D-15767F07310C}
+    {43326003-509D-4A65-87B0-76C8479A0B6E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5cd279b-dc49-480b-9b7b-0d59c4280b8c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231108T115530Z

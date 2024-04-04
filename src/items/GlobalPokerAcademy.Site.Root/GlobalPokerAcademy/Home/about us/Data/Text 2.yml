@@ -1,0 +1,42 @@
+﻿---
+ID: "5cca5b4b-ada3-43ac-9536-ed091269f2d6"
+Parent: "ba7499eb-24b4-48e7-aa15-8e9aa0ba3bc1"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/about us/Data/Text 2
+BranchID: "1425c253-8cbc-45aa-bfa3-fb0f507f819e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E86FC68C-8D7E-45D0-AEF7-FED48B52BA4A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T091122Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h3>Who is Global Poker?&nbsp;</h3><p>Global Poker is a social poker site owned and operated by VGW GP Limited, part of the VGW Group.</p><p><br /></p><p>Global Poker brings the best of poker and social gaming together, bringing you a unique—and dare we say it, damn good fun—online social poker experience. Global Poker launched in 2016 as a free-to-play site, and players from 49 states(all but WA) enjoy daily fun on the virtual felt.&nbsp;</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "484a89db-4872-4f80-abd0-272ea2a7e70e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231127T091122Z

@@ -1,0 +1,6 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.authoredText {
+  @include authored-text();
+}

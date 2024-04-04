@@ -1,0 +1,44 @@
+﻿---
+ID: "fee516cd-b494-47d9-adb3-6a8535073236"
+Parent: "7d15c46c-26cb-4ff7-9770-1981e8876427"
+Template: "cdcd832b-f5ea-4da4-9af6-65bd56c1c81f"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Top Bar Configuration
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Global Poker Academy Author|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T072441Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed9c319b-a75b-4aa9-8867-719c6d4d546f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240117T035153Z
+    - ID: "dec5d1c9-2210-4d0c-b601-c35e6f773450"
+      Hint: Link
+      Value: |
+        <link text="Play Poker" linktype="external" url="https://globalpoker.com/?utm_source=globalpokeracademy&amp;utm_medium=navcta&amp;utm_content=ctabutton " anchor="" target="_blank" />
+    - ID: "e0c8209a-7470-4056-bf86-1fac45624c86"
+      Hint: Logo
+      Value: |
+        <image mediaid="{F06DC8F3-83E0-40DC-B065-E80C99A674D2}" />

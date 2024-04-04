@@ -1,0 +1,41 @@
+﻿---
+ID: "5fb0a4d8-20ff-4cc8-81e8-1b46bc2ad3ff"
+Parent: "3f220600-4c36-404d-aca0-f7534f16a944"
+Template: "3f220600-4c36-404d-aca0-f7534f16a944"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/HomePage/FullWidthInfoBanner/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T092432Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "278a682e-e6b8-413c-b48f-8c04f3e344ba"
+    - ID: "8cf1ecb3-5784-4a2d-b9b4-564649fe16f1"
+      Hint: "Sub-heading"
+      Value: "Enter sub-heading"
+    - ID: "baa05b6b-af5f-49eb-b01d-f08d0fc5bca1"
+      Hint: Heading
+      Value: Enter heading
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6bwFF1dJrc
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240228T090608Z
+    - ID: "fba3438c-2b62-4f13-90b1-4708528474e1"
+      Hint: CTA
+      Value: |
+        <link text="Enter CTA Text" linktype="external" url="/" anchor="" target="" />

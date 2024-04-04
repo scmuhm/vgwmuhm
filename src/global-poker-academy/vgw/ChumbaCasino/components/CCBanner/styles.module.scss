@@ -1,0 +1,245 @@
+/* stylelint-disable custom-property-pattern */
+/* stylelint-disable color-function-notation */
+/* stylelint-disable alpha-value-notation */
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+
+.wrapper {
+  @include content-container;
+
+  position:relative;
+  background-color: get-color('greyscale', 'darker');
+  border-radius: $theme-border-radius-large;
+  background-size: cover;
+  background-position: center;
+  color: get-color('greyscale', 'lightest');
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: spacing(10);
+  overflow: hidden;
+  height: 100%;
+
+  &.CategoryPageBanner {
+    justify-content: flex-start;
+  }
+
+  @include until('sm') {
+    padding-top: spacing(15);
+    padding-bottom: spacing(15);
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+
+.heading {
+  margin-bottom: 0;
+}
+
+.noSubHeading {
+  padding-bottom: spacing(25);
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 1040px;
+  height: 100%;
+  gap:spacing(10);
+  padding-right: spacing(20);
+  padding-left: spacing(20);
+
+  @include until('desktop') {
+    gap: 0;
+  }
+
+  @include until('sm') {
+    padding-right: spacing(15);
+    padding-left: spacing(15);
+  }
+
+  .text,.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    @include from('sm') {
+      max-width: 50%;
+    }
+  }
+
+  .text {
+    @include until('sm') {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .image {
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  @include from('sm') {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.btnWrapper {
+  margin: 0;
+  width: min-content;
+}
+
+
+.GeneralCentralBanner {
+  height: auto;
+  gap:0;
+
+  @include from('sm') {
+    padding: 0 !important;
+    height: 404px;
+    gap:16px;
+  }
+
+ .contentWrapper {
+  max-width: $multiple-column-width-small;
+ }
+}
+
+.GeneralLargeBanner {
+  .contentWrapper {
+    padding-right: spacing(15);
+    padding-left: spacing(15);
+
+    @include until('mobile') {
+      gap:spacing(10);
+    }
+
+    @include from('desktop'){
+       height: 390px;
+       max-width: unset;
+
+       .image {
+        width: 504px;
+        max-width:unset ;
+
+        img {
+          width: max-content
+        };
+    }
+  }
+
+  .text {
+    gap:spacing(15);
+    max-width: unset;
+    padding: spacing(20) 0;
+
+
+    @include from('desktop') {
+      gap:spacing(10);
+      padding-left: 80px;
+    }
+
+    h1 {
+      font-size: 42px !important;
+      line-height: 44px !important;
+    }
+   }
+  }
+}
+
+.CategoryPageBanner {
+  @include until('sm') {
+    height: 400px;
+  }
+
+  height: 300px;
+  background-image: var(--BackgroundImageMobileUrl);
+
+  @include from('sm') {
+    background-image: var(--BackgroundImageTabletUrl);
+  }
+
+  @include from('md') {
+    background-image: var(--BackgroundImageDesktopUrl);
+  }
+
+  .contentWrapper {
+    position: relative;
+    justify-content: space-between;
+    max-width: unset;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    z-index: 999;
+    background-image: linear-gradient(90deg, rgba(18, 17, 19, 0.60) 0.48%, rgba(18, 17, 19, 0.50) 73.68%, rgba(255, 255, 255, 0.00) 100%);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-bottom: spacing(15);
+
+    .text {
+      max-width: 400px;
+      padding: spacing(15);
+      align-items: flex-start;
+      text-align: left;
+
+        @include until('sm') {
+          align-items: center;
+          justify-content: space-between;
+          text-align: center;
+          padding:0 spacing(15);
+          max-width: unset;
+      }
+    }
+  }
+
+  .image {
+    position: absolute;
+    display: flex;
+    max-height: 300px;
+    right: 0;
+    bottom:0;
+
+    @include until('sm') {
+      max-height: 400px;
+    }
+  }
+
+  &.wrapper {
+    padding-bottom: 0;
+  }
+}
+
+
+.FullWidthBanner {
+  width: 100%;
+  max-width: unset !important;
+  border-radius: unset !important;
+  margin-right: 0;
+  margin-left: 0;
+
+  .contentWrapper {
+    padding: spacing(20) spacing(15);
+
+    @include from('sm') {
+      padding: spacing(40) spacing(50);
+
+    }
+  }
+}

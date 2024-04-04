@@ -1,0 +1,55 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+
+
+.container {
+  @include content-container;
+
+  a {
+    margin: 0;
+    text-decoration:none;
+    box-sizing: border-box;
+  }
+}
+
+.ctaBtn {
+  display: flex;
+  height: 32px;
+  min-width: 176px;
+  width: min-content;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border:none;
+  border-radius: $cta-btn-border-radius;
+  background:$cta-btn-secondary-bg;
+  color:$cta-btn-secondary-color;
+  text-align: center;
+  font-size: map-get($font-sizes, 'body-3');
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+
+  @include until('xs') {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 0 !important;
+  }
+}
+
+.disabled {
+  height: 32px;
+
+  span {
+    background: $cta-disabled-bg;
+    color: $cta-disabled-color;
+    cursor: not-allowed;
+    padding: unset;
+  }
+}

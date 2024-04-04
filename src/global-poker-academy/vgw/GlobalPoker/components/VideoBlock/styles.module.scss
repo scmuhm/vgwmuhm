@@ -1,0 +1,13 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+  margin-top: spacing(20);
+  margin-bottom: spacing(20);
+}
+
+.iframe {
+  aspect-ratio: var(--aspect-ratio, 16/9);
+  border: none;
+}

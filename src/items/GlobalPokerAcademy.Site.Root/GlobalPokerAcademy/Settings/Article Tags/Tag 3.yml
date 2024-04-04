@@ -1,0 +1,34 @@
+﻿---
+ID: "2666cde2-d2ff-45be-add8-445f67e950eb"
+Parent: "bea87964-a684-4b75-bc3a-8084900bc6f8"
+Template: "80d45fbd-bc47-43b6-9fc0-e17b3d27d098"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Settings/Article Tags/Tag 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1485ee83-d225-444d-92b7-4a802712f5c5"
+      Hint: Title
+      Value: Tag 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231102T123634Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "085c37d0-23a8-43ca-aedc-9662b0d67335"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231102T123637Z

@@ -1,0 +1,124 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include content-container;
+
+  background:$theme-bg-color;
+  align-items: center;
+  justify-content: center;
+  gap: spacing(10);
+  display: grid;
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+  border-radius: $theme-border-radius-large;
+  padding:spacing(15);
+
+  @include from('sm') {
+    padding: spacing(20) 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.text {
+  word-break: break-word;
+  padding-left: spacing(20);
+
+
+  &.reverse {
+    padding-left: 0;
+
+    @include from ('tablet') {
+      padding-right: spacing(20);
+    }
+  }
+}
+
+.image {
+  &.reverse {
+    @include from('tablet') {
+      order: -1;
+    }
+}
+
+.image {
+  @include until('tablet') {
+    order:1;
+  }
+}
+}
+
+.image:empty {
+  @include until('sm') {
+    display: none;
+  }
+}
+
+.image,
+.text {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $theme-border-radius-small;
+  }
+}
+
+
+.twoColumnContainer {
+  @include content-container;
+
+  align-items: center;
+  justify-content: center;
+  gap: spacing(10);
+  display: grid;
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+  border-radius: $theme-border-radius-large;
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+.image,
+.text {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: $theme-border-radius-large;
+  height: 100%;
+  min-height: 400px;
+  background:$theme-bg-color;
+  overflow: hidden;
+}
+
+
+.text {
+  padding: spacing(20);
+}
+
+}
+
+.mobile-media-order-2 {
+  @include until('tablet') {
+    order:2 !important;
+  }
+}
+
+
+.MediaRight {
+  .image {
+    @include until('tablet') {
+      order:-1;
+    }
+  }
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btnWrapper {
+  margin: spacing(15) 0;
+}

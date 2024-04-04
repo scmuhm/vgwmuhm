@@ -1,0 +1,74 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include container();
+}
+
+.wrapper {
+  align-items: flex-start;
+  column-gap: spacing(10);
+  row-gap: spacing(15);
+  display: grid;
+  padding: 0;
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.inner {
+  display: flex;
+  column-gap: spacing(5);
+  word-break: break-word;
+
+  .reverse & {
+    order: 2;
+  }
+
+  @include from('md') {
+    column-gap: spacing(10);
+  }
+}
+
+.column {
+  display: grid;
+  gap: spacing(10);
+
+  @include from('sm') {
+    display: flex;
+  }
+}
+
+.inner,
+.image {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.image {
+  @include until('md') {
+    flex-grow: 0.65;
+  }
+}
+
+.number {
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.heading {
+  margin-bottom: spacing(10);
+  font-weight: 900;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}

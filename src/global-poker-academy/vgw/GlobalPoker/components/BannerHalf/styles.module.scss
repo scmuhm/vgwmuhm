@@ -1,0 +1,69 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.wrapper {
+  background-color: #0C0C0F;
+  color: get-color('greyscale', 'lightest');
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  @include container();
+
+  position: relative;
+  display: grid;
+  align-items: center;
+  height: 100%;
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.content {
+  max-width: 405px;
+  padding-top: spacing(20);
+  padding-bottom: spacing(20);
+
+  > div > *:first-child {
+    margin-top: 0;
+  }
+
+  @include until('sm') {
+    margin-top: auto;
+  }
+
+  @include from('sm') {
+    margin-left: spacing(30);
+    justify-self: center;
+  }
+}
+
+.image {
+  height: 100%;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @include until('sm') {
+    width: 100vw;
+    left: -5%;
+    aspect-ratio: 4/3;
+  }
+
+  @include from('sm') {
+    width: 50vw;
+    left: calc((-100vw / 2) + 100%);
+  }
+}
+
+.CTA {
+  margin-top: spacing(10);
+}

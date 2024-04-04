@@ -1,0 +1,37 @@
+﻿---
+ID: "9bb43d13-0d38-44e1-b4ff-075f2eb6eefb"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T120903Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>2. Pick a Good Table</h2><p>Most people don't have a purpose-built poker table sitting around, so it falls on a regular household table to fulfil the job for the game. It should be able to seat between 6 and 10 players comfortably. Less than 6 players and the game often stalls, any more than 10 and you'll spend half the night playing one hand. Space is also an issue; you want everybody to be able to sit at the table without bumping into each other.</p><p>If more than 10 players commit to the game, you’ll need a second table, as a minimum, have 6 per table. Regardless of how many people you’re expecting, it would be best if you planned for a few extras; there is always that one person who brings a friend or two. It’s better to have too many rather than not enough.</p><p>Chairs are another consideration, make sure to have enough chairs for every one of your guests, then have a few extras at the ready for an emergency and interlopers. If you’re desperate, make the event BYOC – Bring Your Own Chair. Rather than make it seem like something you should apologize for (I mean, who really has 15 chairs laying around their house?), make a feature of it and award a prize for the best chair.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59c8bc7e-02e4-449a-a9e8-d27c3a59d237"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011413Z

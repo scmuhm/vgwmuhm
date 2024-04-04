@@ -1,0 +1,44 @@
+﻿---
+ID: "616b2602-4ef9-449e-a395-376a6d7a7efc"
+Parent: "36e27e04-b272-4e35-a3ac-f3642a466067"
+Template: "36e27e04-b272-4e35-a3ac-f3642a466067"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/BannerHalf/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240301T044407Z
+    - ID: "37560dc0-3063-45f0-8872-d7988ec08d7f"
+      Hint: Image
+      Value: |
+        <image mediaid="{2DFDCF0B-95E7-4C47-A2F3-CA636C11A489}" alt="Background image" height="" width="" hspace="" vspace="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdf87d1e-a71f-472b-8c14-36274cfa54fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "c1133880-4d5f-4eb1-8c3d-ecceb082e3b7"
+      Hint: CTA
+      Value: |
+        <link text="Enter CTA text" linktype="external" url="/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240301T045301Z
+    - ID: "f6e4a03d-fe3b-469f-859d-bcd230552abf"
+      Hint: Content
+      Value: |
+        <h1>Enter your desired heading</h1>
+        <p>Enter your desired text</p>

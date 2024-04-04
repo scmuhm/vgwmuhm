@@ -1,0 +1,109 @@
+﻿---
+ID: "e127cb51-fc9a-43b0-9b4d-8b9767dcd75f"
+Parent: "504d55f1-8a10-4d39-a421-20542826f1ff"
+Template: "5e3052af-1fcb-4568-9b08-d597255a5206"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/cookie policy
+BranchID: "1425c253-8cbc-45aa-bfa3-fb0f507f819e"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BEE5C563-96B5-49DB-8213-D3CE17064346}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C14F634F-B4A3-4280-A30F-1A6B6758A3E4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{88EDE400-5F22-4F9C-B691-3D8D6E30E355}"
+              p:before="*"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B5B9ABBBD-BAF5-498D-A866-3E4647FE949D%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{C31842CC-6AAA-4CB0-B5A9-CD6BFA2C6AB6}"
+              p:after="r[@uid='{88EDE400-5F22-4F9C-B691-3D8D6E30E355}']"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B5B9ABBBD-BAF5-498D-A866-3E4647FE949D%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B7A9CBEB1-9290-4D3B-B53E-372268778D35%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{646B1F03-1B71-4F4E-84C0-2E88AFC6F40E}"
+              p:after="r[@uid='{C31842CC-6AAA-4CB0-B5A9-CD6BFA2C6AB6}']"
+              s:id="{3836D951-BB14-43AC-9231-649B7F245DC5}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B74CA1B61-78A4-43D5-8236-7C06794DF3FF%7D%7C%7B5B9ABBBD-BAF5-498D-A866-3E4647FE949D%7D&amp;FieldNames=%7BF0724725-2A66-49A6-975A-690A6E96E444%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/container-1" />
+            <r
+              uid="{D31ED3EB-1941-4154-A9DC-72D53C5A75F9}"
+              p:after="r[@uid='{646B1F03-1B71-4F4E-84C0-2E88AFC6F40E}']"
+              s:ds="local:/Data/Text 1"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B74CA1B61-78A4-43D5-8236-7C06794DF3FF%7D%7C%7B5B9ABBBD-BAF5-498D-A866-3E4647FE949D%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/container-1" />
+            <r
+              uid="{580720D7-C86C-4538-A508-1DA8BF5364AD}"
+              p:after="r[@uid='{D31ED3EB-1941-4154-A9DC-72D53C5A75F9}']"
+              s:ds="local:/Data/Text 2"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B5B9ABBBD-BAF5-498D-A866-3E4647FE949D%7D%7C%7B74CA1B61-78A4-43D5-8236-7C06794DF3FF%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/container-2" />
+            <r
+              uid="{2A49631E-B5B3-4FBD-A8D9-5C45F4F12EFF}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/ImageText 1"
+              s:id="{691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B088DF300-6F6A-443D-94EF-68690862FEB3%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/container-2" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T091201Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{8ADDFB0A-8303-44EA-A44A-596F7EBD7FE1}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: cookie policy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "6de4d9b7-bb49-4670-892c-4107d0345183"
+      Hint: Title
+      Value: cookie policy
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5b39989-a6ca-45e3-853e-95b9347945eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231127T091241Z

@@ -1,0 +1,38 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.GlobalPoker",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "GlobalPoker.Site.Root",
+        "path": "/sitecore/content/VGW/GlobalPoker",
+        "scope": "DescendantsOnly",
+        "rules": [
+          {
+            "path": "/home",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "GlobalPoker.Templates",
+        "path": "/sitecore/Templates/Project/VGW/GlobalPoker"
+      },
+      {
+        "name": "GlobalPoker.Branches",
+        "path": "/sitecore/templates/Branches/Project/VGW/GlobalPoker"
+      },
+      {
+        "name": "GlobalPoker.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/VGW/GlobalPoker"
+      },
+      {
+        "name": "GlobalPoker.Renderings",
+        "path": "/sitecore/layout/Renderings/Project/VGW/GlobalPoker"
+      }
+    ]
+  }
+}

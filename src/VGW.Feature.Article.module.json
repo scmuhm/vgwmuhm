@@ -1,0 +1,19 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Feature.Article",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Article.Module",
+        "path": "/sitecore/system/Settings/Feature/VGW/Article"
+      },
+      {
+        "name": "Article.Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/VGW/Article"
+      }
+    ]
+  }
+}

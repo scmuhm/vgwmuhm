@@ -1,0 +1,52 @@
+$breakpoints: (
+  xxs: 390px,
+  xs: 480px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1200px,
+  xl: 1440px) !default;
+
+$font-sizes: (
+  heading-callout: (46px, 60px),
+  heading-1: (36px, 46px),
+  heading-2: (26px, 36px),
+  heading-3: (20px, 26px),
+  heading-4: (18px, 20px),
+  heading-5: (16px, 18px),
+  heading-6: 16px,
+  heading-banner: 36px,
+  body-1: 12px,
+  body-2: 14px,
+  body-3: 16px,
+  body-4: 20px,
+  body-xl: 24px,
+  ) !default;
+
+$spacing: (
+  spacing-5: 0.5rem,
+  spacing-10: 1rem,
+  spacing-15: 1.5rem,
+  spacing-20: 2rem,
+  spacing-25: 2.5rem,
+  spacing-30: 3rem,
+  spacing-40: 4rem,
+  spacing-50: 5rem,
+  spacing-60: 6rem,
+  spacing-70: 7rem,
+  spacing-80: 8rem,
+  spacing-90: 9rem,
+  spacing-120: 12rem,
+  spacing-250: 25rem,
+  spacing-270: 27rem,
+  ) !default;
+
+$colors: (
+  vgw: (link: #008CFF),
+  greyscale: (darkest: #000000,
+    even-darker: #222222,
+    darker: #4E4E4E,
+    'gray': #959595,
+    lighter: #C5C1C0,
+    even-lighter: #E4E4E4,
+    lightest: #FFFFFF),
+  ) !default;

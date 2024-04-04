@@ -1,0 +1,48 @@
+﻿---
+ID: "e3d157d9-4443-4ddd-95c4-21c64e837ce2"
+Parent: "2389ec49-8c4b-4bd6-80ec-ddfda94c4267"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Available Renderings/Article
+BranchID: "cb66947d-28bf-4d58-a3b8-f8fff06f0c54"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {79D157E8-0E7E-42AD-81C8-9BFEAD114A7F}
+    {11B28B5B-38F0-4520-AEB0-2E21CA856F26}
+    {691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}
+    {3E8C2197-A13E-4F1B-A4E4-C4F638CB878F}
+    {B0B03345-306C-45C6-A1AC-F6E893C7AB7E}
+    {240CF841-1B58-4937-BF8B-01C92C0BFD91}
+    {E2458334-B372-44EF-B2F8-A7FBC71736B3}
+    {1EB269B2-BE6E-4E24-9DB0-3598AAADF7A7}
+    {1B90B780-9092-412D-92BD-3C418CE1E3B5}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8847AABD-45CF-4A23-81D9-37A342FE002A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231024T093755Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8330f6c0-ce79-417e-93b5-9d297efad02e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T073802Z

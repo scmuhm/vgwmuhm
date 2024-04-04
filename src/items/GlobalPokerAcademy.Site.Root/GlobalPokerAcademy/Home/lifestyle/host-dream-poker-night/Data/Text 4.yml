@@ -1,0 +1,37 @@
+﻿---
+ID: "2be63b64-4c96-4e60-90b2-3db875ed6060"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T120933Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h2>3. Choose Players Carefully</h2><p>Unfortunately, social media is the easiest way to invite a whole bunch of people to a game; the days of ringing up buddies at their houses are long dead. Create an online event and put as much information in the description as you can, everything from the time and date, to what kind of poker game it’ll be – tournament, cash game or something else entirely.</p><p>Deciding on who is invited can be a crucial choice that many people overlook . There are certain types of players who will cause issues, depending on the game type and the level. If you have a room full of beginners, you don't want to have that one person who made a living at college by hustling cards to come along and take everyone's money. It’ll make it hard to encourage people to come along to another night if they think you’re just planning on setting them up with a shar.</p><p>Some poker players also don't adhere to common courtesy in home cash games. It's an unspoken law that anybody planning to leave before the end of the game should tell everyone at the start of play. There is nothing more annoying than someone winning big in the first 20 minutes, then making up an excuse to leave and cash out, taking a sizable chunk of the money on the table with them. So make that clear in the invitation what the expectations are and gently point this out again at the beginning of the night, to avoid having to deal with it later on.</p><p>If you want to make the game a regular event, everyone needs to have a good time, and keeping out players who are likely to unduly upset people will ensure that happens.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccbb8809-e1a1-4f08-b9ef-962bb478842e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011420Z

@@ -1,0 +1,235 @@
+@use 'sass:math';
+@use 'sass:list';
+@use 'sass:map';
+@use "@current-site/assets/theme";
+
+@function round($number, $decimals: 0) {
+  $n: 1;
+
+  @if $decimals >0 {
+    @for $i from 1 through $decimals {
+      $n: $n * 10;
+    }
+  }
+
+  @return math.div(math.round($number * $n), $n);
+}
+
+@function px-to-rem($px) {
+  $rems: math.div($px, 16px) * 1rem;
+  @return $rems;
+}
+
+@function fluid-font-size($sizes,
+  $min-breakpoint: map.get(theme.$breakpoints, 'sm'),
+  $max-breakpoint: map.get(theme.$breakpoints, 'md'),
+  $unit: vw) {
+  $min-size: list.nth($sizes, 1);
+  $max-size: list.nth($sizes, 2);
+  $slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
+  $slope-to-unit: round($slope * 100, 2);
+  $intercept-rem: round(px-to-rem($min-size - $slope * $min-breakpoint), 2);
+  $min-size-rem: round(px-to-rem($min-size), 2);
+  $max-size-rem: round(px-to-rem($max-size), 2);
+  @return clamp(#{$min-size-rem}, #{$slope-to-unit}#{$unit} + #{$intercept-rem}, #{$max-size-rem});
+}
+
+@function map-get-deep($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+
+  @return $map;
+}
+
+@function get-color($palette, $color) {
+  @return map-get(map-get(theme.$colors, $palette), $color);
+}
+
+@function spacing($value) {
+  @return map-get(theme.$spacing, 'spacing-#{$value}');
+}
+
+@function breakpoint($value) {
+  @return map-get(theme.$breakpoints, $value);
+}
+
+@mixin container() {
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@mixin from($breakpoint) {
+  @media (min-width: map.get(theme.$breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin until($breakpoint) {
+  @media (max-width: (map.get(theme.$breakpoints, $breakpoint) - 1px)) {
+    @content;
+  }
+}
+
+@mixin between($lower, $upper) {
+  $lower-value: map.get(theme.$breakpoints, $lower);
+  $upper-value: map.get(theme.$breakpoints, $upper);
+
+  @media (min-width: $lower-value) and (max-width: ($upper-value - 1px)) {
+    @content;
+  }
+}
+
+@mixin authored-text() {
+  word-break: break-word;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.1;
+    margin: 0;
+
+    &:not(:first-child) {
+      margin-top: spacing(5);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: spacing(5);
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 900;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: fluid-font-size((36px, 46px));
+  }
+
+  h2 {
+    font-size: fluid-font-size((26px, 36px));
+  }
+
+  h3 {
+    font-size: fluid-font-size((20px, 26px));
+  }
+
+  h4 {
+    font-size: fluid-font-size((18px, 20px));
+  }
+
+  h5 {
+    font-size: fluid-font-size((16px, 18px));
+  }
+
+  h6 {
+    font-size: fluid-font-size((16px, 18px));
+  }
+
+  p,
+  ul,
+  ol {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@mixin sitecore-styles() {
+
+  // @TODO - the below provides "out-the-box" functionality,
+  // but we should update according to our needs
+  .rte-indent-1 {
+    padding-left: 40px;
+  }
+
+  .rte-indent-2 {
+    padding-left: 80px;
+  }
+
+  .rte-indent-3 {
+    padding-left: 120px;
+  }
+
+  .rte-indent-4 {
+    padding-left: 160px;
+  }
+
+  .rte-indent-5 {
+    padding-left: 200px;
+  }
+
+  .rte-indent-6 {
+    padding-left: 240px;
+  }
+
+  .rte-indent-7 {
+    padding-left: 280px;
+  }
+
+  .rte-indent-8 {
+    padding-left: 320px;
+  }
+
+  .rte-align-center {
+    text-align: center;
+  }
+
+  .rte-align-justify {
+    text-align: justify;
+  }
+
+  .rte-align-right {
+    text-align: right;
+  }
+
+  //
+  .position-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .position-left {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .position-right {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .indent {
+    padding-left: spacing(40);
+    padding-right: spacing(40);
+  }
+
+  .indent-bottom {
+    padding-bottom: spacing(40);
+  }
+
+  .indent-top {
+    padding-top: spacing(40);
+  }
+}

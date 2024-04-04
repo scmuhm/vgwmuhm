@@ -1,0 +1,41 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Shareholders",
+  "references": [
+    "VGW.Tenant",
+    "VGW.Feature.GlobalComponents",
+    "VGW.Feature.HomePageComponents"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Shareholders.Site.Root",
+        "path": "/sitecore/content/VGW/Shareholders",
+        "rules": [
+          {
+            "path": "/home",
+            "scope": "SingleItem"
+          }
+        ]
+      },
+      {
+        "name": "Shareholders.Media",
+        "path": "/sitecore/media library/Project/VGW/Shareholders",
+        "rules": [
+          {
+            "path": "/System",
+            "scope": "SingleItem"
+          },
+          {
+            "path": "/Sitemaps",
+            "scope": "SingleItem"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      }
+    ]
+  }
+}

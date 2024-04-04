@@ -1,0 +1,103 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.tileLink {
+  text-decoration: none !important;
+}
+
+.wrapper {
+  background-color: #191919;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: spacing(20) spacing(10) spacing(40);
+
+  @include from('sm') {
+    padding: spacing(20) spacing(20) spacing(40);
+  }
+}
+
+.heading {
+  padding-bottom: map-get($spacing, 'spacing-20');
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.tilesWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+
+  @include until('md') {
+    row-gap: 10px;
+  }
+
+  @include from('md') {
+    grid-template-columns: repeat(auto-fit, minmax(166px, 1fr));
+    column-gap: 10px;
+  }
+}
+
+.tile {
+  background-color: black;
+  border-radius: 0.5rem;
+  display: flex;
+  column-gap: 10px;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.tileContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: space-between;
+  padding: 12px 1rem;
+}
+
+.tileImage {
+  aspect-ratio: 1 / 1;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 107px;
+  width: 100%;
+}
+
+.tileIcons {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: spacing(5);
+}
+
+.tileIcon {
+  border-radius: 4px;
+  height: 40px;
+  width: 40px;
+}
+
+.textContent {
+  color: white;
+  font-style: unset;
+  font-size: map-get($font-sizes, 'body-2');
+
+  h3 {
+    font-size: map-get($font-sizes, 'body-xl');
+    font-weight: 800;
+    word-break: normal;
+    margin: 0;
+    padding-bottom: spacing(5);
+  }
+}
+
+.tileCallout {
+  color: #3cc;
+  font-size: map-get($font-sizes, 'body-2');
+  font-weight: 900;
+  padding-top: spacing(5);
+}

@@ -1,0 +1,294 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+$mobile-nav-breakpoint: 1040px;
+
+.wrapper {
+  background-color: get-color('greyscale', 'darkest');
+  color: get-color('greyscale', 'lightest');
+  position: relative;
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    overflow: hidden;
+  }
+}
+
+.container {
+  @include container();
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    display: grid;
+  }
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    display: flex;
+    align-items: center;
+    column-gap: spacing(10);
+  }
+}
+
+.logo {
+  position: relative;
+  top: 0;
+  transition: 0.4s;
+
+  img {
+    display: block;
+  }
+
+  &.mobileMenuOpen {
+    top: 40px;
+  }
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    padding-top: spacing(10);
+    padding-bottom: spacing(10);
+    margin: auto;
+  }
+}
+
+.link {
+  display: block;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  li:hover > & {
+    color: get-color('greyscale', 'lightest');
+  }
+
+  &.linkHome {
+    color: get-color('greyscale', 'lightest');
+
+    @media (min-width: $mobile-nav-breakpoint) {
+      display: none;
+    }
+  }
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    color: get-color('greyscale', 'gray');
+
+    .megaMenu & {
+      color: get-color('greyscale', 'lightest');
+      font-size: map-get($font-sizes, 'body-3');
+    }
+
+    .topLevel > li > & {
+      padding: spacing(10) 0;
+    }
+
+    .topLevel > li:not(:last-child) > & {
+      border-bottom: 1px solid currentColor;
+    }
+  }
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    .topLevel > li > & {
+      padding: spacing(20) spacing(5);
+      font-size: map-get($font-sizes, 'body-2');
+
+      &:after {
+        content: '';
+        position: absolute;
+        height: 0;
+        width: 100%;
+        background-color: get-color('vgw', 'link');
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        transition: 0.2s;
+      }
+
+      &:hover:after {
+        height: 4px;
+      }
+    }
+  }
+}
+
+.menu {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    height: 0;
+    transition: 0.4s;
+    font-size: map-get($font-sizes, 'body-2');
+    padding-left: spacing(10);
+    padding-right: spacing(10);
+    overflow-y: scroll;
+
+    &.mobileMenuOpen {
+      margin-top: spacing(20);
+      height: calc(100vh - 10rem);
+      padding-bottom: spacing(40);
+    }
+  }
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    margin-left: auto;
+  }
+}
+
+.topLevel {
+  display: flex;
+  align-items: center;
+  column-gap: spacing(20);
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    display: grid;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+
+    .mobileMenuOpen & {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.user {
+  display: flex;
+  text-transform: uppercase;
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    margin-top: spacing(20);
+
+    .buttons {
+      display: inline-grid;
+      row-gap: spacing(10);
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    .buttons {
+      display: flex;
+      column-gap: spacing(5);
+    }
+  }
+}
+
+.megaMenu {
+  background: get-color('greyscale', 'even-darker');
+
+  .linkHeading {
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    height: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    padding-top: spacing(20);
+    padding-bottom: spacing(20);
+    overflow: hidden;
+
+    li:hover > & {
+      height: 340px;
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .link {
+      font-size: fluid-font-size(
+        (map-get($font-sizes, 'body-1'), map-get($font-sizes, 'body-2')), 
+        breakpoint('md'), 
+        breakpoint('xl')
+      );
+    }
+  }
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    display: none;
+    padding-top: spacing(20);
+
+    li:hover > & {
+      display: block;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    .link {
+      &:not(.linkHeading) {
+        padding-left: spacing(15);
+      }
+    }
+  }
+}
+
+.megaMenuRow {
+  width: 100%;
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: spacing(10);
+  }
+
+  @include from ('xl') {
+    column-gap: spacing(20);
+  }
+}
+
+.megaMenuColumn {
+  > ul {
+    display: grid;
+    row-gap: 0.75rem;
+
+    + ul {
+      margin-top: spacing(15);
+    }
+  }
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    padding-bottom: spacing(20);
+  }
+}
+
+.megaMenuCallout {
+  text-align: center;
+  display: grid;
+  row-gap: spacing(10);
+  text-decoration: none;
+  color: inherit;
+
+  @media (max-width: #{$mobile-nav-breakpoint - 1}) {
+    text-align: center;
+    img {
+      width: 320px;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.mobileCallout {
+  margin-top: spacing(20);
+
+  @media (min-width: $mobile-nav-breakpoint) {
+    display: none;
+  }
+}

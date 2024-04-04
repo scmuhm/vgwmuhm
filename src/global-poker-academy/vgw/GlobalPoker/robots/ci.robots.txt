@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Sitemap: https://ci.test.globalpoker.com/sitemap.xml
+Host: https://ci.test.globalpoker.com

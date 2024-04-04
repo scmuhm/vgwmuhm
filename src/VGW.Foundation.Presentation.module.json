@@ -1,0 +1,15 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Foundation.Presentation",
+  "references": [
+    "VGW.Tenant"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Presentation.Module",
+        "path": "/sitecore/templates/Foundation/VGW/Presentation"
+      }
+    ]
+  }
+}

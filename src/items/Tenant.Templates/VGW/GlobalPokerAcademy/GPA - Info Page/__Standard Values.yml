@@ -1,0 +1,30 @@
+﻿---
+ID: "672424ce-86fb-4732-b53c-9e70f3b67707"
+Parent: "5e3052af-1fcb-4568-9b08-d597255a5206"
+Template: "5e3052af-1fcb-4568-9b08-d597255a5206"
+Path: "/sitecore/templates/Project/VGW/GlobalPokerAcademy/GPA - Info Page/__Standard Values"
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Value: 1
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T102345Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "408c0ce0-05ad-412a-9444-7aae7cca4b8f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly.arvai@vgw.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T090758Z

@@ -1,0 +1,76 @@
+{
+  "renderingHosts": {
+    "xmcloudpreview": {
+      "path": "./src/global-poker-academy",
+      "nodeVersion": "16.15.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "lintCommand": "lint",
+      "startCommand": "start:production",
+      "buildCommand": "build:global-poker-academy",
+      "runCommand": "next:start:global-poker-academy"
+    },
+    "globalpokeracademy": {
+      "path": "./src/global-poker-academy",
+      "nodeVersion": "16.15.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "lintCommand": "lint",
+      "startCommand": "start:production",
+      "buildCommand": "build:global-poker-academy",
+      "runCommand": "next:start:global-poker-academy"
+    },
+    "shareholders": {
+      "path": "./src/global-poker-academy",
+      "nodeVersion": "16.15.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "lintCommand": "lint",
+      "startCommand": "start:production",
+      "buildCommand": "build:shareholders",
+      "runCommand": "next:start:shareholders"
+    },
+    "globalpoker": {
+      "path": "./src/global-poker-academy",
+      "nodeVersion": "16.15.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "lintCommand": "lint",
+      "startCommand": "start:production",
+      "buildCommand": "build:global-poker",
+      "runCommand": "next:start:global-poker"
+    },
+    "chumbacasino": {
+      "path": "./src/global-poker-academy",
+      "nodeVersion": "16.15.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "lintCommand": "lint",
+      "startCommand": "start:production",
+      "buildCommand": "build:chumba-casino",
+      "runCommand": "next:start:chumba-casino"
+    }
+  },
+  "postActions": {
+    "actions": {
+      "warmUpCm": {
+        "urls": [
+          "/sitecore/shell",
+          "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
+          "/sitecore/client/Applications/Launchpad"
+        ]
+      },
+      "populateSchema": {
+        "indexNames": []
+      },
+      "reindex": {
+        "indexNames": []
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+﻿---
+ID: "9e255495-79f4-4d84-94c7-a9ceba28a8ce"
+Parent: "14856a7d-4f84-4300-ad00-1582ea4b9424"
+Template: "33d948f4-7686-4ec0-a3b5-78ad3087dae7"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Home/poker masterclass/tournaments
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DF6E9123-F29A-45BB-860B-79D42A3B196A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b79aed6-9647-4610-9b2c-baaf83418536"
+      Hint: Image
+      Value: |
+        <image mediaid="{F04F79AF-1782-4314-8696-00D392519BFC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231027T105427Z
+    - ID: "3208ff19-5c01-45f9-986e-0a78fb7d4ae2"
+      Hint: Color
+      Value: "steel-blue"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tournaments
+    - ID: "6de4d9b7-bb49-4670-892c-4107d0345183"
+      Hint: Title
+      Value: Tournaments
+    - ID: "72d5a92f-e625-47b2-8df2-8d37d919dff2"
+      Hint: ShortTitle
+      Value: Masterclass
+    - ID: "85933a4c-8f13-4172-8509-8f3e232e237e"
+      Hint: HeadingColor
+      Value: "steel-blue"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "824e7803-8a4e-4ffb-818e-bbf2588210e5"
+    - ID: "8ebf9b28-db6a-401c-8b62-7e697cfd3c74"
+      Hint: Content
+      Value: "<p>The ultimate gateway into poker game play across all disciplines, including ring game and tournament poker. Making it remarkably easy to play and win! Come and learn poker with us.</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231204T053432Z

@@ -1,0 +1,45 @@
+﻿---
+ID: "7eab70ae-0e69-4071-8081-bb893e8d98bf"
+Parent: "9503ccad-0ef0-4eeb-8835-65a75b4d4829"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/VGW/ChumbaCasino/Presentation/Placeholder Settings/BackgroundBlock
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "background-block-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {D241443C-0B7D-4E7B-A4BE-C33974C61FF5}
+    {2DBEB672-DF57-40C6-97FC-1DBC4F60E16A}
+    {48B5B9A5-E81B-46A7-985E-F87B5727372C}
+    {AE9DD546-66A8-4035-9D51-1578B8E5093B}
+    {691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}
+    {A9EA12E4-20D5-44B3-9742-1535BB71E0E0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240320T104826Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aef0f773-4e40-458e-83cd-bc93c13e106a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240320T214803Z

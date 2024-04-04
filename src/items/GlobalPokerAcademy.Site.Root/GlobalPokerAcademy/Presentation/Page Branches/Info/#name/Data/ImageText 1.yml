@@ -1,0 +1,41 @@
+﻿---
+ID: "7afaf2d9-7c6b-423e-b2ef-2839bdf7ec59"
+Parent: "61af204e-5d04-4458-9d56-d8cd22f03a15"
+Template: "d414c1a7-7d0c-43b1-ad72-32c632821b9a"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Page Branches/Info/$name/Data/ImageText 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "003d72c7-a20d-4f72-a310-dec5be62d2b8"
+      Hint: Image
+      Value: |
+        <image mediaid="0e2ca8b9-6484-4d6e-ace9-011921b61b0c" />
+    - ID: "1ea11f1d-4dcb-444c-9a57-d1fecb55100e"
+      Hint: Text
+      Value: "<h3>VGW - The Team Behind Global Poker</h3><p>VGW is a diverse company. We embody the ethos of work hard, play hard. We have over 1000 staff worldwide, working together to create unique and innovative products that delight our customers. We love what we do, and it shows.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231127T090118Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5eabb90d-5e6c-4ca6-af4f-0f940e5f082b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231127T090429Z

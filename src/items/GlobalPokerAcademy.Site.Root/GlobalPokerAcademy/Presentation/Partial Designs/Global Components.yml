@@ -1,0 +1,23 @@
+﻿---
+ID: "43bdca54-0f60-4aa1-bca7-c3624eed4ed3"
+Parent: "264fa97a-3389-4369-8836-7bde75e96754"
+Template: "a00f94dc-9d49-4a90-b2d4-932f3261b23d"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Partial Designs/Global Components
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T072832Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "796e933b-3033-4172-a4e2-ec2a48fc9475"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231026T072832Z

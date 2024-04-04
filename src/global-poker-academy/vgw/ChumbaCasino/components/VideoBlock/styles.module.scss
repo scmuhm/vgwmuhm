@@ -1,0 +1,12 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include content-container;
+}
+
+.iframe {
+  aspect-ratio: var(--aspect-ratio, 16/9);
+  border: none;
+  border-radius:$theme-border-radius-large;
+}

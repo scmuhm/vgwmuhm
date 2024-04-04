@@ -1,0 +1,63 @@
+﻿---
+ID: "a6084a27-a0d7-413c-9337-cc9c827c2f77"
+Parent: "80f17c03-37f5-425d-a91f-3f83b0222f98"
+Template: "80f17c03-37f5-425d-a91f-3f83b0222f98"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/IconsBlocks/__Standard Values
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11810ab4-0cc9-4f23-906a-79eac9b33dac"
+      Hint: CTA3
+      Value: |
+        <link text="Enter CTA text" linktype="external" url="/" anchor="" target="" />
+    - ID: "1d3975a6-a972-49ce-a53c-1088ec1e89e1"
+      Hint: Text3
+      Value: Optional text
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240222T040903Z
+    - ID: "30af6bd1-a947-449a-a13d-3a481fe01ef2"
+      Hint: CTA1
+      Value: |
+        <link text="Enter CTA text" linktype="external" url="/" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "59485414-cb9c-4073-a93f-2780f4572e8c"
+      Hint: Text2
+      Value: Optional text
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "373d947d-a4ed-4d67-b542-3f087a2f48df"
+    - ID: "9d0e0817-22fe-4acb-b314-4233e99efccc"
+      Hint: Text4
+      Value: Optional text
+    - ID: "a35e90ac-fae4-44d1-bf8f-50ef7d810fb8"
+      Hint: CTA4
+      Value: |
+        <link text="Enter CTA text" linktype="external" url="/" anchor="" target="" />
+    - ID: "aa5fcaf0-3aed-447e-a3a5-4b0ec6e33b6a"
+      Hint: Text1
+      Value: Optional text
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240222T041644Z
+    - ID: "e7de7353-88a1-4670-a9f9-e09069ea0049"
+      Hint: CTA2
+      Value: |
+        <link text="Enter CTA text" linktype="external" url="/" anchor="" target="" />

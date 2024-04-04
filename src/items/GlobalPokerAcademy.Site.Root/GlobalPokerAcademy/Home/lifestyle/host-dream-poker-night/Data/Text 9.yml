@@ -1,0 +1,37 @@
+﻿---
+ID: "53402bfa-e01d-4607-870c-224aa46d253c"
+Parent: "2d9e80ae-cd6b-4a3d-97cc-b47e3a785f2a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night/Data/Text 9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T121235Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>8. Dividing Poker Chips</h2><p>Getting the right amount of chips for your poker game can be the difference between a great game, and a boring disaster. If you give everyone too many, the game won't ever end; if you don't give out enough, players are eliminated too quickly. There is no official guide for how many chips you need to host a game, or how the different colors and values are assigned. The easiest method to divide the chips is to have a flat rate for the buy-in, then give everyone an equal starting stack.</p><p>Every player should get the equivalent of 50 initial big blinds as a minimum, and 100 as a maximum. Keeping the chip count high will ensure players won't run out of chips and need to keep trading to get different denominations. If there are rebuys, budget 75 to 100 chips per player, it's a lot more than is required, but having extra will ensure you have enough to keep playing once the game goes for a few hours and the stars start turning into mountains.</p><h3>Player To Chip Ratio</h3><p>Two to three players – have a total of 200 to 300 chips. Four to five players – have a total of 400 to 500 chips. Five to six players – have a total of 500 to 600 chips. Six to eight players – have a total of 600 to 800 chips. Eight to ten players – have a total of 800 to 1000 chips. More than ten players – start with 1000 chips and add another 100 for every extra person.</p><h3>Different Chip Values</h3><p>Before the game starts, you’ll need to figure out what each chip is worth. Keep the variety of denominations relatively low, four as a minimum, and eight as a maximum. Most of the chips should be the lowest value, while there should only be a handful of the higher denominations.</p><p>If the buy-in is $25 and you want to have the chips represent real-world values, you could have five different chip values and use the denominations, $5, $2, 1$, 50c 25c, the big blind is 50c, while the small one is 25c.</p><p>To have the number of chips directly correlate with the $25 buy-in, divide them in the following way:</p><p>One – $5<br />Three – $2<br />Five – $1<br />Eleven – 50c<br />Fourteen – 25c</p><p>If you want to pretend to be high rollers and use massive values, then use the denominations, $25, $50, $100, $500 and $1000, the blinds can be $25 for the small blind and $50 for the big. Sticking to the concept of having at least 100 big blinds for each chip stack, you'll need $5000 worth of tokens for each player.</p><p>This can work out to be:</p><p>Two - $1000<br />Three - $500<br />Seven - $100<br />Ten - $50<br />Twelve - $25</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2513f1f4-b520-4d64-bff4-c0eaf729d0d3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011448Z

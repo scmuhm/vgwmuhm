@@ -1,0 +1,236 @@
+﻿---
+ID: "4e2b782d-03b2-4806-b649-a96284787a5a"
+Parent: "332bf421-c27a-431f-82cc-bcb4879eaf19"
+Template: "0ae7cc45-1fcb-43fe-803b-aec6e9c9d062"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/lifestyle/host-dream-poker-night"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{59C8AF87-95BE-44DF-8D4D-BBAF76955AD9}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D468E9DE-6E4A-4FBA-9F2C-002206F8499D}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1322E84B-8760-41BD-B473-206BEE28C88E}"
+              p:before="*"
+              s:ds="local:/Data/Image 11"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=22"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{4322E9ED-177F-4BD8-A608-F7057839B783}"
+              p:after="r[@uid='{1322E84B-8760-41BD-B473-206BEE28C88E}']"
+              s:ds="local:/Data/Text 1"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{1F3B87E7-56B0-4ECE-8F92-315AB4183B5E}"
+              p:after="r[@uid='{4322E9ED-177F-4BD8-A608-F7057839B783}']"
+              s:ds="local:/Data/Image 1"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{1864893D-2DD1-48E9-85F0-7F580BF29483}"
+              p:after="r[@uid='{1F3B87E7-56B0-4ECE-8F92-315AB4183B5E}']"
+              s:ds="local:/Data/Text 2"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{5A19E952-86B0-456A-8042-63FD70954925}"
+              p:after="r[@uid='{1864893D-2DD1-48E9-85F0-7F580BF29483}']"
+              s:ds="local:/Data/Image 2"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{8AE370CE-75D9-4ACB-813D-FB4675E847EA}"
+              p:after="r[@uid='{5A19E952-86B0-456A-8042-63FD70954925}']"
+              s:ds="local:/Data/Text 3"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{DF7149B0-F826-4345-A41A-22D787E84BB5}"
+              p:after="r[@uid='{8AE370CE-75D9-4ACB-813D-FB4675E847EA}']"
+              s:ds="local:/Data/Image 3"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{FF23BFF3-E0C0-4B66-895B-8DCE51A307A0}"
+              p:after="r[@uid='{DF7149B0-F826-4345-A41A-22D787E84BB5}']"
+              s:ds="local:/Data/Text 4"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{2DDA5863-E9E7-4464-B450-160F91DF6A8A}"
+              p:after="r[@uid='{FF23BFF3-E0C0-4B66-895B-8DCE51A307A0}']"
+              s:ds="local:/Data/Image 4"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{7364848B-7D47-411A-A2B5-2D71B6429C35}"
+              p:after="r[@uid='{2DDA5863-E9E7-4464-B450-160F91DF6A8A}']"
+              s:ds="local:/Data/Text 5"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{312B79AB-5547-42F0-AFD2-295519EAD38D}"
+              p:after="r[@uid='{7364848B-7D47-411A-A2B5-2D71B6429C35}']"
+              s:ds="local:/Data/Image 5"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{3B5BB6C4-00FE-420B-85D1-9FA0250284A2}"
+              p:after="r[@uid='{312B79AB-5547-42F0-AFD2-295519EAD38D}']"
+              s:ds="local:/Data/Text 6"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{CE8BED16-3586-4DF4-8E42-2EC3F3C8F9C1}"
+              p:after="r[@uid='{3B5BB6C4-00FE-420B-85D1-9FA0250284A2}']"
+              s:ds="local:/Data/Image 6"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{63E3159E-92D4-4E88-9538-CF3C46EC0455}"
+              p:after="r[@uid='{CE8BED16-3586-4DF4-8E42-2EC3F3C8F9C1}']"
+              s:ds="local:/Data/Text 7"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=13"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{5D8A3C09-283F-4388-907F-CF41AC9748E8}"
+              p:after="r[@uid='{63E3159E-92D4-4E88-9538-CF3C46EC0455}']"
+              s:ds="local:/Data/Image 7"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=14"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{DC1E27AA-7020-4E8E-9378-C4A7C854E41A}"
+              p:after="r[@uid='{5D8A3C09-283F-4388-907F-CF41AC9748E8}']"
+              s:ds="local:/Data/Text 8"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=15"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{B3555DCC-60E8-4835-AA31-9F7AD3AA28CF}"
+              p:after="r[@uid='{DC1E27AA-7020-4E8E-9378-C4A7C854E41A}']"
+              s:ds="local:/Data/Image 8"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=16"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{EA6BE25A-C4DF-4B08-BDA2-70D8044D96B8}"
+              p:after="r[@uid='{B3555DCC-60E8-4835-AA31-9F7AD3AA28CF}']"
+              s:ds="local:/Data/Text 9"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=17"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{DCA1B55A-FE42-426E-B464-9059E877F4B4}"
+              p:after="r[@uid='{EA6BE25A-C4DF-4B08-BDA2-70D8044D96B8}']"
+              s:ds="local:/Data/Image 9"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=18"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{79B66FC2-88F2-4202-BE03-B38A1179290D}"
+              p:after="r[@uid='{DCA1B55A-FE42-426E-B464-9059E877F4B4}']"
+              s:ds="local:/Data/Text 10"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=19"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{3C3EE3D5-D066-4A98-92E4-391F23002778}"
+              p:after="r[@uid='{79B66FC2-88F2-4202-BE03-B38A1179290D}']"
+              s:ds="local:/Data/Image 10"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B8F62CBF4-C789-49E9-AF1D-B1CDB09A77BE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=20"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+            <r
+              uid="{219B8E3B-029B-452C-9BE0-6377F65BACD7}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Text 11"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B161E750C-5584-4525-87AF-B2F1BEA13741%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
+              s:ph="/headless-main/sxa-article-body/article-page-body-0-1" />
+          </d>
+        </r>
+    - ID: "1f2b8d3d-0c63-4400-a1ea-032ed4889035"
+      Hint: MetaTitle
+      Value: How To Host Your Dream Poker Night | Global Poker Academy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T115921Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DB054B44-F140-44FD-849B-79A66A493F87}"
+    - ID: "4215f3b3-045e-4f53-9fa8-6b1264a746db"
+      Hint: Author
+      Value: Global Poker
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How To Host Your Dream Poker Night
+    - ID: "4e501184-ebe0-479e-8952-9645332c1cb6"
+      Hint: MetaDescription
+      Value: "Master the art of hosting a perfect poker night with our Top 10 Tips! From venue to chips, plan for success and make it unforgettable. Read now!"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5415ae08-3c0c-4e4c-a964-9dc345f5dbc2"
+      Hint: PublicationDate
+      Value: 20200323T000000Z
+    - ID: "5a4227b5-34a6-48fc-b42c-193fabb86014"
+      Hint: Summary
+      Value: Organizing a poker night can be a daunting task at the best of times, especially if you have never done it before. To that end, here are our 10 Tips To Host The Perfect Poker Night.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "6de4d9b7-bb49-4670-892c-4107d0345183"
+      Hint: Title
+      Value: How To Host Your Dream Poker Night
+    - ID: "6e9a15cd-d931-4cdf-bb17-4e244af2a880"
+      Hint: Image
+      Value: |
+        <image mediaid="{53C5ACD5-2D96-4A19-8E72-19B2D16E2584}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3bbdf786-debc-4343-8f36-d70522678f35"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T011313Z
+    - ID: "f8a66cf6-3dba-42ce-9b36-a04f93312b5a"
+      Hint: ArticleCategory
+      Value: "{332BF421-C27A-431F-82CC-BCB4879EAF19}"

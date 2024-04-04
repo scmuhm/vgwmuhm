@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+    .container {
+        max-width: 768px;
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .container {
+        max-width: 1220px;
+    }
+}

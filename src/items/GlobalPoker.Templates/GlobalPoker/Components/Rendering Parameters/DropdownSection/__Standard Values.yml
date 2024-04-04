@@ -1,0 +1,34 @@
+﻿---
+ID: "1d4eebb9-9b99-4f04-bac5-cd7fef489a25"
+Parent: "00b0a088-cd1e-449b-a14b-eebffe16d314"
+Template: "00b0a088-cd1e-449b-a14b-eebffe16d314"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/Rendering Parameters/DropdownSection/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240226T051311Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "737648c8-0037-466e-b8f4-15c530939651"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240305T053511Z
+    - ID: "e17a0d7b-413e-4b91-8938-6a47d07c0b0f"
+      Hint: DropdownTitle
+      Value: Choose option

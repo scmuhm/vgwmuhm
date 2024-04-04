@@ -1,0 +1,40 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  background-color: get-color('greyscale', 'darkest');
+  color: get-color('greyscale', 'lightest');
+  display: inline-flex;
+  row-gap: spacing(30);
+  padding: spacing(40) spacing(20) spacing(30);
+  padding-right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+
+  @include from('sm') {
+    flex-direction: row;
+  }
+}
+
+.arrowIndicators {
+  @include until('sm') {
+    display: none;
+  }
+}
+
+.text {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: spacing(20);
+  justify-content: center;
+
+  @include until('sm') {
+    text-align: center;
+  }
+
+  @include from('sm') {
+    max-width: 380px;
+  }
+}

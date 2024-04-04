@@ -1,0 +1,35 @@
+﻿---
+ID: "c1d3eef1-72e2-4236-ad04-071f746690f2"
+Parent: "a0f069a3-a398-4d5b-9530-6a36d9c02672"
+Template: "a0f069a3-a398-4d5b-9530-6a36d9c02672"
+Path: /sitecore/templates/Feature/VGW/Page Content/CtaButtonBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T031851Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nicoletta Haddad
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9119ea12-9865-4664-b344-12c4801cb0be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "c7e353d9-0969-4807-a81a-43bbf0b84920"
+      Hint: CTA
+      Value: |
+        <link text="Enter CTA value" linktype="external" url="/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240321T130833Z

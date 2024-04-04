@@ -1,0 +1,42 @@
+﻿---
+ID: "f03f33c0-e44a-4398-90e8-bfef9a1d33f0"
+Parent: "2389ec49-8c4b-4bd6-80ec-ddfda94c4267"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Presentation/Available Renderings/Category
+BranchID: "fa94974e-8e5c-43cd-b2fa-5074a7ef2660"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {18F7AF0B-DC92-4113-83E9-8754FDA435D1}
+    {8FF5934B-DF19-43EA-9C3C-0EB365BFDB5D}
+    {AAE4C0D2-359E-4C95-A494-1F89EE3727E2}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6D7C76F1-8E0D-43BA-B88D-2B2363ABD3FE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231106T104456Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "986455a1-91db-46da-b416-f987777cdd53"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231106T104510Z

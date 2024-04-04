@@ -1,0 +1,29 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.tile {
+  padding: spacing(15);
+  width: 390px;
+  height: 390px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  color: get-color('greyscale', 'lightest');
+  vertical-align: top;
+
+  &:not(:last-child) {
+    margin-right: spacing(10);
+  }
+}
+
+.heading {
+  font-weight: 900;
+}
+
+.CTA {
+  width: 100%;
+  text-align: center;
+}

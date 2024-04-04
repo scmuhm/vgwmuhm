@@ -1,0 +1,12 @@
+.animating {
+  animation: animateWidth 3s infinite alternate ease-in-out;
+}
+
+@keyframes animateWidth {
+  from {
+    width: 95%;
+  }
+  to {
+    width: 390px;
+  }
+}

@@ -1,0 +1,25 @@
+@import "@vgw/_shared/sass/utils";
+@import "@current-site/assets/theme";
+
+@each $size, $value in $font-sizes {
+  .#{$size} {
+    @if type-of($value)=="list" {
+      font-size: fluid-font-size($value);
+    }
+
+    @else {
+      font-size: $value;
+    }
+  }
+}
+
+@each $color, $value in map-get($colors, 'greyscale') {
+  .#{$color} {
+    color: $value;
+  }
+}
+
+.heading {
+  line-height: 1;
+  margin-top: 0;
+}

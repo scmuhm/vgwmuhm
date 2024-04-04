@@ -1,0 +1,11 @@
+html, body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    margin: 0;
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+.location-unavailable--container {
+  align-items: center;
+  background-color: #000;
+  background-image: url("/gpa/location-unavailable.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+  min-height: 61rem;
+  height: 100vh;
+}
+
+.location-unavailable--logo {
+  align-self: flex-start;
+  margin: 110px auto;
+  max-height: 135px;
+  min-height: 85px;
+  max-width: 90%;
+}
+
+.location-unavailable--text-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  margin: auto auto 110px;
+}
+
+.location-unavailable--unavailable-text {
+  color: #fff;
+  max-width: 638px;
+  padding: 16px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+
+  @media (min-width: 720px) {
+    font-size: 55px;
+  }
+}
+
+.location-unavailable--info-text {
+  color: #707070;
+  font: normal normal normal 15px/18px Helvetica Neue;
+  max-width: 750px;
+  padding: 16px;
+  text-align: center;
+}
+
+.location-unavailable--email-link {
+  color: #fff;
+  font: normal normal 700 15px/18px Helvetica Neue;
+  padding: 16px;
+  text-align: center;
+  text-decoration: underline;
+}

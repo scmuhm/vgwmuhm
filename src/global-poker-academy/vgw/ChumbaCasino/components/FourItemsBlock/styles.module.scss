@@ -1,0 +1,77 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  @include content-container;
+
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+}
+
+.wrapper {
+  display: grid;
+  max-width: $multiple-column-width-small;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: spacing(10);
+}
+
+.column {
+  display: flex;
+  gap: spacing(5);
+  min-width: 300px;
+  box-sizing: border-box;
+  align-self: flex-start;
+  word-break: break-word;
+  border-radius: $theme-border-radius-large;
+  padding: spacing(15);
+  height: 100%;
+  background-color:$theme-black;
+
+
+  >* {
+    margin: 0;
+  }
+}
+
+.image img {
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: $theme-border-radius-small;
+}
+
+.image {
+  order:2;
+  max-width: 149px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: spacing(10);
+
+  @include from('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  > a {
+    min-width: none !important;
+  }
+}
+
+.fourItemsBtn {
+  width: max-content;
+  min-width: unset;
+  padding: 8px 14px !important;
+}
+
+.fourItemsBtnWrapper {
+  width: min-content;
+  margin:0;
+}
+
+.richTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

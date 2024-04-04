@@ -1,0 +1,14 @@
+.main-container {
+    position: relative;
+    background-color: #000000;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 40vw 6fr;
+    grid-template-rows: 84px auto;
+    grid-template-areas:
+    'logo   buttons';
+}
+
+.logo {
+    grid-area: logo;
+}

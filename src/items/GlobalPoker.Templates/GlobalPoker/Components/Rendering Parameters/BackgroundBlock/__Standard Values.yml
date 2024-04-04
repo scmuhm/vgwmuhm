@@ -1,0 +1,36 @@
+﻿---
+ID: "dc7b74ab-13ea-4ba2-8a63-465e5ac77ebc"
+Parent: "688952df-8e8d-4ed5-b5ab-0822d80bc809"
+Template: "688952df-8e8d-4ed5-b5ab-0822d80bc809"
+Path: /sitecore/templates/Project/VGW/GlobalPoker/Components/Rendering Parameters/BackgroundBlock/__Standard Values
+SharedFields:
+- ID: "14041608-9981-4ca4-9c94-1a6cc6621d50"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{A238CFE9-53EC-4598-B9B4-A4575CBC6F8F}" alt="Backgorund image" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240217T131241Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "305c73a6-7d26-4886-ab1f-71948dbb5542"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JqXVeZpDYv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240217T141115Z

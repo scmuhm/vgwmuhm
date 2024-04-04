@@ -1,0 +1,33 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "VGW.Shared",
+  "items": {
+    "includes": [
+      {
+        "name": "Shared.Feature.Media",
+        "path": "/sitecore/media library/Feature/VGW",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "Shared.Feature.PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/VGW",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "Shared.Feature.Templates",
+        "path": "/sitecore/templates/Feature/VGW",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "Shared.Feature.Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/VGW",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "Shared.Feature.Branches",
+        "path": "/sitecore/templates/Branches/Feature/VGW",
+        "scope": "DescendantsOnly"
+      }
+    ]
+  }
+}

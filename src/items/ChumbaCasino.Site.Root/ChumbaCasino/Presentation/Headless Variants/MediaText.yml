@@ -1,0 +1,48 @@
+﻿---
+ID: "47fcff6e-e150-47c5-8b0c-f13d720a86d7"
+Parent: "7466cf9d-23e4-499e-a83e-adc7d21f5b55"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/VGW/ChumbaCasino/Presentation/Headless Variants/MediaText
+BranchID: "90881e3f-35d4-43f3-bf07-65cacf1cc83c"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/text_rich_colored.png
+- ID: "087c0553-9162-41f5-98d3-87eb0d80edbb"
+  Hint: Compatible Renderings
+  Value: |
+    {691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}
+    {A9EA12E4-20D5-44B3-9742-1535BB71E0E0}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{DE8A3AC6-EB88-433F-8072-5B31F17D3FE9}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Image/Video Text
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231031T091302Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a67cabb8-bc45-48a4-9aee-3d4d0e09f7a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iPRIsmIwmb
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240320T113302Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "eb7153b1-d99d-451e-9b4d-79dace36d4bc"
+Parent: "46cdcae8-4fd2-4133-978c-2384bd52a4fd"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/poker masterclass/tournaments/best-poker-tournament-tips-beginners/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231107T102924Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>1. The More Chips, the Merrier</h2><p>Playing a poker tournament is different to playing ring games. The key to playing a tournament is staying in. That means... survival! And to survive you have to accumulate as many chips as possible because once they are finished, you’re out; cheerio, hasta luego, ciao, sayonara, bye bye.</p><p>Therefore, you need to be aware of the number of chips in your possession and how that stack you have compares to the number of blinds. Your pile of chips will determine how you play the tournament.</p><p>In tournaments, chips change value – that's a common understanding in tournament poker.</p><p>At the start of a tournament, you’ll have a bigger chip stack compared to blinds, but that stack won’t stay deep as the tournament progresses and the blinds increase. Therefore, you need to be alert and keep an eye on your stack so your chips stay in good supply to keep you in the game.</p><p><br /></p><h2>2. Poker Tournaments Are Like Going on Holiday</h2><p>When you get to your destination, you have plenty of chips and you want to do everything; see every attraction and get every souvenir. You’ll eat out and have a few drinks, buy some gifts for family back home, buy that thing you just had to have and maybe even get the t-shirt.</p><p>Then you realize you’ve spent a wee bit too much and now have to conserve your funds. Then you rush at the end to try to get the most of your time and funds, especially when it’s the last couple of days and you’re running out of time. Or because you want to get as much as you can with the little you have left.</p><p>You may even make some “lousy” choices.</p><p>This is what regularly happens in tournaments. Make sure you use of your time (and chips) wisely. Don't blow your stack on the wrong buy-ins or moves too early.</p><p><br /></p><h2>3. Patience is a Virtue</h2><p>A beginner should really play as tightly as possible at the start of a tournament and then loosen up as they progress through the rounds.</p><p>Sure, this depends on your how much you have to play with (chips) but you should be careful earlier and not get caught up with big confrontations unless you have a really big hand.</p><p>There's also no need to rush because the risk of losing too many chips in the beginning is a common problem especially for inexperienced players. Those without experience don’t know how the others will play so it’s prudent to watch and stay patient.</p><p><br /></p><h2>4. Don’t Get Trapped in the Bubble Haze</h2><p>The bubble is the phase of the tournament where players are only a few spots away from the prizes.</p><p>Bubble time can be very exciting during a poker tournament but it’s also the most stressful time for players with a low stack of chips. Since it is so close, a wrong move will mean some players may lose everything very quickly while the rest of the players end up with a win.</p><p>It’s a real haze because usually by the time you get to the “bubble phase”, you’d have been playing for hours and feel like you’re in a state of euphoria close to making a nice win. All of a sudden you get busted in the eleventh hour.</p><p>If you have a small stack during the bubble you should approach every situation with more caution than usual; you should always maximize your chance to survive and fold everything that's not a killer.</p><p>However, if you’ve made it to the bubble with a big stack, then it’s time to go hard. Punish the short stacks and put them all-in at every opportunity (put them all-in, don't call an all-in without a decent hand).</p><p>The weak ones will have to fold so often that every time you raise it's almost like free chips for you.</p><p><br /></p><h2>5. Don't Be Too Picky</h2><p>Once you get deeper into the tournament you'll inevitably play “short-handed”, meaning you will have less than nine or eight opponents at the table.</p><p>This is when you also have to choose to play more aggressively than at a full table because all hands with big(ish) cards go up in value.</p><p>You'll find these situations strange because while your hand looks a bit weak you should instead play it strongly because your opponents also have very wide ranges.</p><p>On a shorthanded table you can’t be too picky about your hands. If you wait 20 hands for a big hand to punish your loose opponents your stack will have gone through the blinds four or five times and your pile will be eroded or worse, disappear completely.</p><p><br /></p><h2>6. Heads-up: More Hard Play</h2><p>If you have survived all but one opponent, you’ve reached the heads-up phase of the tournament. Play here is different to the previous phases. It’s important you train for heads-up duels specifically.</p><p>Once again cards go up in value and you have to put pressure on your opponent, otherwise he or she will turn it on you and run you down instead.</p><p>A hand like Ace-Five for example is virtually unplayable in most situations on a full-ring table but is a monster when playing heads up.</p><p><br /></p><h2>7. Be Careful Doing Deals</h2><p>In the final table, it is quite common that the remaining players will try to make a deal to split what’s left of the prize pool.</p><p>If you’re an inexperienced player your opponents will most likely try to make an offer way below the value of your chips. They’ll hope you’re too afraid to keep playing without the assurance of a deal. This is when you should politely (and confidently) reject those offers.</p><p>Your opponents will usually complain, threaten to keep on playing without a deal, but they will eventually come to a counter offer (much like any deals or negotiations in life!).</p><p>The key thing to remember is this. A deal which goes by the Independent Chip Model (ICM) numbers is a decent deal for every player because it employs this strategy. You shouldn’t accept much less than that, but also not ask way more than that.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0b3eb12-76dc-47f0-bf93-dc0c9f20a2e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240110T022327Z

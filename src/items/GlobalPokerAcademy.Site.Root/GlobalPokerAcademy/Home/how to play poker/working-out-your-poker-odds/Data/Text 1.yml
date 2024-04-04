@@ -1,0 +1,37 @@
+﻿---
+ID: "e0e13bd7-da81-4212-8225-d67dbecca8b4"
+Parent: "4336aa68-6bbd-4574-81f9-5f1a88e9e0ab"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/how to play poker/working-out-your-poker-odds/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T120258Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>HOW TO CALCULATE POKER ODDS</h2><p>When we say calculating poker odds, we’re talking about the tangible factors that comprise your chances of winning a hand, based on what cards you have, and your position in the hand. There are other factors of course, such as aggressive pre-flop play and bluffing, but these are techniques which will vary from player to player.</p><p>Odds are slightly different, because they’re based on numbers rather than attitude. Knowing odds, together with a strong tactical plan is a winning combination.</p><p>But first off, let’s just make it super simple. We probably all know the term ‘odds’, but what does it mean?</p><p>Odds are the chances or likelihood of something happening or being the case. We use it all the time; “Odds are no one will show up today”. You could easily swap “odds are” for “chances are” or “it’s likely”. So we get what it means in everyday life, and with poker it’s the same, but a little more specific and with some variety. (So... not the same? 😜)</p><p>To work out our overall odds in a hand, we look at and compare two numbers - pot odds, and equity.</p><h2>HOW TO CALCULATE POT ODDS</h2><p>In poker, pot odds is the ratio between the amount of chips in the pot, compared with the amount of chips you have to put in to stay in the hand. Let’s use an example to help us here.</p><p>You go to the flop heads up. The pot is SC10, and the other player raises SC5.</p><p>This makes the pot SC15. Therefore, it’s SC15 and it costs you SC5 to stay in the hand. From the ratio description above, it’s 15:5.</p><p>We always want to make the right-hand side of the ratio equal to 1, and to do that we apply a bit of simple math and divide 15 by 5, we can express the final ratio as 3:1. (Dividing 15 by 5 gives us the number on the left, and means the number on the right is 1.)</p><p>All of this mean the pot odds are 3:1.</p><h2>HOW TO CALCULATE POKER EQUITY</h2><p>This is the other aspect of working out what your chances of winning a hand. In poker, poker equity is the likelihood of your winning the pot compared with your opponent’s.</p><p>To calculate your equity, we need to multiply our total number of outs by either four or two. We multiply our outs by four on the flop. We multiply our outs by two on the turn. This number gives us our chance of winning the pot, and we express it as a percentage.</p><p>Let’s use an example again, to help illustrate the calculation.</p><p>If you have a flush draw, you have nine outs on the flop. 9 x 4 = 36. We therefore have a 36% of making the winning hand.</p><p>To make it easy to compare our pot odds and our equity, let’s make them both ratios; let’s make our percentage a ratio.</p><p>And to make it clear, let’s go through it step by step.</p><p>Our 36% means 36 times out of a 100 we’ll be successful. Therefore, the remaining 64 times we will be unsuccessful.</p><p>To convert our percentage to a ratio, we do the following calculation:</p><p>64 divided by 36 = 1.77 recurring</p><p>We can express this as a ratio as 1.77:1. That’s not very practical when dealing with whole numbers, so again, like in math, we’ll round up 1.7 to two. So our final equity is 2:1.</p><p>This means that for every time your hand wins, two times it won’t.</p><p>Right, let’s move on to the next step, which will give us the final info we need to calculate our chances of winning the hand.</p><h2>HOW TO COMPARE POT ODDS TO EQUITY</h2><p>We work out what the numbers tell us we should do by comparing the pot odds and our equity. If the pot odds are higher than your equity, you should play. If your pot odds are lower than your equity then you shouldn’t risk it.</p><p>From the examples above, we have pot odds of 3:1 and our equity is 2:1.</p><p>In this instance, our pot odds are higher than our equity, so we should go for it.</p><p>PROBABILITY OFODDSEXAMPLEBeing dealt a Pair17.1<br />(5.9%)4h 4sBeing dealt Aces221:1<br />(0.45%)Ah AsBeing dealt Ace King suited331.5:1<br />(0.3%)Ah KhFlopping a set with a pocket pair8.51:1<br />(11.76%)7h 7c<br />4s 7d AdFlopping two pair (no hole card pair pre-flop)48:1<br />(2.02%)6h 4c<br />6d 4s 10cGetting a Flush from the River (flopping four to a suit)1.9:1<br />(35%)Ad Qd<br />9d 4d Ac<br />10dGetting an open-ended straight from the River2.2:1<br />(32%)6d 7h<br />8h 9d 2c 3d<br />10cMaking a Full House or better from the River (flopping 3 of a Kind)2:1<br />(33%)4d 4h<br />4c Kd Qh<br />Ks</p><h2>CONCLUSION</h2><p>It might seem overwhelming to begin with, but with perseverance and practice you’ll soon get the hang of it. You’ll also notice how much your game is improving, based on making better decisions on what hands to play and which ones not to play.</p><p>Head over to the tables now and start practicing what you’ve learnt.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6184d3d-71c9-44df-bb12-99233455e2aa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T120306Z

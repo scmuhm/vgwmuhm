@@ -1,0 +1,40 @@
+﻿---
+ID: "b43b8879-1dbb-4ff4-8f9b-acaedafaffc8"
+Parent: "7c7b77e2-83b7-4150-b186-082134c74b80"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/VGW/Article/Available Headless Article Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {79D157E8-0E7E-42AD-81C8-9BFEAD114A7F}
+    {11B28B5B-38F0-4520-AEB0-2E21CA856F26}
+    {691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}
+    {3E8C2197-A13E-4F1B-A4E4-C4F638CB878F}
+    {B0B03345-306C-45C6-A1AC-F6E893C7AB7E}
+    {240CF841-1B58-4937-BF8B-01C92C0BFD91}
+    {E2458334-B372-44EF-B2F8-A7FBC71736B3}
+    {1B90B780-9092-412D-92BD-3C418CE1E3B5}
+    {1EB269B2-BE6E-4E24-9DB0-3598AAADF7A7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3a4ffc4-3483-47e8-b6e5-24214d3a8da9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\K891kJYRrD
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T073705Z

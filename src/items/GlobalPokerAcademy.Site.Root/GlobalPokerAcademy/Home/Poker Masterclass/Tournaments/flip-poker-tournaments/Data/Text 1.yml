@@ -1,0 +1,37 @@
+﻿---
+ID: "d94b947a-a6d3-4044-9871-7301aa5a8bca"
+Parent: "6bcafd77-719a-44ec-9021-fdd10a043771"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/VGW/GlobalPokerAcademy/Home/poker masterclass/tournaments/flip-poker-tournaments/Data/Text 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231107T112049Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>What is a Flip Poker Tournament?</h2><p>Flip tournaments consist of fast-paced hands that remove all the decision making out of the game. A flip is an adrenaline rush that is one of the most exciting and heartbreaking aspects of poker; you will either have a feeling of great relief at the win or be devastated at the bad beat. Online poker rooms create new and exciting game formats every day, and this original, on-demand game captures this coin flip moment and constructs an entire tournament around the concept.</p><p><br /></p><h2>How Does a Flip Poker Tournament Work?</h2><p>Anytime you flip in a regular game, you're risking your entire stack on a 50/50 shot in the dark. In a flip tournament, every hand is the flip of a coin; it removes all player choice and interaction from the game, leaving who wins and loses up to how the cards fall. Experience doesn't matter; each player receives two cards, then the flop, turn and river are dealt. The winner of the hand is decided by who has the higher ranked cards.</p><p><br /></p><h2>Differences Between a Flip Poker Tournament and Other Tournaments</h2><h3>Very Little Player Interaction</h3><p>A flip tournament doesn't require much, if any player input, every hand is a coin flip because you don't know what your cards are before they are dealt. All the standard poker strategies are rendered useless. Some players don't even bother watching the action unfold and instead play another game while the flip tournament plays out.</p><h3>Fast-Paced</h3><p>Flip tournaments are incredibly fast, and without any player interaction to slow down play, the games are over very quickly.</p><h3>Easy for Beginners</h3><p>Other poker formats can be very confusing for new players; with myriad rules and different aspects of gameplay, it can take many failures to get the hang of the game. In a flip tournament, all skill is removed from the game; every player has an equal chance to win; it all comes down to how the cards fall.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e5e5543-490d-4a1a-b687-2426dd4c7b8a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Kim Le
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240110T022402Z

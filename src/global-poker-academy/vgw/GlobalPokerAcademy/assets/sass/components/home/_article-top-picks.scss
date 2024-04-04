@@ -1,0 +1,139 @@
+$top-article-card-max-height: 657px;
+$top-article-card-max-width: 936px;
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: minmax($break-mobile, $top-article-card-max-width) minmax($break-mobile, 464px);
+  gap:40px;
+
+  &.equal-width {
+    grid-template-columns: minmax($break-mobile, 700px) minmax($break-mobile, 1fr);
+    gap:88px;
+  }
+
+  overflow: hidden;
+}
+
+
+.article-top-picks {
+  .top-article-card {
+    display: flex;
+    object-fit: contain;
+    overflow: hidden;
+
+    .article-item{
+      max-height:$top-article-card-max-height ;
+      margin-bottom: 0;
+      z-index: 1;
+
+      @include respond-to(mobile) {
+        .background-image {
+           height: 322px;
+      }
+      }
+
+
+      a {
+        flex-direction: column;
+        background-color: var(--bg-grey);
+        height: 100%;
+
+        @include respond-to(mobile) {
+          gap:0
+        }
+
+        .preview {
+          height: 504px;
+
+          @include respond-to(mobile) {
+            height: 100%;
+          }
+        }
+
+        .info {
+          padding: 40px 35px;
+          gap:11px;
+          background-color: var(--bg-grey);
+          z-index: 2;
+
+          @include respond-to(mobile) {
+            padding:20px;
+            padding-top: 0;
+          }
+
+          h4 {
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 46px;
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+    img {
+      transition: opacity 0.2s ease-in-out;
+      object-position: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      overflow: hidden;
+      max-width: unset;
+      max-height: $top-article-card-max-height;
+
+      @include respond-to(mobile) {
+        max-width: $break-mobile;
+        max-height: 297px;
+      }
+    }
+  }
+
+  .article-list-container {
+    padding:40px 0;
+    padding-right: 30px;
+
+    @include respond-to(mobile) {
+      padding: 50px 20px;
+      padding-bottom: 32px;
+    }
+
+  .article-item {
+    margin-bottom: 24px;
+
+    @include respond-to(mobile) {
+      margin-bottom: 18px;
+    }
+  }
+  }
+}
+
+
+@media only screen and (max-width: $break-desktop-medium) {
+  .two-column-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    gap:0;
+
+    &.equal-width{
+      grid-template-columns: 100%;
+      gap:0;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: $break-desktop-medium) {
+  .two-column-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+}

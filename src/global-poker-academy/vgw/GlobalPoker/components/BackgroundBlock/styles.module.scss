@@ -1,0 +1,71 @@
+@import "@current-site/assets/theme";
+@import "@vgw/_shared/sass/utils";
+
+.container {
+  background-color: get-color('greyscale', 'darker');
+  background-size: cover;
+  background-position: center;
+  color: get-color('greyscale', 'lightest');
+  margin-top: spacing(10);
+  margin-bottom: spacing(10);
+  padding-top: spacing(25);
+  padding-bottom: spacing(25);
+
+  a {
+    color: inherit;
+  }
+
+  &:global(.indent-top) {
+    padding-top: 6rem !important;
+  }
+
+  &:global(.indent-bottom) {
+    padding-bottom: 6rem !important;
+  }
+
+  &.hasBackgroundImage {
+    @include until('sm') {
+      &:global(.indent-top) {
+        padding-top: 1rem !important;
+      }
+
+      &:global(.indent-bottom) {
+        padding-bottom: 1rem !important;
+      }
+    }
+  }
+
+  &.largePadding {
+    &:global(.indent-top) {
+      padding-top: 25rem !important;
+
+      @include from('sm') {
+        padding-top: 8rem !important;
+      }
+
+      @include from('md') {
+        padding-top: 13rem !important;
+      }
+    }
+
+    &:global(.indent-bottom) {
+      padding-bottom: 1rem !important;
+
+      @include from('sm') {
+        padding-bottom: 8rem !important;
+      }
+
+      @include from('md') {
+        padding-bottom: 13rem !important;
+      }
+    }
+  }
+
+  &> :global(.rich-text) {
+    @include container();
+  }
+
+  &.disableMargin {
+    margin: 0;
+  }
+}

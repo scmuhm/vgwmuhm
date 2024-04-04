@@ -1,0 +1,31 @@
+﻿---
+ID: "36940124-e07f-4b0a-99cd-9d116d743145"
+Parent: "462d1b7b-ca59-4af2-8f57-3d83de5f33e1"
+Template: "47ab25e7-b5d2-4f04-9bc6-0850b00f6d70"
+Path: /sitecore/content/VGW/GlobalPokerAcademy/Data/Brand Banners
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231123T074921Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "836ccc6a-a13c-4474-8a64-f3893a447382"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T074921Z

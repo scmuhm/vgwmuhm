@@ -1,0 +1,44 @@
+﻿---
+ID: "d1d2cc30-5fab-4a1d-b27b-8df3a03e2deb"
+Parent: "4e98c8b4-c17b-4a22-92cc-ebb0cc711125"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/VGW/Article/article-page-body-allowed-controls"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "article-page-body*"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {240CF841-1B58-4937-BF8B-01C92C0BFD91}
+    {691BA936-CE3D-46C0-9C55-CB57CFD3B0B0}
+    {3E8C2197-A13E-4F1B-A4E4-C4F638CB878F}
+    {B0B03345-306C-45C6-A1AC-F6E893C7AB7E}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {AB2EDBA0-3960-4F12-B765-579DC231894A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231027T090722Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mihaly_arvai@epam.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5874065f-92d8-4d18-9e9b-0034b770ad72"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Mihaly Arvai
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T194126Z
