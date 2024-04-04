@@ -1,32 +1,56 @@
-import NotFound from 'src/NotFound';
-import Shareholders404Page from 'vgw/Shareholders/components/Page404';
-import SitecorePage from './[[...path]]';
-
+import config from 'temp/config';
+import {
+  GraphQLErrorPagesService,
+  SitecoreContext,
+  ErrorPages,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { SitecorePageProps } from 'lib/page-props';
-import { sitecorePagePropsFactory } from 'lib/page-props-factory';
-
-import Error from 'next/error';
+import NotFound from 'src/NotFound';
+import { componentBuilder } from 'temp/componentBuilder';
+import Layout from 'src/Layout';
 import { GetStaticProps } from 'next';
+import { siteResolver } from 'lib/site-resolver';
 
-export default function Custom404(props: SitecorePageProps) {
-  switch (props.site.name) {
-    case 'Shareholders':
-      return <Shareholders404Page />;
-    case 'GlobalPokerAcademy':
-      return <NotFound />;
-    case 'GlobalPoker':
-      return (
-        <SitecorePage {...props}>
-          <NotFound />
-        </SitecorePage>
-      );
-    default:
-      return <Error statusCode={404} />;
+const Custom404 = (props: SitecorePageProps): JSX.Element => {
+  if (!(props && props.layoutData)) {
+    return <NotFound />;
   }
-}
+
+  return (
+    <SitecoreContext
+      componentFactory={componentBuilder.getComponentFactory()}
+      layoutData={props.layoutData}
+    >
+      <Layout layoutData={props.layoutData} headLinks={props.headLinks} />
+    </SitecoreContext>
+  );
+};
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const props = await sitecorePagePropsFactory.create(context);
+  const site = siteResolver.getByName(config.jssAppName);
+  const errorPagesService = new GraphQLErrorPagesService({
+    endpoint: config.graphQLEndpoint,
+    apiKey: config.sitecoreApiKey,
+    siteName: site.name,
+    language: context.locale || config.defaultLanguage,
+  });
+  let resultErrorPages: ErrorPages | null = null;
 
-  return { props };
+  if (!process.env.DISABLE_SSG_FETCH) {
+    try {
+      resultErrorPages = await errorPagesService.fetchErrorPages();
+    } catch (error) {
+      console.log('Error occurred while fetching error pages');
+      console.log(error);
+    }
+  }
+
+  return {
+    props: {
+      headLinks: [],
+      layoutData: resultErrorPages?.notFoundPage?.rendered || null,
+    },
+  };
 };
+
+export default Custom404;
